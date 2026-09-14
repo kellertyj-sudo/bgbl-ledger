@@ -212,8 +212,8 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
     <button type="button" id="sortPos" aria-pressed="true">Roster order</button>
     <button type="button" id="sortSal" aria-pressed="false">By salary</button>
     <button type="button" id="sortName" aria-pressed="false">By name</button>
-    <a class="dl" id="dlAll" href="csv/bgbl-rosters-league-wide.csv" download>Download league CSV</a>
-    <a class="dl" id="dlTx" href="csv/bgbl-transactions.csv" download>Download transactions</a>
+    <a class="dl" id="dlAll" href="bgbl-rosters-league-wide.csv" download>Download league CSV</a>
+    <a class="dl" id="dlTx" href="bgbl-transactions.csv" download>Download transactions</a>
     <button type="button" id="copyAll">Copy league CSV</button>
   </div>
   <div id="rosters"></div>
@@ -408,7 +408,7 @@ function render(){
         <tbody>${group(ps)}</tbody>
       </table></div>
       <div class="dlrow">
-        <a class="dl" href="csv/bgbl-roster-${t.abbr}.csv" download>Download ${t.abbr} CSV</a>
+        <a class="dl" href="bgbl-roster-${t.abbr}.csv" download>Download ${t.abbr} CSV</a>
         <button type="button" data-team="${t.abbr}">Copy to clipboard</button></div>`;
     sec.querySelector("button").addEventListener("click",e=>
       copy(csv(DATA.players.filter(p=>p.team===t.abbr)),e.currentTarget));

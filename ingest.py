@@ -12,7 +12,7 @@ Exit 0 = clean. Exit 1 = held for review, nothing written.
 """
 import json, re, sys, unicodedata, difflib, datetime, pathlib
 
-HERE = pathlib.Path(__file__).resolve().parent.parent
+HERE = pathlib.Path(__file__).resolve().parent
 MON = {m: i for i, m in enumerate(
     "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split(), 1)}
 ESC = {0: 0, 1: 0, 2: 1, 3: 3, 4: 5, 5: 7}
@@ -74,9 +74,9 @@ def parse(text, year):
 # ---------------------------------------------------------------- validation
 def run(paste_path, apply=False, year=None):
     year = year or datetime.date.today().year
-    led = json.loads((HERE / "data" / "ledger.json").read_text())
-    reg = json.loads((HERE / "data" / "registry.json").read_text())
-    txf = json.loads((HERE / "data" / "transactions.json").read_text())
+    led = json.loads((HERE / "ledger.json").read_text())
+    reg = json.loads((HERE / "registry.json").read_text())
+    txf = json.loads((HERE / "transactions.json").read_text())
 
     by_key = {r["key"]: r for r in reg["registry"]}
     for r in reg["registry"]:
@@ -186,8 +186,8 @@ def run(paste_path, apply=False, year=None):
                                     "to": s.get("to"), "from": s.get("from"),
                                     "salary": s["salary"], "source": "espn-paste"})
         tn += 1
-    (HERE / "data" / "registry.json").write_text(json.dumps(reg, indent=1))
-    (HERE / "data" / "transactions.json").write_text(json.dumps(txf, indent=1))
+    (HERE / "registry.json").write_text(json.dumps(reg, indent=1))
+    (HERE / "transactions.json").write_text(json.dumps(txf, indent=1))
     print(f"applied: +{len(newcomers)} players, +{len(staged)} transactions")
     return 0
 
