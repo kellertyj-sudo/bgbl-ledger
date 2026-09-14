@@ -1,346 +1,345 @@
-team,owner,player,positions,salary,service_year,acquired,next_year_salary,escalator
-BORG,Reggie Borges,Francisco Lindor,SS,30,1,Keep,31,1
-BORG,Reggie Borges,Devin Williams,RP,18,1,Draft,19,1
-BORG,Reggie Borges,Trea Turner,SS,16,2,Keep,19,3
-BORG,Reggie Borges,Shane McClanahan,SP,14,1,Trade,15,1
-BORG,Reggie Borges,Bo Bichette,SS,13,0,Keep,13,0
-BORG,Reggie Borges,Josh Hader,RP,12,2,Keep,15,3
-BORG,Reggie Borges,Michael Harris II,OF,9,1,Trade,10,1
-BORG,Reggie Borges,Nico Hoerner,2B,9,2,Keep,12,3
-BORG,Reggie Borges,Pablo Lopez,SP,8,1,Keep,9,1
-BORG,Reggie Borges,Christian Scott,SP,6,1,FA,7,1
-BORG,Reggie Borges,Emerson Hancock,SP,6,1,FA,7,1
-BORG,Reggie Borges,Tanner Bibee,SP,6,2,Keep,9,3
-BORG,Reggie Borges,Tyler Soderstrom,OF,6,1,Keep,7,1
-BORG,Reggie Borges,Cody Bellinger,OF/1B,5,1,Keep,6,1
-BORG,Reggie Borges,Jacob Lopez,SP,5,1,FA,6,1
-BORG,Reggie Borges,Keider Montero,SP,5,1,FA,6,1
-BORG,Reggie Borges,Vinnie Pasquantino,1B,5,2,Keep,8,3
-BORG,Reggie Borges,Royce Lewis,3B,4,1,FA,5,1
-BORG,Reggie Borges,Spencer Torkelson,1B,4,1,Keep,5,1
-BORG,Reggie Borges,Walbert Urena,SP,4,1,FA,5,1
-BORG,Reggie Borges,Andrew Alvarez,SP,3,1,FA,4,1
-BORG,Reggie Borges,Griffin Conine,OF,3,1,FA,4,1
-BORG,Reggie Borges,Jeffrey Springs,SP,3,1,FA,4,1
-BORG,Reggie Borges,Kyle Leahy,SP,3,1,FA,4,1
-BORG,Reggie Borges,Liam Hicks,C,3,1,Trade,4,1
-BORG,Reggie Borges,Trevor Megill,RP,3,1,FA,4,1
-BORG,Reggie Borges,Byron Buxton,OF,2,1,Keep,3,1
-BORG,Reggie Borges,Roki Sasaki,SP,2,2,Keep,5,3
-BORG,Reggie Borges,Casey Mize,SP,1,1,Trade,2,1
-CHAZ,Charlie Cole,Reid Detmers,SP,20,1,Draft,21,1
-CHAZ,Charlie Cole,Carlos Rodon,SP,12,2,Keep,15,3
-CHAZ,Charlie Cole,Luis Arraez,1B/2B,9,2,Keep,12,3
-CHAZ,Charlie Cole,Hunter Goodman,C/OF,6,1,Trade,7,1
-CHAZ,Charlie Cole,Jesus Luzardo,SP,6,1,Trade,7,1
-CHAZ,Charlie Cole,Ceddanne Rafaela,OF/SS,5,2,Keep,8,3
-CHAZ,Charlie Cole,Chase Burns,SP,5,2,Keep,8,3
-CHAZ,Charlie Cole,Logan Webb,SP,5,2,Keep,8,3
-CHAZ,Charlie Cole,Nick Pivetta,SP,5,2,Keep,8,3
-CHAZ,Charlie Cole,Seiya Suzuki,OF,5,2,Keep,8,3
-CHAZ,Charlie Cole,Blade Tidwell,SP,4,1,FA,5,1
-CHAZ,Charlie Cole,Braxton Ashcraft,SP,4,2,Keep,7,3
-CHAZ,Charlie Cole,JJ Wetherholt,SS,4,2,Keep,7,3
-CHAZ,Charlie Cole,Jake Bauers,1B,4,1,FA,5,1
-CHAZ,Charlie Cole,Jo Adell,OF,4,1,Trade,5,1
-CHAZ,Charlie Cole,Joey Cantillo,SP/RP,4,1,Trade,5,1
-CHAZ,Charlie Cole,Yoshinobu Yamamoto,SP,4,2,Keep,7,3
-CHAZ,Charlie Cole,Charlie Condon,1B,3,1,FA,4,1
-CHAZ,Charlie Cole,Clarke Schmidt,SP,3,1,FA,4,1
-CHAZ,Charlie Cole,Dean Kremer,SP,3,1,FA,4,1
-CHAZ,Charlie Cole,Ernie Clement,3B,3,1,FA,4,1
-CHAZ,Charlie Cole,Gleyber Torres,2B,3,1,FA,4,1
-CHAZ,Charlie Cole,Henry Bolte,RF,3,1,FA,4,1
-CHAZ,Charlie Cole,Jack Perkins,RP,3,1,FA,4,1
-CHAZ,Charlie Cole,Mickey Gasper,C,3,1,FA,4,1
-CHAZ,Charlie Cole,Sam Antonacci,2B,3,1,FA,4,1
-CHAZ,Charlie Cole,Seaver King,SS,3,1,FA,4,1
-CHAZ,Charlie Cole,Trent Grisham,CF,3,1,FA,4,1
-CHAZ,Charlie Cole,Willi Castro,RF,3,1,FA,4,1
-FREE,Kevin Freeman,Bryce Harper,OF,44,2,Keep,47,3
-FREE,Kevin Freeman,Zack Wheeler,SP,20,3,Keep,25,5
-FREE,Kevin Freeman,George Kirby,SP,17,1,Trade,18,1
-FREE,Kevin Freeman,Jackson Chourio,OF,12,4,Keep,19,7
-FREE,Kevin Freeman,Joe Ryan,SP,12,3,Keep,17,5
-FREE,Kevin Freeman,Rafael Devers,3B,12,1,Trade,13,1
-FREE,Kevin Freeman,Hunter Greene,SP,11,2,Keep,14,3
-FREE,Kevin Freeman,Bubba Chandler,SP,7,3,Keep,12,5
-FREE,Kevin Freeman,Jazz Chisholm Jr.,OF/3B,6,2,Keep,9,3
-FREE,Kevin Freeman,Drake Baldwin,C,5,2,Keep,8,3
-FREE,Kevin Freeman,Emmet Sheehan,SP,5,1,FA,6,1
-FREE,Kevin Freeman,Jacob Wilson,SS,5,2,Keep,8,3
-FREE,Kevin Freeman,Spencer Schwellenbach,SP,5,1,Trade,6,1
-FREE,Kevin Freeman,Brandon Young,SP,4,1,FA,5,1
-FREE,Kevin Freeman,Coby Mayo,1B,4,1,FA,5,1
-FREE,Kevin Freeman,Louis Varland,SP,4,1,FA,5,1
-FREE,Kevin Freeman,Manny Machado,3B,4,1,FA,5,1
-FREE,Kevin Freeman,Adrian Morejon,RP,3,1,FA,4,1
-FREE,Kevin Freeman,Brooks Lee,SS,3,1,FA,4,1
-FREE,Kevin Freeman,Cooper Pratt,SS,3,1,FA,4,1
-FREE,Kevin Freeman,Gage Wood,SP,3,1,FA,4,1
-FREE,Kevin Freeman,Jarlin Susana,SP,3,1,FA,4,1
-FREE,Kevin Freeman,Logan Henderson,SP,3,1,FA,4,1
-FREE,Kevin Freeman,Quinn Mathews,SP,3,1,FA,4,1
-FREE,Kevin Freeman,Ryan O'Hearn,1B,3,1,FA,4,1
-FREE,Kevin Freeman,Tyler Wells,SP,3,1,FA,4,1
-FREE,Kevin Freeman,Michael Busch,1B,2,1,Trade,3,1
-FREE,Kevin Freeman,Chase DeLauter,OF,1,1,Draft,2,1
-FREE,Kevin Freeman,Ryan Sloane,SP,1,1,Draft,2,1
-GORD,Gordie Hanrahan,Shoto Imanaga,SP,35,1,Draft,36,1
-GORD,Gordie Hanrahan,Matt Olson,1B,25,1,Trade,26,1
-GORD,Gordie Hanrahan,Ronald Acuna,OF,24,1,Trade,25,1
-GORD,Gordie Hanrahan,Max Fried,SP,18,2,Keep,21,3
-GORD,Gordie Hanrahan,Corbin Carroll,OF,13,1,Keep,14,1
-GORD,Gordie Hanrahan,Corey Seager,SS,8,2,Keep,11,3
-GORD,Gordie Hanrahan,Drew Rasmussen,SP,7,3,Keep,12,5
-GORD,Gordie Hanrahan,Josh Naylor,1B,7,2,Keep,10,3
-GORD,Gordie Hanrahan,Logan Gilbert,SP,7,1,Trade,8,1
-GORD,Gordie Hanrahan,Max Muncy LAD,3B,7,1,FA,8,1
-GORD,Gordie Hanrahan,Mike Trout,OF,7,1,Trade,8,1
-GORD,Gordie Hanrahan,Cam Schlittler,SP,6,1,Keep,7,1
-GORD,Gordie Hanrahan,Troy Melton,RP,6,1,Trade,7,1
-GORD,Gordie Hanrahan,Adley Rutschman,C,5,1,FA,6,1
-GORD,Gordie Hanrahan,Cristian Javier,SP,5,1,FA,6,1
-GORD,Gordie Hanrahan,Michael King,SP,5,1,Keep,6,1
-GORD,Gordie Hanrahan,Brandon Lowe,2B,4,2,Keep,7,3
-GORD,Gordie Hanrahan,Daylen Lile,OF,4,2,Keep,7,3
-GORD,Gordie Hanrahan,Gerrit Cole,SP,4,1,Keep,5,1
-GORD,Gordie Hanrahan,Mickey Moniak,OF,4,1,FA,5,1
-GORD,Gordie Hanrahan,Clay Holmes,RP,3,1,FA,4,1
-GORD,Gordie Hanrahan,Colt Emerson,SS,3,1,FA,4,1
-GORD,Gordie Hanrahan,Kris Bubic,SP,3,1,FA,4,1
-GORD,Gordie Hanrahan,Mason Montgomery,RP,3,1,FA,4,1
-GORD,Gordie Hanrahan,Mauricio Dubon,OF,3,1,FA,4,1
-GORD,Gordie Hanrahan,Rico Garcia,RP,3,1,FA,4,1
-GORD,Gordie Hanrahan,Riley O'Brien,RP,3,1,FA,4,1
-GORD,Gordie Hanrahan,Ryan Jeffers,C,3,1,FA,4,1
-GORD,Gordie Hanrahan,Nick Martinez,RP/SP,2,1,Draft,3,1
-GORD,Gordie Hanrahan,Cade Horton,SP,0,1,FA,1,1
-HAWN,Brian Hawn,Sandy Alcantara,SP,16,1,Keep,17,1
-HAWN,Brian Hawn,Tarik Skubal,SP,15,1,Trade,16,1
-HAWN,Brian Hawn,Gunnar Henderson,SS,14,1,Trade,15,1
-HAWN,Brian Hawn,Pete Crow-Armstrong,OF,12,4,Keep,19,7
-HAWN,Brian Hawn,Oneil Cruz,OF,11,1,Draft,12,1
-HAWN,Brian Hawn,Connelly Early,SP,9,2,Keep,12,3
-HAWN,Brian Hawn,TJ Rumfield,3B,7,1,FA,8,1
-HAWN,Brian Hawn,Xavier Edwards,SS,7,1,Draft,8,1
-HAWN,Brian Hawn,Bryce Eldridge,UT,6,1,Trade,7,1
-HAWN,Brian Hawn,Casey Schmitt,2B,5,1,FA,6,1
-HAWN,Brian Hawn,Christian Walker,1B,5,1,FA,6,1
-HAWN,Brian Hawn,Dillon Dingler,C,5,1,FA,6,1
-HAWN,Brian Hawn,Gregory Soto,RP,5,1,FA,6,1
-HAWN,Brian Hawn,Jackson Jobe,SP,5,1,Trade,6,1
-HAWN,Brian Hawn,Andy Pages,OF,4,2,Keep,7,3
-HAWN,Brian Hawn,Antonio Senzatela,SP,4,1,FA,5,1
-HAWN,Brian Hawn,Brent Headrick,RP,4,1,FA,5,1
-HAWN,Brian Hawn,Chase Meidroth,SS,4,1,FA,5,1
-HAWN,Brian Hawn,JT Ginn,SP,4,1,FA,5,1
-HAWN,Brian Hawn,Jackson Flora,SP,4,1,FA,5,1
-HAWN,Brian Hawn,Josue De Paula,OF,4,1,FA,5,1
-HAWN,Brian Hawn,Mike Sirota,OF,4,1,FA,5,1
-HAWN,Brian Hawn,Taj Bradley,SP,4,1,Trade,5,1
-HAWN,Brian Hawn,Andre Pallante,SP,3,1,FA,4,1
-HAWN,Brian Hawn,Dominic Canzone,OF,3,1,FA,4,1
-HAWN,Brian Hawn,Franklin Arias,SS,3,1,Trade,4,1
-HAWN,Brian Hawn,Justin Wrobleski,SP,3,1,Trade,4,1
-HAWN,Brian Hawn,Trevor Rogers,SP,3,1,Keep,4,1
-HAWN,Brian Hawn,Seth Lugo,SP,2,1,Keep,3,1
-JAKE,Jake Kalos,Ozzie Albies,2B,24,1,Draft,25,1
-JAKE,Jake Kalos,Juan Soto,OF,23,4,Keep,30,7
-JAKE,Jake Kalos,Kyle Tucker,OF,23,3,Keep,28,5
-JAKE,Jake Kalos,Blake Snell,SP,22,1,Trade,23,1
-JAKE,Jake Kalos,Aaron Judge,OF,21,1,Keep,22,1
-JAKE,Jake Kalos,Bobby Witt Jr.,SS,13,2,Keep,16,3
-JAKE,Jake Kalos,Mason Miller,SP,12,1,Keep,13,1
-JAKE,Jake Kalos,Eury Perez,SP,9,2,Keep,12,3
-JAKE,Jake Kalos,Gavin Williams,SP,9,2,Keep,12,3
-JAKE,Jake Kalos,Shane Baz,SP,9,1,Keep,10,1
-JAKE,Jake Kalos,Jackson Merrill,SS,8,2,Keep,11,3
-JAKE,Jake Kalos,Ranger Suarez,SP,5,1,Keep,6,1
-JAKE,Jake Kalos,Sean Manaea,RP/SP,5,1,FA,6,1
-JAKE,Jake Kalos,Edward Cabrera,SP,4,1,Trade,5,1
-JAKE,Jake Kalos,Kevin McGonigle,SS,4,2,Keep,7,3
-JAKE,Jake Kalos,Kyle Bradish,SP,4,2,Keep,7,3
-JAKE,Jake Kalos,Tanner Scott,RP,4,1,FA,5,1
-JAKE,Jake Kalos,Caleb Durbin,3B,3,1,FA,4,1
-JAKE,Jake Kalos,David Peterson,SP,3,1,FA,4,1
-JAKE,Jake Kalos,Dustin May,SP,3,1,FA,4,1
-JAKE,Jake Kalos,Grant Holmes,SP,3,1,FA,4,1
-JAKE,Jake Kalos,Matthew Boyd,SP,3,1,FA,4,1
-JAKE,Jake Kalos,Patrick Sandoval,SP,3,1,FA,4,1
-JAKE,Jake Kalos,Salvador Perez,C,3,1,FA,4,1
-JAKE,Jake Kalos,Steven Kwan,OF,3,1,FA,4,1
-JAKE,Jake Kalos,Ty France,1B,3,1,FA,4,1
-JAKE,Jake Kalos,Tyler Mahle,SP,3,1,FA,4,1
-JAKE,Jake Kalos,Nick Kurtz,1B,2,1,Trade,3,1
-JST,Joshua Tufts,Shohei Ohtani,UT/SP,41,6,Keep,46,5
-JST,Joshua Tufts,Vladimir Guerrero Jr.,1B,16,2,Keep,19,3
-JST,Joshua Tufts,Ketel Marte,2B,15,1,Keep,16,1
-JST,Joshua Tufts,Kevin Gausman,SP,15,1,Keep,16,1
-JST,Joshua Tufts,Junior Caminero,3B,12,4,Keep,19,7
-JST,Joshua Tufts,Riley Greene,OF,12,1,Keep,13,1
-JST,Joshua Tufts,Elly De La Cruz,SS,10,4,Keep,17,7
-JST,Joshua Tufts,Jackson Holliday,2B,9,1,Trade,10,1
-JST,Joshua Tufts,Kade Anderson,SP,9,2,Keep,12,3
-JST,Joshua Tufts,Robert Suarez,RP,9,1,Keep,10,1
-JST,Joshua Tufts,Dylan Cease,SP,8,2,Keep,11,3
-JST,Joshua Tufts,Cole Ragans,SP,7,1,Keep,8,1
-JST,Joshua Tufts,Noah Schultz,SP,7,3,Keep,12,5
-JST,Joshua Tufts,Robbie Ray,SP,6,2,Keep,9,3
-JST,Joshua Tufts,AJ Ewing,OF,5,1,FA,6,1
-JST,Joshua Tufts,Brandon Pfaadt,SP,5,1,FA,6,1
-JST,Joshua Tufts,Jonah Tong,SP,5,1,FA,6,1
-JST,Joshua Tufts,Ryan Johnson,RP,5,1,FA,6,1
-JST,Joshua Tufts,Sam Basallo,C,5,2,Keep,8,3
-JST,Joshua Tufts,Joshua Baez,OF,4,1,FA,5,1
-JST,Joshua Tufts,Luke Keaschall,2B,4,2,Keep,7,3
-JST,Joshua Tufts,Sebastian Walcott,SS,4,2,Keep,7,3
-JST,Joshua Tufts,Seth Hernandez,SP,4,1,FA,5,1
-JST,Joshua Tufts,Colson Montgomery,SS,3,1,Keep,4,1
-JST,Joshua Tufts,Jacob Latz,RP,3,1,FA,4,1
-JST,Joshua Tufts,Jesus Made,SS,3,1,Trade,4,1
-JST,Joshua Tufts,Payton Tolle,SP,3,1,Keep,4,1
-JST,Joshua Tufts,Theo Gillen,OF,3,1,FA,4,1
-JST,Joshua Tufts,Walker Jenkins,OF,3,1,FA,4,1
-KELL,"Ty Keller, Commissioner",Sal Stewart,1B,30,1,Trade,31,1
-KELL,"Ty Keller, Commissioner",Tyler Glasnow,SP,20,1,Keep,21,1
-KELL,"Ty Keller, Commissioner",Corbin Burnes,SP,14,2,Keep,17,3
-KELL,"Ty Keller, Commissioner",Julio Rodriguez,OF,14,1,Keep,15,1
-KELL,"Ty Keller, Commissioner",Bryan Reynolds,OF,8,2,Keep,11,3
-KELL,"Ty Keller, Commissioner",McKenzie Gore,SP,8,2,Keep,11,3
-KELL,"Ty Keller, Commissioner",Peter Lambert,RP/SP,8,1,FA,9,1
-KELL,"Ty Keller, Commissioner",Yandy Diaz,1B,8,1,Keep,9,1
-KELL,"Ty Keller, Commissioner",Wyatt Langford,OF,7,1,Trade,8,1
-KELL,"Ty Keller, Commissioner",Ivan Herrera,C,6,2,Keep,9,3
-KELL,"Ty Keller, Commissioner",Aroldis Chapman,RP,5,2,Keep,8,3
-KELL,"Ty Keller, Commissioner",Bryce Miller,SP,5,1,Keep,6,1
-KELL,"Ty Keller, Commissioner",Alec Burleson,OF,4,2,Keep,7,3
-KELL,"Ty Keller, Commissioner",Andrew Painter,SP,4,1,FA,5,1
-KELL,"Ty Keller, Commissioner",Griffin Jax,RP,4,1,FA,5,1
-KELL,"Ty Keller, Commissioner",Kodai Senga,SP,4,1,FA,5,1
-KELL,"Ty Keller, Commissioner",Michael Wacha,SP,4,2,Keep,7,3
-KELL,"Ty Keller, Commissioner",Mick Abel,SP,4,2,Keep,7,3
-KELL,"Ty Keller, Commissioner",Shane Drohan,RP,4,1,FA,5,1
-KELL,"Ty Keller, Commissioner",Anthony Kay,SP,3,1,FA,4,1
-KELL,"Ty Keller, Commissioner",Ben Brown,SP/RP,3,1,FA,4,1
-KELL,"Ty Keller, Commissioner",Cam Smith,RF,3,1,FA,4,1
-KELL,"Ty Keller, Commissioner",Cole Carrigg,OF,3,1,FA,4,1
-KELL,"Ty Keller, Commissioner",Colt Keith,3B,3,1,FA,4,1
-KELL,"Ty Keller, Commissioner",Gabriel Moreno,C,3,1,FA,4,1
-KELL,"Ty Keller, Commissioner",Nick Gonzales,2B,3,1,FA,4,1
-KELL,"Ty Keller, Commissioner",Otto Lopez,2B/SS,3,1,Keep,4,1
-KELL,"Ty Keller, Commissioner",Jose Soriano,SP,1,1,Keep,2,1
-NISH,Nick Sherrill,Jose Ramirez,3B,34,1,Trade,35,1
-NISH,Nick Sherrill,Chris Sale,SP,27,2,Keep,30,3
-NISH,Nick Sherrill,Pete Alonso,1B,25,1,Keep,26,1
-NISH,Nick Sherrill,Aaron Nola,SP,17,1,Draft,18,1
-NISH,Nick Sherrill,Yordan Alvarez,OF,17,1,Trade,18,1
-NISH,Nick Sherrill,Sonny Gray,SP,15,2,Keep,18,3
-NISH,Nick Sherrill,Paul Skenes,SP,12,3,Trade,17,5
-NISH,Nick Sherrill,William Contreras,C,12,4,Keep,19,7
-NISH,Nick Sherrill,Fernando Tatis Jr.,SS,10,1,Keep,11,1
-NISH,Nick Sherrill,Jac Caglianone,1B,10,2,Draft,13,3
-NISH,Nick Sherrill,Alex Bregman,3B,8,2,Keep,11,3
-NISH,Nick Sherrill,Andres Munoz,RP,8,3,FA,13,5
-NISH,Nick Sherrill,Geraldo Perdomo,SS,7,1,Trade,8,1
-NISH,Nick Sherrill,Bryan Baker,RP,6,1,FA,7,1
-NISH,Nick Sherrill,Randy Arozarena,OF,6,2,Keep,9,3
-NISH,Nick Sherrill,Zebby Matthews,SP,6,1,FA,7,1
-NISH,Nick Sherrill,Jung Hoo Lee,OF,5,1,FA,6,1
-NISH,Nick Sherrill,Konnor Griffin,OF,5,2,Keep,8,3
-NISH,Nick Sherrill,Walker Buehler,SP,5,1,FA,6,1
-NISH,Nick Sherrill,Jhoan Duran,RP,4,2,Keep,7,3
-NISH,Nick Sherrill,Maikel Garcia,3B,4,2,Keep,7,3
-NISH,Nick Sherrill,Nolan McLean,SP,4,2,Keep,7,3
-NISH,Nick Sherrill,Ezequiel Duran,2B,3,1,FA,4,1
-NISH,Nick Sherrill,Foster Griffin,SP,3,1,FA,4,1
-NISH,Nick Sherrill,Luis Garcia Jr,2B,3,1,FA,4,1
-NISH,Nick Sherrill,Max Meyer,SP,3,2,Keep,6,3
-NISH,Nick Sherrill,River Ryan,SP,3,1,FA,4,1
-NISH,Nick Sherrill,Sean Burke,SP,3,1,FA,4,1
-NORT,Will Norton,Kyle Schwarber,OF,30,2,Keep,33,3
-NORT,Will Norton,Framber Valdez,SP,24,2,Keep,27,3
-NORT,Will Norton,Kazuma Okamoto,3B,23,1,Trade,24,1
-NORT,Will Norton,Cade Smith,RP,14,2,Keep,17,3
-NORT,Will Norton,Didier Fuentes,SP,11,1,Draft,12,1
-NORT,Will Norton,Edwin Diaz,RP,8,1,FA,9,1
-NORT,Will Norton,Garrett Crochet,SP,8,3,Trade,13,5
-NORT,Will Norton,James Wood,OF,7,1,Trade,8,1
-NORT,Will Norton,Roman Anthony,OF,7,3,FA,12,5
-NORT,Will Norton,Brice Turang,SS,6,1,Keep,7,1
-NORT,Will Norton,Cade Cavalli,SP,6,1,Trade,7,1
-NORT,Will Norton,Zach Neto,SS,6,2,Keep,9,3
-NORT,Will Norton,Bryan Woo,SP,5,1,Keep,6,1
-NORT,Will Norton,Hunter Brown,SP,5,2,Keep,8,3
-NORT,Will Norton,Jeremy Pena,SS,5,2,Keep,8,3
-NORT,Will Norton,Ryan Pepiot,SP,5,1,Trade,6,1
-NORT,Will Norton,Kody Clemens,1B,4,1,FA,5,1
-NORT,Will Norton,Leo De Vries,SS,4,1,Trade,5,1
-NORT,Will Norton,Brent Rooker,UT,3,1,FA,4,1
-NORT,Will Norton,Carter Jensen,C,3,1,FA,4,1
-NORT,Will Norton,Daniel Palencia,RP,3,1,FA,4,1
-NORT,Will Norton,Francisco Alvarez,C,3,1,FA,4,1
-NORT,Will Norton,Hayden Wesneski,SP,3,1,FA,4,1
-NORT,Will Norton,Jake Bennett,SP,3,1,FA,4,1
-NORT,Will Norton,Jordan Walker,OF,3,1,FA,4,1
-NORT,Will Norton,Landon Roupp,RP,3,1,FA,4,1
-NORT,Will Norton,Willson Contreras,C,3,1,Draft,4,1
-NORT,Will Norton,Shea Langeliers,C,2,2,Keep,5,3
-NORT,Will Norton,Will Warren,SP,2,1,Keep,3,1
-SPER,Tyler Speer,Jacob deGrom,SP,40,3,Keep,45,5
-SPER,Tyler Speer,Freddie Freeman,1B,37,2,Keep,40,3
-SPER,Tyler Speer,Jose Altuve,2B,36,5,Keep,41,5
-SPER,Tyler Speer,Mookie Betts,SS,28,2,Keep,31,3
-SPER,Tyler Speer,Nathan Eovaldi,SP,22,2,Keep,25,3
-SPER,Tyler Speer,Nick Lodolo,SP,14,1,Keep,15,1
-SPER,Tyler Speer,Cristopher Sanchez,SP,12,4,Keep,19,7
-SPER,Tyler Speer,Munetaka Murakami,3B,7,1,FA,8,1
-SPER,Tyler Speer,Zach Thornton,SP,7,1,FA,8,1
-SPER,Tyler Speer,Cal Raleigh,C,5,2,Keep,8,3
-SPER,Tyler Speer,Cole Young,2B,5,1,FA,6,1
-SPER,Tyler Speer,JJ Bleday,OF,5,1,Trade,6,1
-SPER,Tyler Speer,Eduardo Rodriguez,SP,4,2,Keep,7,3
-SPER,Tyler Speer,Ian Seymour,SP/RP,4,2,Keep,7,3
-SPER,Tyler Speer,Michael McGreevy,SP,4,2,Keep,7,3
-SPER,Tyler Speer,Miguel Vargas,1B/3B,4,2,Keep,7,3
-SPER,Tyler Speer,Parker Messick,SP,4,2,Keep,7,3
-SPER,Tyler Speer,AJ Blubaugh,RP,3,1,FA,4,1
-SPER,Tyler Speer,Angel Martinez,OF,3,1,FA,4,1
-SPER,Tyler Speer,Cooper Hjerpe,SP,3,1,FA,4,1
-SPER,Tyler Speer,Curtis Mead,1B,3,1,FA,4,1
-SPER,Tyler Speer,Emilio Pagan,RP,3,1,FA,4,1
-SPER,Tyler Speer,Heriberto Hernandez,LF,3,1,FA,4,1
-SPER,Tyler Speer,Jake McCarthy,OF,3,1,FA,4,1
-SPER,Tyler Speer,Kyle Harrison,SP,3,1,FA,4,1
-SPER,Tyler Speer,Raisel Iglesias,RP,3,1,FA,4,1
-SPER,Tyler Speer,Tristan Peters,OF,3,1,FA,4,1
-SPER,Tyler Speer,Zach Gelof,2B,3,1,FA,4,1
-WILB,Dan Kamas & Mike Sasso,Tatsuya Imai,SP,49,1,Draft,50,1
-WILB,Dan Kamas & Mike Sasso,Freddy Peralta,SP,30,2,Keep,33,3
-WILB,Dan Kamas & Mike Sasso,CJ Abrams,SS,12,4,Keep,19,7
-WILB,Dan Kamas & Mike Sasso,Isaac Paredes,3B,12,4,Keep,19,7
-WILB,Dan Kamas & Mike Sasso,Spencer Strider,SP,11,3,Keep,16,5
-WILB,Dan Kamas & Mike Sasso,Wilyer Abreu,OF,9,3,Keep,14,5
-WILB,Dan Kamas & Mike Sasso,Kyle Stowers,OF,8,2,Keep,11,3
-WILB,Dan Kamas & Mike Sasso,Ben Rice,1B,6,2,Keep,9,3
-WILB,Dan Kamas & Mike Sasso,Jared Jones,SP,6,3,Keep,11,5
-WILB,Dan Kamas & Mike Sasso,Kaelen Culpepper,SS,6,1,FA,7,1
-WILB,Dan Kamas & Mike Sasso,Noah Cameron,SP,6,2,Keep,9,3
-WILB,Dan Kamas & Mike Sasso,Bryce Elder,SP,5,1,FA,6,1
-WILB,Dan Kamas & Mike Sasso,Ian Happ,OF,5,2,Keep,8,3
-WILB,Dan Kamas & Mike Sasso,Max Clark,OF,5,2,Keep,8,3
-WILB,Dan Kamas & Mike Sasso,Randy Vasquez,SP,5,1,FA,6,1
-WILB,Dan Kamas & Mike Sasso,Jacob Misiorowski,SP,4,2,Keep,7,3
-WILB,Dan Kamas & Mike Sasso,Josh Jung,3B,4,1,FA,5,1
-WILB,Dan Kamas & Mike Sasso,Travis Bazzana,2B,4,2,Keep,7,3
-WILB,Dan Kamas & Mike Sasso,Trey Yesavage,SP,4,2,Keep,7,3
-WILB,Dan Kamas & Mike Sasso,Zyhir Hope,OF,4,1,FA,5,1
-WILB,Dan Kamas & Mike Sasso,David Bednar,RP,3,1,Keep,4,1
-WILB,Dan Kamas & Mike Sasso,George Lombard Jr.,SS,3,1,FA,4,1
-WILB,Dan Kamas & Mike Sasso,Mike Soroka,SP,3,1,FA,4,1
-WILB,Dan Kamas & Mike Sasso,Reynaldo Lopez,RP,3,1,FA,4,1
-WILB,Dan Kamas & Mike Sasso,Ty Johnson,SP,3,1,FA,4,1
-WILB,Dan Kamas & Mike Sasso,Carson Benge,OF,1,1,Draft,2,1
-WILB,Dan Kamas & Mike Sasso,Grant Taylor,RP,1,1,Draft,2,1
-WILB,Dan Kamas & Mike Sasso,Jonathan Aranda,1B,1,1,Keep,2,1
-WILB,Dan Kamas & Mike Sasso,Cal Quantrill,SP,0,1,FA,1,1
+team,owner,player,mlb_team,primary_position,positions,acquired,service_year,salary,next_year_salary,escalator
+NISH,Nick Sherrill,William Contreras,MIL,C,C/DH,Keep,4,12,19,7
+CHAZ,Charlie Cole,Hunter Goodman,COL,C,C/DH,Trade,1,6,7,1
+KELL,"Ty Keller, Commissioner",Ivan Herrera,STL,C,DH/C,Keep,2,6,9,3
+GORD,Gordie Hanrahan,Adley Rutschman,BOS,C,C/DH,FA,1,5,6,1
+SPER,Tyler Speer,Cal Raleigh,SEA,C,C/DH,Keep,2,5,8,3
+HAWN,Brian Hawn,Dillon Dingler,DET,C,C/DH,FA,1,5,6,1
+FREE,Kevin Freeman,Drake Baldwin,ATL,C,C/DH,Keep,2,5,8,3
+JST,Joshua Tufts,Samuel Basallo,BAL,C,C/1B/DH,Keep,2,5,8,3
+NORT,Will Norton,Carter Jensen,KC,C,C/DH,FA,1,3,4,1
+NORT,Will Norton,Francisco Alvarez,NYM,C,C/DH,FA,1,3,4,1
+KELL,"Ty Keller, Commissioner",Gabriel Moreno,ARI,C,C/DH,FA,1,3,4,1
+BORG,Reggie Borges,Liam Hicks,TB,C,C/1B/DH,Trade,1,3,4,1
+CHAZ,Charlie Cole,Mickey Gasper,BOS,C,C/1B/DH,FA,1,3,4,1
+GORD,Gordie Hanrahan,Ryan Jeffers,MIN,C,C/DH,FA,1,3,4,1
+JAKE,Jake Kalos,Salvador Perez,KC,C,C/1B/DH,FA,1,3,4,1
+NORT,Will Norton,Shea Langeliers,ATH,C,C/DH,Keep,2,2,5,3
+FREE,Kevin Freeman,Bryce Harper,PHI,1B,1B/OF/DH,Keep,2,44,47,3
+SPER,Tyler Speer,Freddie Freeman,LAD,1B,1B,Keep,2,37,40,3
+KELL,"Ty Keller, Commissioner",Sal Stewart,CIN,1B,1B/3B/DH,Trade,1,30,31,1
+GORD,Gordie Hanrahan,Matt Olson,ATL,1B,1B,Trade,1,25,26,1
+NISH,Nick Sherrill,Pete Alonso,BAL,1B,1B/DH,Keep,1,25,26,1
+JST,Joshua Tufts,Vladimir Guerrero Jr.,TOR,1B,1B/DH,Keep,2,16,19,3
+FREE,Kevin Freeman,Rafael Devers,SF,1B,DH/1B,Trade,1,12,13,1
+CHAZ,Charlie Cole,Luis Arraez,PHI,1B,1B/2B/DH,Keep,2,9,12,3
+KELL,"Ty Keller, Commissioner",Yandy Diaz,TB,1B,DH/1B,Keep,1,8,9,1
+GORD,Gordie Hanrahan,Josh Naylor,SEA,1B,1B/DH,Keep,2,7,10,3
+WILB,Dan Kamas & Mike Sasso,Ben Rice,NYY,1B,1B/C/DH,Keep,2,6,9,3
+HAWN,Brian Hawn,Bryce Eldridge,SF,1B,DH/1B,Trade,1,6,7,1
+HAWN,Brian Hawn,Christian Walker,HOU,1B,1B,FA,1,5,6,1
+BORG,Reggie Borges,Vinnie Pasquantino,KC,1B,1B/DH,Keep,2,5,8,3
+FREE,Kevin Freeman,Coby Mayo,BAL,1B,1B/3B/DH,FA,1,4,5,1
+CHAZ,Charlie Cole,Jake Bauers,MIL,1B,1B/OF,FA,1,4,5,1
+NORT,Will Norton,Kody Clemens,MIN,1B,1B/2B/OF,FA,1,4,5,1
+BORG,Reggie Borges,Spencer Torkelson,DET,1B,1B,Keep,1,4,5,1
+CHAZ,Charlie Cole,Charlie Condon,COL,1B,1B,FA,1,3,4,1
+KELL,"Ty Keller, Commissioner",Colt Keith,DET,1B,DH/1B/2B/3B,FA,1,3,4,1
+SPER,Tyler Speer,Curtis Mead,BOS,1B,1B/3B,FA,1,3,4,1
+FREE,Kevin Freeman,Ryan O'Hearn,PIT,1B,1B/OF/DH,FA,1,3,4,1
+JAKE,Jake Kalos,Ty France,SD,1B,1B,FA,1,3,4,1
+NORT,Will Norton,Willson Contreras,BOS,1B,1B,Draft,1,3,4,1
+FREE,Kevin Freeman,Michael Busch,CHC,1B,1B,Trade,1,2,3,1
+JAKE,Jake Kalos,Nick Kurtz,ATH,1B,1B,Trade,1,2,3,1
+WILB,Dan Kamas & Mike Sasso,Jonathan Aranda,TB,1B,1B,Keep,1,1,2,1
+SPER,Tyler Speer,Jose Altuve,HOU,2B,2B/OF/DH,Keep,5,36,41,5
+JAKE,Jake Kalos,Ozzie Albies,ATL,2B,2B,Draft,1,24,25,1
+JST,Joshua Tufts,Ketel Marte,ARI,2B,2B/DH,Keep,1,15,16,1
+JST,Joshua Tufts,Jackson Holliday,BAL,2B,2B,Trade,1,9,10,1
+BORG,Reggie Borges,Nico Hoerner,CHC,2B,2B/SS,Keep,2,9,12,3
+HAWN,Brian Hawn,Xavier Edwards,MIA,2B,2B/SS,Draft,1,7,8,1
+NORT,Will Norton,Brice Turang,MIL,2B,2B,Keep,1,6,7,1
+FREE,Kevin Freeman,Jazz Chisholm Jr.,NYY,2B,2B/3B,Keep,2,6,9,3
+HAWN,Brian Hawn,Casey Schmitt,SF,2B,2B/1B/3B/OF/DH,FA,1,5,6,1
+SPER,Tyler Speer,Cole Young,SEA,2B,2B,FA,1,5,6,1
+GORD,Gordie Hanrahan,Brandon Lowe,PIT,2B,2B/DH,Keep,2,4,7,3
+JST,Joshua Tufts,Luke Keaschall,MIN,2B,2B/OF,Keep,2,4,7,3
+WILB,Dan Kamas & Mike Sasso,Travis Bazzana,CLE,2B,2B,Keep,2,4,7,3
+CHAZ,Charlie Cole,Gleyber Torres,DET,2B,2B/DH,FA,1,3,4,1
+NISH,Nick Sherrill,Luis Garcia Jr.,NYY,2B,2B/1B/DH,FA,1,3,4,1
+KELL,"Ty Keller, Commissioner",Nick Gonzales,PIT,2B,2B/3B,FA,1,3,4,1
+CHAZ,Charlie Cole,Sam Antonacci,CHW,2B,2B/3B/OF,FA,1,3,4,1
+SPER,Tyler Speer,Zack Gelof,ATH,2B,2B/3B/OF,FA,1,3,4,1
+NISH,Nick Sherrill,Jose Ramirez,CLE,3B,3B/DH,Trade,1,34,35,1
+NORT,Will Norton,Kazuma Okamoto,TOR,3B,3B/1B,Trade,1,23,24,1
+WILB,Dan Kamas & Mike Sasso,Isaac Paredes,HOU,3B,3B/1B,Keep,4,12,19,7
+JST,Joshua Tufts,Junior Caminero,TB,3B,3B,Keep,4,12,19,7
+NISH,Nick Sherrill,Alex Bregman,CHC,3B,3B/DH,Keep,2,8,11,3
+GORD,Gordie Hanrahan,Max Muncy,LAD,3B,3B,FA,1,7,8,1
+SPER,Tyler Speer,Munetaka Murakami,CHW,3B,3B/1B,FA,1,7,8,1
+HAWN,Brian Hawn,TJ Rumfield,COL,3B,3B/1B/DH,FA,1,7,8,1
+WILB,Dan Kamas & Mike Sasso,Josh Jung,TEX,3B,3B,FA,1,4,5,1
+NISH,Nick Sherrill,Maikel Garcia,KC,3B,3B,Keep,2,4,7,3
+FREE,Kevin Freeman,Manny Machado,SD,3B,3B/DH,FA,1,4,5,1
+SPER,Tyler Speer,Miguel Vargas,CHW,3B,3B/1B,Keep,2,4,7,3
+BORG,Reggie Borges,Royce Lewis,MIN,3B,3B/1B/2B,FA,1,4,5,1
+JAKE,Jake Kalos,Caleb Durbin,BOS,3B,3B,FA,1,3,4,1
+CHAZ,Charlie Cole,Ernie Clement,TOR,3B,3B/2B/SS,FA,1,3,4,1
+BORG,Reggie Borges,Francisco Lindor,NYM,SS,SS,Keep,1,30,31,1
+SPER,Tyler Speer,Mookie Betts,LAD,SS,SS,Keep,2,28,31,3
+BORG,Reggie Borges,Trea Turner,PHI,SS,SS,Keep,2,16,19,3
+HAWN,Brian Hawn,Gunnar Henderson,BAL,SS,SS,Trade,1,14,15,1
+BORG,Reggie Borges,Bo Bichette,NYM,SS,SS/3B,Keep,0,13,13,0
+JAKE,Jake Kalos,Bobby Witt Jr.,KC,SS,SS,Keep,2,13,16,3
+WILB,Dan Kamas & Mike Sasso,CJ Abrams,WSH,SS,SS/DH,Keep,4,12,19,7
+JST,Joshua Tufts,Elly De La Cruz,CIN,SS,SS,Keep,4,10,17,7
+GORD,Gordie Hanrahan,Corey Seager,TEX,SS,SS,Keep,2,8,11,3
+NISH,Nick Sherrill,Geraldo Perdomo,ARI,SS,SS,Trade,1,7,8,1
+WILB,Dan Kamas & Mike Sasso,Kaelen Culpepper,MIN,SS,SS,FA,1,6,7,1
+NORT,Will Norton,Zach Neto,LAA,SS,SS,Keep,2,6,9,3
+FREE,Kevin Freeman,Jacob Wilson,ATH,SS,SS,Keep,2,5,8,3
+NORT,Will Norton,Jeremy Pena,HOU,SS,SS,Keep,2,5,8,3
+NISH,Nick Sherrill,Konnor Griffin,PIT,SS,SS,Keep,2,5,8,3
+HAWN,Brian Hawn,Chase Meidroth,CHW,SS,SS/2B,FA,1,4,5,1
+CHAZ,Charlie Cole,JJ Wetherholt,STL,SS,SS/2B,Keep,2,4,7,3
+JAKE,Jake Kalos,Kevin McGonigle,DET,SS,SS/3B,Keep,2,4,7,3
+NORT,Will Norton,Leo De Vries,ATH,SS,SS,Trade,1,4,5,1
+JST,Joshua Tufts,Sebastian Walcott,TEX,SS,SS/DH,Keep,2,4,7,3
+FREE,Kevin Freeman,Brooks Lee,MIN,SS,SS/2B/3B,FA,1,3,4,1
+JST,Joshua Tufts,Colson Montgomery,CHW,SS,SS/3B,Keep,1,3,4,1
+GORD,Gordie Hanrahan,Colt Emerson,SEA,SS,SS/3B,FA,1,3,4,1
+FREE,Kevin Freeman,Cooper Pratt,MIL,SS,SS,FA,1,3,4,1
+NISH,Nick Sherrill,Ezequiel Duran,TEX,SS,SS/1B/2B/3B/OF,FA,1,3,4,1
+HAWN,Brian Hawn,Franklin Arias,BOS,SS,SS,Trade,1,3,4,1
+WILB,Dan Kamas & Mike Sasso,George Lombard Jr.,NYY,SS,SS,FA,1,3,4,1
+JST,Joshua Tufts,Jesus Made,MIL,SS,SS,Trade,1,3,4,1
+KELL,"Ty Keller, Commissioner",Otto Lopez,MIA,SS,SS/2B,Keep,1,3,4,1
+CHAZ,Charlie Cole,Seaver King,WSH,SS,SS,FA,1,3,4,1
+GORD,Gordie Hanrahan,Ronald Acuna Jr.,ATL,OF,OF/DH,Trade,1,24,25,1
+JAKE,Jake Kalos,Juan Soto,NYM,OF,OF/DH,Keep,4,23,30,7
+JAKE,Jake Kalos,Kyle Tucker,LAD,OF,OF,Keep,3,23,28,5
+JAKE,Jake Kalos,Aaron Judge,NYY,OF,OF/DH,Keep,1,21,22,1
+NISH,Nick Sherrill,Yordan Alvarez,HOU,OF,DH/OF,Trade,1,17,18,1
+KELL,"Ty Keller, Commissioner",Julio Rodriguez,SEA,OF,OF,Keep,1,14,15,1
+GORD,Gordie Hanrahan,Corbin Carroll,ARI,OF,OF,Keep,1,13,14,1
+FREE,Kevin Freeman,Jackson Chourio,MIL,OF,OF,Keep,4,12,19,7
+HAWN,Brian Hawn,Pete Crow-Armstrong,CHC,OF,OF,Keep,4,12,19,7
+JST,Joshua Tufts,Riley Greene,DET,OF,OF/DH,Keep,1,12,13,1
+HAWN,Brian Hawn,Oneil Cruz,PIT,OF,OF,Draft,1,11,12,1
+NISH,Nick Sherrill,Fernando Tatis Jr.,SD,OF,OF/2B,Keep,1,10,11,1
+NISH,Nick Sherrill,Jac Caglianone,KC,OF,OF/1B,Draft,2,10,13,3
+BORG,Reggie Borges,Michael Harris II,ATL,OF,OF,Trade,1,9,10,1
+WILB,Dan Kamas & Mike Sasso,Wilyer Abreu,BOS,OF,OF,Keep,3,9,14,5
+KELL,"Ty Keller, Commissioner",Bryan Reynolds,PIT,OF,OF/DH,Keep,2,8,11,3
+JAKE,Jake Kalos,Jackson Merrill,SD,OF,OF,Keep,2,8,11,3
+WILB,Dan Kamas & Mike Sasso,Kyle Stowers,MIA,OF,OF/1B/DH,Keep,2,8,11,3
+NORT,Will Norton,James Wood,WSH,OF,OF/DH,Trade,1,7,8,1
+GORD,Gordie Hanrahan,Mike Trout,LAA,OF,DH/OF,Trade,1,7,8,1
+NORT,Will Norton,Roman Anthony,BOS,OF,OF/DH,FA,3,7,12,5
+KELL,"Ty Keller, Commissioner",Wyatt Langford,TEX,OF,OF,Trade,1,7,8,1
+NISH,Nick Sherrill,Randy Arozarena,SEA,OF,OF,Keep,2,6,9,3
+BORG,Reggie Borges,Tyler Soderstrom,ATH,OF,OF/1B,Keep,1,6,7,1
+JST,Joshua Tufts,A.J. Ewing,NYM,OF,OF,FA,1,5,6,1
+CHAZ,Charlie Cole,Ceddanne Rafaela,BOS,OF,OF/2B,Keep,2,5,8,3
+BORG,Reggie Borges,Cody Bellinger,NYY,OF,OF,Keep,1,5,6,1
+WILB,Dan Kamas & Mike Sasso,Ian Happ,CHC,OF,OF,Keep,2,5,8,3
+SPER,Tyler Speer,JJ Bleday,CIN,OF,OF,Trade,1,5,6,1
+NISH,Nick Sherrill,Jung Hoo Lee,SF,OF,OF,FA,1,5,6,1
+WILB,Dan Kamas & Mike Sasso,Max Clark,DET,OF,OF/DH,Keep,2,5,8,3
+CHAZ,Charlie Cole,Seiya Suzuki,CHC,OF,DH/OF,Keep,2,5,8,3
+KELL,"Ty Keller, Commissioner",Alec Burleson,STL,OF,OF/1B/DH,Keep,2,4,7,3
+HAWN,Brian Hawn,Andy Pages,LAD,OF,OF,Keep,2,4,7,3
+GORD,Gordie Hanrahan,Daylen Lile,WSH,OF,OF/DH,Keep,2,4,7,3
+CHAZ,Charlie Cole,Jo Adell,CLE,OF,OF/DH,Trade,1,4,5,1
+JST,Joshua Tufts,Joshua Baez,STL,OF,OF,FA,1,4,5,1
+HAWN,Brian Hawn,Josue De Paula,LAD,OF,OF/DH,FA,1,4,5,1
+GORD,Gordie Hanrahan,Mickey Moniak,COL,OF,OF/DH,FA,1,4,5,1
+HAWN,Brian Hawn,Mike Sirota,LAD,OF,OF,FA,1,4,5,1
+WILB,Dan Kamas & Mike Sasso,Zyhir Hope,DET,OF,OF/DH,FA,1,4,5,1
+SPER,Tyler Speer,Angel Martinez,CLE,OF,OF/2B,FA,1,3,4,1
+NORT,Will Norton,Brent Rooker,ATH,OF,DH/OF,FA,1,3,4,1
+KELL,"Ty Keller, Commissioner",Cam Smith,HOU,OF,OF,FA,1,3,4,1
+KELL,"Ty Keller, Commissioner",Cole Carrigg,COL,OF,OF/SS,FA,1,3,4,1
+HAWN,Brian Hawn,Dominic Canzone,SEA,OF,OF/DH,FA,1,3,4,1
+BORG,Reggie Borges,Griffin Conine,MIA,OF,OF/1B/DH,FA,1,3,4,1
+CHAZ,Charlie Cole,Henry Bolte,ATH,OF,OF,FA,1,3,4,1
+SPER,Tyler Speer,Heriberto Hernandez,MIA,OF,OF/DH,FA,1,3,4,1
+SPER,Tyler Speer,Jake McCarthy,COL,OF,OF,FA,1,3,4,1
+NORT,Will Norton,Jordan Walker,STL,OF,OF,FA,1,3,4,1
+GORD,Gordie Hanrahan,Mauricio Dubon,ATL,OF,OF/2B/3B/SS,FA,1,3,4,1
+JAKE,Jake Kalos,Steven Kwan,CLE,OF,OF,FA,1,3,4,1
+JST,Joshua Tufts,Theo Gillen,TB,OF,OF,FA,1,3,4,1
+CHAZ,Charlie Cole,Trent Grisham,NYY,OF,OF,FA,1,3,4,1
+SPER,Tyler Speer,Tristan Peters,CHW,OF,OF,FA,1,3,4,1
+JST,Joshua Tufts,Walker Jenkins,MIN,OF,OF,FA,1,3,4,1
+CHAZ,Charlie Cole,Willi Castro,COL,OF,OF/1B/2B/3B/SS,FA,1,3,4,1
+BORG,Reggie Borges,Byron Buxton,MIN,OF,OF/DH,Keep,1,2,3,1
+WILB,Dan Kamas & Mike Sasso,Carson Benge,NYM,OF,OF,Draft,1,1,2,1
+FREE,Kevin Freeman,Chase DeLauter,CLE,OF,OF/DH,Draft,1,1,2,1
+JST,Joshua Tufts,Shohei Ohtani,LAD,UT,DH/SP,Keep,6,41,46,5
+NORT,Will Norton,Kyle Schwarber,PHI,UT,DH,Keep,2,30,33,3
+WILB,Dan Kamas & Mike Sasso,Tatsuya Imai,HOU,SP,SP/RP,Draft,1,49,50,1
+SPER,Tyler Speer,Jacob deGrom,TEX,SP,SP,Keep,3,40,45,5
+GORD,Gordie Hanrahan,Shota Imanaga,CHC,SP,SP,Draft,1,35,36,1
+WILB,Dan Kamas & Mike Sasso,Freddy Peralta,TB,SP,SP,Keep,2,30,33,3
+NISH,Nick Sherrill,Chris Sale,ATL,SP,SP,Keep,2,27,30,3
+NORT,Will Norton,Framber Valdez,DET,SP,SP,Keep,2,24,27,3
+JAKE,Jake Kalos,Blake Snell,LAD,SP,SP,Trade,1,22,23,1
+SPER,Tyler Speer,Nathan Eovaldi,TEX,SP,SP,Keep,2,22,25,3
+KELL,"Ty Keller, Commissioner",Tyler Glasnow,LAD,SP,SP,Keep,1,20,21,1
+FREE,Kevin Freeman,Zack Wheeler,PHI,SP,SP,Keep,3,20,25,5
+GORD,Gordie Hanrahan,Max Fried,NYY,SP,SP,Keep,2,18,21,3
+NISH,Nick Sherrill,Aaron Nola,PHI,SP,SP,Draft,1,17,18,1
+FREE,Kevin Freeman,George Kirby,SEA,SP,SP,Trade,1,17,18,1
+HAWN,Brian Hawn,Sandy Alcantara,MIA,SP,SP,Keep,1,16,17,1
+JST,Joshua Tufts,Kevin Gausman,CHC,SP,SP,Keep,1,15,16,1
+NISH,Nick Sherrill,Sonny Gray,BOS,SP,SP,Keep,2,15,18,3
+HAWN,Brian Hawn,Tarik Skubal,LAD,SP,SP,Trade,1,15,16,1
+KELL,"Ty Keller, Commissioner",Corbin Burnes,ARI,SP,SP,Keep,2,14,17,3
+SPER,Tyler Speer,Nick Lodolo,CIN,SP,SP,Keep,1,14,15,1
+BORG,Reggie Borges,Shane McClanahan,TB,SP,SP,Trade,1,14,15,1
+CHAZ,Charlie Cole,Carlos Rodon,NYY,SP,SP,Keep,2,12,15,3
+SPER,Tyler Speer,Cristopher Sanchez,PHI,SP,SP,Keep,4,12,19,7
+FREE,Kevin Freeman,Joe Ryan,MIN,SP,SP,Keep,3,12,17,5
+NISH,Nick Sherrill,Paul Skenes,PIT,SP,SP,Trade,3,12,17,5
+NORT,Will Norton,Didier Fuentes,ATL,SP,SP/RP,Draft,1,11,12,1
+FREE,Kevin Freeman,Hunter Greene,CIN,SP,SP,Keep,2,11,14,3
+WILB,Dan Kamas & Mike Sasso,Spencer Strider,ATL,SP,SP,Keep,3,11,16,5
+HAWN,Brian Hawn,Connelly Early,WSH,SP,SP,Keep,2,9,12,3
+JAKE,Jake Kalos,Eury Perez,MIA,SP,SP,Keep,2,9,12,3
+JAKE,Jake Kalos,Gavin Williams,CLE,SP,SP,Keep,2,9,12,3
+JST,Joshua Tufts,Kade Anderson,SEA,SP,SP,Keep,2,9,12,3
+JAKE,Jake Kalos,Shane Baz,BAL,SP,SP,Keep,1,9,10,1
+JST,Joshua Tufts,Dylan Cease,TOR,SP,SP,Keep,2,8,11,3
+NORT,Will Norton,Garrett Crochet,BOS,SP,SP,Trade,3,8,13,5
+KELL,"Ty Keller, Commissioner",MacKenzie Gore,TEX,SP,SP,Keep,2,8,11,3
+BORG,Reggie Borges,Pablo Lopez,MIN,SP,SP,Keep,1,8,9,1
+FREE,Kevin Freeman,Bubba Chandler,PIT,SP,SP,Keep,3,7,12,5
+JST,Joshua Tufts,Cole Ragans,KC,SP,SP,Keep,1,7,8,1
+GORD,Gordie Hanrahan,Drew Rasmussen,TB,SP,SP,Keep,3,7,12,5
+GORD,Gordie Hanrahan,Logan Gilbert,SEA,SP,SP,Trade,1,7,8,1
+JST,Joshua Tufts,Noah Schultz,CHW,SP,SP,Keep,3,7,12,5
+SPER,Tyler Speer,Zac Thornton,NYM,SP,SP,FA,1,7,8,1
+NORT,Will Norton,Cade Cavalli,WSH,SP,SP,Trade,1,6,7,1
+GORD,Gordie Hanrahan,Cam Schlittler,NYY,SP,SP,Keep,1,6,7,1
+BORG,Reggie Borges,Christian Scott,NYM,SP,SP,FA,1,6,7,1
+BORG,Reggie Borges,Emerson Hancock,SEA,SP,SP,FA,1,6,7,1
+WILB,Dan Kamas & Mike Sasso,Jared Jones,PIT,SP,SP,Keep,3,6,11,5
+CHAZ,Charlie Cole,Jesus Luzardo,PHI,SP,SP,Trade,1,6,7,1
+WILB,Dan Kamas & Mike Sasso,Noah Cameron,KC,SP,SP,Keep,2,6,9,3
+JST,Joshua Tufts,Robbie Ray,SD,SP,SP,Keep,2,6,9,3
+BORG,Reggie Borges,Tanner Bibee,CLE,SP,SP,Keep,2,6,9,3
+NISH,Nick Sherrill,Zebby Matthews,MIN,SP,SP,FA,1,6,7,1
+JST,Joshua Tufts,Brandon Pfaadt,ARI,SP,SP/RP,FA,1,5,6,1
+NORT,Will Norton,Bryan Woo,SEA,SP,SP,Keep,1,5,6,1
+WILB,Dan Kamas & Mike Sasso,Bryce Elder,ATL,SP,SP,FA,1,5,6,1
+KELL,"Ty Keller, Commissioner",Bryce Miller,SEA,SP,SP,Keep,1,5,6,1
+CHAZ,Charlie Cole,Chase Burns,CIN,SP,SP,Keep,2,5,8,3
+GORD,Gordie Hanrahan,Cristian Javier,HOU,SP,SP/RP,FA,1,5,6,1
+FREE,Kevin Freeman,Emmet Sheehan,LAD,SP,SP,FA,1,5,6,1
+NORT,Will Norton,Hunter Brown,HOU,SP,SP,Keep,2,5,8,3
+HAWN,Brian Hawn,Jackson Jobe,DET,SP,SP,Trade,1,5,6,1
+BORG,Reggie Borges,Jacob Lopez,ATH,SP,SP,FA,1,5,6,1
+JST,Joshua Tufts,Jonah Tong,NYM,SP,SP,FA,1,5,6,1
+BORG,Reggie Borges,Keider Montero,DET,SP,SP/RP,FA,1,5,6,1
+CHAZ,Charlie Cole,Logan Webb,SF,SP,SP,Keep,2,5,8,3
+GORD,Gordie Hanrahan,Michael King,SD,SP,SP,Keep,1,5,6,1
+CHAZ,Charlie Cole,Nick Pivetta,SD,SP,SP,Keep,2,5,8,3
+WILB,Dan Kamas & Mike Sasso,Randy Vasquez,SD,SP,SP/RP,FA,1,5,6,1
+JAKE,Jake Kalos,Ranger Suarez,BOS,SP,SP,Keep,1,5,6,1
+NORT,Will Norton,Ryan Pepiot,TB,SP,SP,Trade,1,5,6,1
+JAKE,Jake Kalos,Sean Manaea,NYM,SP,SP/RP,FA,1,5,6,1
+FREE,Kevin Freeman,Spencer Schwellenbach,ATL,SP,SP,Trade,1,5,6,1
+NISH,Nick Sherrill,Walker Buehler,SD,SP,SP,FA,1,5,6,1
+KELL,"Ty Keller, Commissioner",Andrew Painter,PHI,SP,SP,FA,1,4,5,1
+HAWN,Brian Hawn,Antonio Senzatela,MIL,SP,SP/RP,FA,1,4,5,1
+CHAZ,Charlie Cole,Blade Tidwell,SF,SP,SP/RP,FA,1,4,5,1
+FREE,Kevin Freeman,Brandon Young,BAL,SP,SP,FA,1,4,5,1
+WILB,Dan Kamas & Mike Sasso,Cal Quantrill,TEX,SP,SP/RP,FA,1,4,5,1
+SPER,Tyler Speer,Eduardo Rodriguez,ARI,SP,SP,Keep,2,4,7,3
+JAKE,Jake Kalos,Edward Cabrera,CHC,SP,SP,Trade,1,4,5,1
+GORD,Gordie Hanrahan,Gerrit Cole,NYY,SP,SP,Keep,1,4,5,1
+HAWN,Brian Hawn,J.T. Ginn,ATH,SP,SP,FA,1,4,5,1
+HAWN,Brian Hawn,Jackson Flora,SF,SP,SP,FA,1,4,5,1
+WILB,Dan Kamas & Mike Sasso,Jacob Misiorowski,MIL,SP,SP,Keep,2,4,7,3
+KELL,"Ty Keller, Commissioner",Kodai Senga,NYM,SP,SP/RP,FA,1,4,5,1
+JAKE,Jake Kalos,Kyle Bradish,BAL,SP,SP,Keep,2,4,7,3
+SPER,Tyler Speer,Michael McGreevy,STL,SP,SP,Keep,2,4,7,3
+KELL,"Ty Keller, Commissioner",Michael Wacha,KC,SP,SP,Keep,2,4,7,3
+KELL,"Ty Keller, Commissioner",Mick Abel,MIN,SP,SP,Keep,2,4,7,3
+NISH,Nick Sherrill,Nolan McLean,NYM,SP,SP,Keep,2,4,7,3
+SPER,Tyler Speer,Parker Messick,CLE,SP,SP,Keep,2,4,7,3
+JST,Joshua Tufts,Seth Hernandez,PIT,SP,SP,FA,1,4,5,1
+KELL,"Ty Keller, Commissioner",Shane Drohan,MIL,SP,SP/RP,FA,1,4,5,1
+HAWN,Brian Hawn,Taj Bradley,MIN,SP,SP,Trade,1,4,5,1
+WILB,Dan Kamas & Mike Sasso,Trey Yesavage,TOR,SP,SP,Keep,2,4,7,3
+BORG,Reggie Borges,Walbert Urena,LAA,SP,SP,FA,1,4,5,1
+CHAZ,Charlie Cole,Yoshinobu Yamamoto,LAD,SP,SP,Keep,2,4,7,3
+HAWN,Brian Hawn,Andre Pallante,STL,SP,SP,FA,1,3,4,1
+BORG,Reggie Borges,Andrew Alvarez,WSH,SP,SP/RP,FA,1,3,4,1
+KELL,"Ty Keller, Commissioner",Anthony Kay,CHW,SP,SP,FA,1,3,4,1
+KELL,"Ty Keller, Commissioner",Ben Brown,CHC,SP,SP/RP,FA,1,3,4,1
+GORD,Gordie Hanrahan,Cade Horton,CHC,SP,SP,FA,1,3,4,1
+CHAZ,Charlie Cole,Clarke Schmidt,NYY,SP,SP,FA,1,3,4,1
+GORD,Gordie Hanrahan,Clay Holmes,CHC,SP,SP,FA,1,3,4,1
+SPER,Tyler Speer,Cooper Hjerpe,STL,SP,SP,FA,1,3,4,1
+JAKE,Jake Kalos,David Peterson,CHC,SP,SP/RP,FA,1,3,4,1
+CHAZ,Charlie Cole,Dean Kremer,MIN,SP,SP,FA,1,3,4,1
+JAKE,Jake Kalos,Dustin May,MIL,SP,SP,FA,1,3,4,1
+NISH,Nick Sherrill,Foster Griffin,CLE,SP,SP,FA,1,3,4,1
+FREE,Kevin Freeman,Gage Wood,PHI,SP,SP,FA,1,3,4,1
+JAKE,Jake Kalos,Grant Holmes,ATL,SP,SP,FA,1,3,4,1
+NORT,Will Norton,Hayden Wesneski,HOU,SP,SP,FA,1,3,4,1
+NORT,Will Norton,Jake Bennett,BOS,SP,SP,FA,1,3,4,1
+FREE,Kevin Freeman,Jarlin Susana,WSH,SP,SP,FA,1,3,4,1
+BORG,Reggie Borges,Jeffrey Springs,ATH,SP,SP,FA,1,3,4,1
+GORD,Gordie Hanrahan,Kris Bubic,LAD,SP,SP,FA,1,3,4,1
+SPER,Tyler Speer,Kyle Harrison,MIL,SP,SP,FA,1,3,4,1
+NORT,Will Norton,Landen Roupp,SF,SP,SP,FA,1,3,4,1
+FREE,Kevin Freeman,Logan Henderson,MIL,SP,SP,FA,1,3,4,1
+JAKE,Jake Kalos,Matthew Boyd,CHC,SP,SP,FA,1,3,4,1
+NISH,Nick Sherrill,Max Meyer,MIA,SP,SP,Keep,2,3,6,3
+WILB,Dan Kamas & Mike Sasso,Michael Soroka,ARI,SP,SP,FA,1,3,4,1
+JAKE,Jake Kalos,Patrick Sandoval,BOS,SP,SP,FA,1,3,4,1
+JST,Joshua Tufts,Payton Tolle,BOS,SP,SP,Keep,1,3,4,1
+FREE,Kevin Freeman,Quinn Mathews,STL,SP,SP,FA,1,3,4,1
+WILB,Dan Kamas & Mike Sasso,Reynaldo Lopez,ATL,SP,SP/RP,FA,1,3,4,1
+NISH,Nick Sherrill,River Ryan,DET,SP,SP,FA,1,3,4,1
+NISH,Nick Sherrill,Sean Burke,CHW,SP,SP,FA,1,3,4,1
+HAWN,Brian Hawn,Trevor Rogers,BAL,SP,SP,Keep,1,3,4,1
+WILB,Dan Kamas & Mike Sasso,Ty Johnson,TB,SP,SP,FA,1,3,4,1
+JAKE,Jake Kalos,Tyler Mahle,ATL,SP,SP,FA,1,3,4,1
+FREE,Kevin Freeman,Tyler Wells,TB,SP,SP/RP,FA,1,3,4,1
+GORD,Gordie Hanrahan,Nick Martinez,TB,SP,SP/RP,Draft,1,2,3,1
+BORG,Reggie Borges,Roki Sasaki,LAD,SP,SP,Keep,2,2,5,3
+HAWN,Brian Hawn,Seth Lugo,KC,SP,SP,Keep,1,2,3,1
+NORT,Will Norton,Will Warren,NYY,SP,SP,Keep,1,2,3,1
+BORG,Reggie Borges,Casey Mize,SD,SP,SP,Trade,1,1,2,1
+KELL,"Ty Keller, Commissioner",Jose Soriano,TOR,SP,SP,Keep,1,1,2,1
+FREE,Kevin Freeman,Ryan Sloan,SEA,SP,SP,Draft,1,1,2,1
+CHAZ,Charlie Cole,Reid Detmers,LAA,RP,RP/SP,Draft,1,20,21,1
+BORG,Reggie Borges,Devin Williams,NYM,RP,RP,Draft,1,18,19,1
+NORT,Will Norton,Cade Smith,CLE,RP,RP,Keep,2,14,17,3
+BORG,Reggie Borges,Josh Hader,HOU,RP,RP,Keep,2,12,15,3
+JAKE,Jake Kalos,Mason Miller,SD,RP,RP,Keep,1,12,13,1
+JST,Joshua Tufts,Robert Suarez,ATL,RP,RP,Keep,1,9,10,1
+NISH,Nick Sherrill,Andres Munoz,SEA,RP,RP,FA,3,8,13,5
+NORT,Will Norton,Edwin Diaz,LAD,RP,RP,FA,1,8,9,1
+KELL,"Ty Keller, Commissioner",Peter Lambert,HOU,RP,RP/SP,FA,1,8,9,1
+NISH,Nick Sherrill,Bryan Baker,TB,RP,RP,FA,1,6,7,1
+GORD,Gordie Hanrahan,Troy Melton,DET,RP,RP/SP,Trade,1,6,7,1
+KELL,"Ty Keller, Commissioner",Aroldis Chapman,BOS,RP,RP,Keep,2,5,8,3
+HAWN,Brian Hawn,Gregory Soto,PIT,RP,RP,FA,1,5,6,1
+JST,Joshua Tufts,Ryan Johnson,LAA,RP,RP/SP,FA,1,5,6,1
+CHAZ,Charlie Cole,Braxton Ashcraft,PIT,RP,RP/SP,Keep,2,4,7,3
+HAWN,Brian Hawn,Brent Headrick,NYY,RP,RP,FA,1,4,5,1
+KELL,"Ty Keller, Commissioner",Griffin Jax,TB,RP,RP/SP,FA,1,4,5,1
+SPER,Tyler Speer,Ian Seymour,TB,RP,RP/SP,Keep,2,4,7,3
+NISH,Nick Sherrill,Jhoan Duran,PHI,RP,RP,Keep,2,4,7,3
+CHAZ,Charlie Cole,Joey Cantillo,CLE,RP,RP/SP,Trade,1,4,5,1
+FREE,Kevin Freeman,Louis Varland,TOR,RP,RP,FA,1,4,5,1
+JAKE,Jake Kalos,Tanner Scott,LAD,RP,RP,FA,1,4,5,1
+SPER,Tyler Speer,AJ Blubaugh,HOU,RP,RP,FA,1,3,4,1
+FREE,Kevin Freeman,Adrian Morejon,SD,RP,RP,FA,1,3,4,1
+NORT,Will Norton,Daniel Palencia,CHC,RP,RP,FA,1,3,4,1
+WILB,Dan Kamas & Mike Sasso,David Bednar,NYY,RP,RP,Keep,1,3,4,1
+SPER,Tyler Speer,Emilio Pagan,CIN,RP,RP,FA,1,3,4,1
+CHAZ,Charlie Cole,Jack Perkins,ATH,RP,RP/SP,FA,1,3,4,1
+JST,Joshua Tufts,Jacob Latz,TEX,RP,RP/SP,FA,1,3,4,1
+HAWN,Brian Hawn,Justin Wrobleski,LAD,RP,RP/SP,Trade,1,3,4,1
+BORG,Reggie Borges,Kyle Leahy,STL,RP,RP/SP,FA,1,3,4,1
+GORD,Gordie Hanrahan,Mason Montgomery,PIT,RP,RP/SP,FA,1,3,4,1
+SPER,Tyler Speer,Raisel Iglesias,ATL,RP,RP,FA,1,3,4,1
+GORD,Gordie Hanrahan,Riley O'Brien,STL,RP,RP,FA,1,3,4,1
+BORG,Reggie Borges,Trevor Megill,MIL,RP,RP,FA,1,3,4,1
+WILB,Dan Kamas & Mike Sasso,Grant Taylor,CHW,RP,RP/SP,Draft,1,1,2,1

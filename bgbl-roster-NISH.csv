@@ -1,29 +1,29 @@
-team,owner,player,positions,salary,service_year,acquired,next_year_salary,escalator
-NISH,Nick Sherrill,Jose Ramirez,3B,34,1,Trade,35,1
-NISH,Nick Sherrill,Chris Sale,SP,27,2,Keep,30,3
-NISH,Nick Sherrill,Pete Alonso,1B,25,1,Keep,26,1
-NISH,Nick Sherrill,Aaron Nola,SP,17,1,Draft,18,1
-NISH,Nick Sherrill,Yordan Alvarez,OF,17,1,Trade,18,1
-NISH,Nick Sherrill,Sonny Gray,SP,15,2,Keep,18,3
-NISH,Nick Sherrill,Paul Skenes,SP,12,3,Trade,17,5
-NISH,Nick Sherrill,William Contreras,C,12,4,Keep,19,7
-NISH,Nick Sherrill,Fernando Tatis Jr.,SS,10,1,Keep,11,1
-NISH,Nick Sherrill,Jac Caglianone,1B,10,2,Draft,13,3
-NISH,Nick Sherrill,Alex Bregman,3B,8,2,Keep,11,3
-NISH,Nick Sherrill,Andres Munoz,RP,8,3,FA,13,5
-NISH,Nick Sherrill,Geraldo Perdomo,SS,7,1,Trade,8,1
-NISH,Nick Sherrill,Bryan Baker,RP,6,1,FA,7,1
-NISH,Nick Sherrill,Randy Arozarena,OF,6,2,Keep,9,3
-NISH,Nick Sherrill,Zebby Matthews,SP,6,1,FA,7,1
-NISH,Nick Sherrill,Jung Hoo Lee,OF,5,1,FA,6,1
-NISH,Nick Sherrill,Konnor Griffin,OF,5,2,Keep,8,3
-NISH,Nick Sherrill,Walker Buehler,SP,5,1,FA,6,1
-NISH,Nick Sherrill,Jhoan Duran,RP,4,2,Keep,7,3
-NISH,Nick Sherrill,Maikel Garcia,3B,4,2,Keep,7,3
-NISH,Nick Sherrill,Nolan McLean,SP,4,2,Keep,7,3
-NISH,Nick Sherrill,Ezequiel Duran,2B,3,1,FA,4,1
-NISH,Nick Sherrill,Foster Griffin,SP,3,1,FA,4,1
-NISH,Nick Sherrill,Luis Garcia Jr,2B,3,1,FA,4,1
-NISH,Nick Sherrill,Max Meyer,SP,3,2,Keep,6,3
-NISH,Nick Sherrill,River Ryan,SP,3,1,FA,4,1
-NISH,Nick Sherrill,Sean Burke,SP,3,1,FA,4,1
+team,owner,player,mlb_team,primary_position,positions,acquired,service_year,salary,next_year_salary,escalator
+NISH,Nick Sherrill,William Contreras,MIL,C,C/DH,Keep,4,12,19,7
+NISH,Nick Sherrill,Pete Alonso,BAL,1B,1B/DH,Keep,1,25,26,1
+NISH,Nick Sherrill,Luis Garcia Jr.,NYY,2B,2B/1B/DH,FA,1,3,4,1
+NISH,Nick Sherrill,Jose Ramirez,CLE,3B,3B/DH,Trade,1,34,35,1
+NISH,Nick Sherrill,Alex Bregman,CHC,3B,3B/DH,Keep,2,8,11,3
+NISH,Nick Sherrill,Maikel Garcia,KC,3B,3B,Keep,2,4,7,3
+NISH,Nick Sherrill,Geraldo Perdomo,ARI,SS,SS,Trade,1,7,8,1
+NISH,Nick Sherrill,Konnor Griffin,PIT,SS,SS,Keep,2,5,8,3
+NISH,Nick Sherrill,Ezequiel Duran,TEX,SS,SS/1B/2B/3B/OF,FA,1,3,4,1
+NISH,Nick Sherrill,Yordan Alvarez,HOU,OF,DH/OF,Trade,1,17,18,1
+NISH,Nick Sherrill,Fernando Tatis Jr.,SD,OF,OF/2B,Keep,1,10,11,1
+NISH,Nick Sherrill,Jac Caglianone,KC,OF,OF/1B,Draft,2,10,13,3
+NISH,Nick Sherrill,Randy Arozarena,SEA,OF,OF,Keep,2,6,9,3
+NISH,Nick Sherrill,Jung Hoo Lee,SF,OF,OF,FA,1,5,6,1
+NISH,Nick Sherrill,Chris Sale,ATL,SP,SP,Keep,2,27,30,3
+NISH,Nick Sherrill,Aaron Nola,PHI,SP,SP,Draft,1,17,18,1
+NISH,Nick Sherrill,Sonny Gray,BOS,SP,SP,Keep,2,15,18,3
+NISH,Nick Sherrill,Paul Skenes,PIT,SP,SP,Trade,3,12,17,5
+NISH,Nick Sherrill,Zebby Matthews,MIN,SP,SP,FA,1,6,7,1
+NISH,Nick Sherrill,Walker Buehler,SD,SP,SP,FA,1,5,6,1
+NISH,Nick Sherrill,Nolan McLean,NYM,SP,SP,Keep,2,4,7,3
+NISH,Nick Sherrill,Foster Griffin,CLE,SP,SP,FA,1,3,4,1
+NISH,Nick Sherrill,Max Meyer,MIA,SP,SP,Keep,2,3,6,3
+NISH,Nick Sherrill,River Ryan,DET,SP,SP,FA,1,3,4,1
+NISH,Nick Sherrill,Sean Burke,CHW,SP,SP,FA,1,3,4,1
+NISH,Nick Sherrill,Andres Munoz,SEA,RP,RP,FA,3,8,13,5
+NISH,Nick Sherrill,Bryan Baker,TB,RP,RP,FA,1,6,7,1
+NISH,Nick Sherrill,Jhoan Duran,PHI,RP,RP,Keep,2,4,7,3
