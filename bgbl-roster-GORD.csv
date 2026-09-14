@@ -1,0 +1,31 @@
+team,owner,player,positions,salary,service_year,acquired,next_year_salary,escalator
+GORD,Gordie Hanrahan,Shoto Imanaga,SP,35,1,Draft,36,1
+GORD,Gordie Hanrahan,Matt Olson,1B,25,1,Trade,26,1
+GORD,Gordie Hanrahan,Ronald Acuna,OF,24,1,Trade,25,1
+GORD,Gordie Hanrahan,Max Fried,SP,18,2,Keep,21,3
+GORD,Gordie Hanrahan,Corbin Carroll,OF,13,1,Keep,14,1
+GORD,Gordie Hanrahan,Corey Seager,SS,8,2,Keep,11,3
+GORD,Gordie Hanrahan,Drew Rasmussen,SP,7,3,Keep,12,5
+GORD,Gordie Hanrahan,Josh Naylor,1B,7,2,Keep,10,3
+GORD,Gordie Hanrahan,Logan Gilbert,SP,7,1,Trade,8,1
+GORD,Gordie Hanrahan,Max Muncy LAD,3B,7,1,FA,8,1
+GORD,Gordie Hanrahan,Mike Trout,OF,7,1,Trade,8,1
+GORD,Gordie Hanrahan,Cam Schlittler,SP,6,1,Keep,7,1
+GORD,Gordie Hanrahan,Troy Melton,RP,6,1,Trade,7,1
+GORD,Gordie Hanrahan,Adley Rutschman,C,5,1,FA,6,1
+GORD,Gordie Hanrahan,Cristian Javier,SP,5,1,FA,6,1
+GORD,Gordie Hanrahan,Michael King,SP,5,1,Keep,6,1
+GORD,Gordie Hanrahan,Brandon Lowe,2B,4,2,Keep,7,3
+GORD,Gordie Hanrahan,Daylen Lile,OF,4,2,Keep,7,3
+GORD,Gordie Hanrahan,Gerrit Cole,SP,4,1,Keep,5,1
+GORD,Gordie Hanrahan,Mickey Moniak,OF,4,1,FA,5,1
+GORD,Gordie Hanrahan,Clay Holmes,RP,3,1,FA,4,1
+GORD,Gordie Hanrahan,Colt Emerson,SS,3,1,FA,4,1
+GORD,Gordie Hanrahan,Kris Bubic,SP,3,1,FA,4,1
+GORD,Gordie Hanrahan,Mason Montgomery,RP,3,1,FA,4,1
+GORD,Gordie Hanrahan,Mauricio Dubon,OF,3,1,FA,4,1
+GORD,Gordie Hanrahan,Rico Garcia,RP,3,1,FA,4,1
+GORD,Gordie Hanrahan,Riley O'Brien,RP,3,1,FA,4,1
+GORD,Gordie Hanrahan,Ryan Jeffers,C,3,1,FA,4,1
+GORD,Gordie Hanrahan,Nick Martinez,RP/SP,2,1,Draft,3,1
+GORD,Gordie Hanrahan,Cade Horton,SP,0,1,FA,1,1
