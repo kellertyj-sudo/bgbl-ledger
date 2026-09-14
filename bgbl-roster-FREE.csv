@@ -1,17 +1,17 @@
 team,owner,player,mlb_team,primary_position,positions,acquired,service_year,salary,next_year_salary,escalator
-FREE,Kevin Freeman,Drake Baldwin,ATL,C,C/DH,Keep,2,5,8,3
-FREE,Kevin Freeman,Bryce Harper,PHI,1B,1B/OF/DH,Keep,2,44,47,3
-FREE,Kevin Freeman,Rafael Devers,SF,1B,DH/1B,Trade,1,12,13,1
-FREE,Kevin Freeman,Coby Mayo,BAL,1B,1B/3B/DH,FA,1,4,5,1
-FREE,Kevin Freeman,Ryan O'Hearn,PIT,1B,1B/OF/DH,FA,1,3,4,1
+FREE,Kevin Freeman,Drake Baldwin,ATL,C,C,Keep,2,5,8,3
+FREE,Kevin Freeman,Bryce Harper,PHI,1B,1B/OF,Keep,2,44,47,3
+FREE,Kevin Freeman,Rafael Devers,SF,1B,1B,Trade,1,12,13,1
+FREE,Kevin Freeman,Coby Mayo,BAL,1B,1B/3B,FA,1,4,5,1
+FREE,Kevin Freeman,Ryan O'Hearn,PIT,1B,1B/OF,FA,1,3,4,1
 FREE,Kevin Freeman,Michael Busch,CHC,1B,1B,Trade,1,2,3,1
 FREE,Kevin Freeman,Jazz Chisholm Jr.,NYY,2B,2B/3B,Keep,2,6,9,3
-FREE,Kevin Freeman,Manny Machado,SD,3B,3B/DH,FA,1,4,5,1
+FREE,Kevin Freeman,Manny Machado,SD,3B,3B,FA,1,4,5,1
 FREE,Kevin Freeman,Jacob Wilson,ATH,SS,SS,Keep,2,5,8,3
 FREE,Kevin Freeman,Brooks Lee,MIN,SS,SS/2B/3B,FA,1,3,4,1
 FREE,Kevin Freeman,Cooper Pratt,MIL,SS,SS,FA,1,3,4,1
 FREE,Kevin Freeman,Jackson Chourio,MIL,OF,OF,Keep,4,12,19,7
-FREE,Kevin Freeman,Chase DeLauter,CLE,OF,OF/DH,Draft,1,1,2,1
+FREE,Kevin Freeman,Chase DeLauter,CLE,OF,OF,Draft,1,1,2,1
 FREE,Kevin Freeman,Zack Wheeler,PHI,SP,SP,Keep,3,20,25,5
 FREE,Kevin Freeman,George Kirby,SEA,SP,SP,Trade,1,17,18,1
 FREE,Kevin Freeman,Joe Ryan,MIN,SP,SP,Keep,3,12,17,5

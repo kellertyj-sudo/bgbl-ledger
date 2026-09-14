@@ -9,7 +9,7 @@
    "espn": "Francisco's Treats",
    "count": 29,
    "payroll": 208,
-   "nextPayroll": 248,
+   "nextPayroll": 249,
    "budget": 260
   },
   {
@@ -116,7 +116,7 @@
   {
    "team": "BORG",
    "player": "Liam Hicks",
-   "positions": "C/1B/DH",
+   "positions": "C/1B",
    "salary": 3,
    "year": 1,
    "acquired": "Trade",
@@ -131,7 +131,7 @@
   {
    "team": "BORG",
    "player": "Vinnie Pasquantino",
-   "positions": "1B/DH",
+   "positions": "1B",
    "salary": 5,
    "year": 2,
    "acquired": "Keep",
@@ -223,11 +223,11 @@
    "player": "Bo Bichette",
    "positions": "SS/3B",
    "salary": 13,
-   "year": 0,
+   "year": 1,
    "acquired": "Keep",
-   "nextYear": 1,
-   "nextSalary": 13,
-   "escalator": 0,
+   "nextYear": 2,
+   "nextSalary": 14,
+   "escalator": 1,
    "primary": "SS",
    "rank": 4,
    "group": "B",
@@ -281,7 +281,7 @@
   {
    "team": "BORG",
    "player": "Griffin Conine",
-   "positions": "OF/1B/DH",
+   "positions": "OF/1B",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -296,7 +296,7 @@
   {
    "team": "BORG",
    "player": "Byron Buxton",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 2,
    "year": 1,
    "acquired": "Keep",
@@ -551,7 +551,7 @@
   {
    "team": "CHAZ",
    "player": "Hunter Goodman",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 6,
    "year": 1,
    "acquired": "Trade",
@@ -566,7 +566,7 @@
   {
    "team": "CHAZ",
    "player": "Mickey Gasper",
-   "positions": "C/1B/DH",
+   "positions": "C/1B",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -581,7 +581,7 @@
   {
    "team": "CHAZ",
    "player": "Luis Arraez",
-   "positions": "1B/2B/DH",
+   "positions": "1B/2B",
    "salary": 9,
    "year": 2,
    "acquired": "Keep",
@@ -626,7 +626,7 @@
   {
    "team": "CHAZ",
    "player": "Gleyber Torres",
-   "positions": "2B/DH",
+   "positions": "2B",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -716,7 +716,7 @@
   {
    "team": "CHAZ",
    "player": "Seiya Suzuki",
-   "positions": "DH/OF",
+   "positions": "OF",
    "salary": 5,
    "year": 2,
    "acquired": "Keep",
@@ -731,7 +731,7 @@
   {
    "team": "CHAZ",
    "player": "Jo Adell",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 4,
    "year": 1,
    "acquired": "Trade",
@@ -986,7 +986,7 @@
   {
    "team": "FREE",
    "player": "Drake Baldwin",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 5,
    "year": 2,
    "acquired": "Keep",
@@ -1001,7 +1001,7 @@
   {
    "team": "FREE",
    "player": "Bryce Harper",
-   "positions": "1B/OF/DH",
+   "positions": "1B/OF",
    "salary": 44,
    "year": 2,
    "acquired": "Keep",
@@ -1016,7 +1016,7 @@
   {
    "team": "FREE",
    "player": "Rafael Devers",
-   "positions": "DH/1B",
+   "positions": "1B",
    "salary": 12,
    "year": 1,
    "acquired": "Trade",
@@ -1031,7 +1031,7 @@
   {
    "team": "FREE",
    "player": "Coby Mayo",
-   "positions": "1B/3B/DH",
+   "positions": "1B/3B",
    "salary": 4,
    "year": 1,
    "acquired": "FA",
@@ -1046,7 +1046,7 @@
   {
    "team": "FREE",
    "player": "Ryan O'Hearn",
-   "positions": "1B/OF/DH",
+   "positions": "1B/OF",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -1091,7 +1091,7 @@
   {
    "team": "FREE",
    "player": "Manny Machado",
-   "positions": "3B/DH",
+   "positions": "3B",
    "salary": 4,
    "year": 1,
    "acquired": "FA",
@@ -1166,7 +1166,7 @@
   {
    "team": "FREE",
    "player": "Chase DeLauter",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 1,
    "year": 1,
    "acquired": "Draft",
@@ -1421,7 +1421,7 @@
   {
    "team": "GORD",
    "player": "Adley Rutschman",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 5,
    "year": 1,
    "acquired": "FA",
@@ -1436,7 +1436,7 @@
   {
    "team": "GORD",
    "player": "Ryan Jeffers",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -1466,7 +1466,7 @@
   {
    "team": "GORD",
    "player": "Josh Naylor",
-   "positions": "1B/DH",
+   "positions": "1B",
    "salary": 7,
    "year": 2,
    "acquired": "Keep",
@@ -1481,7 +1481,7 @@
   {
    "team": "GORD",
    "player": "Brandon Lowe",
-   "positions": "2B/DH",
+   "positions": "2B",
    "salary": 4,
    "year": 2,
    "acquired": "Keep",
@@ -1541,7 +1541,7 @@
   {
    "team": "GORD",
    "player": "Ronald Acuna Jr.",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 24,
    "year": 1,
    "acquired": "Trade",
@@ -1571,7 +1571,7 @@
   {
    "team": "GORD",
    "player": "Mike Trout",
-   "positions": "DH/OF",
+   "positions": "OF",
    "salary": 7,
    "year": 1,
    "acquired": "Trade",
@@ -1586,7 +1586,7 @@
   {
    "team": "GORD",
    "player": "Daylen Lile",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 4,
    "year": 2,
    "acquired": "Keep",
@@ -1601,7 +1601,7 @@
   {
    "team": "GORD",
    "player": "Mickey Moniak",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 4,
    "year": 1,
    "acquired": "FA",
@@ -1750,6 +1750,21 @@
   },
   {
    "team": "GORD",
+   "player": "Cade Horton",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CHC"
+  },
+  {
+   "team": "GORD",
    "player": "Clay Holmes",
    "positions": "SP",
    "salary": 3,
@@ -1792,21 +1807,6 @@
    "rank": 10,
    "group": "P",
    "mlb": "TB"
-  },
-  {
-   "team": "GORD",
-   "player": "Cade Horton",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHC"
   },
   {
    "team": "GORD",
@@ -1856,7 +1856,7 @@
   {
    "team": "HAWN",
    "player": "Dillon Dingler",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 5,
    "year": 1,
    "acquired": "FA",
@@ -1871,7 +1871,7 @@
   {
    "team": "HAWN",
    "player": "Bryce Eldridge",
-   "positions": "DH/1B",
+   "positions": "1B",
    "salary": 6,
    "year": 1,
    "acquired": "Trade",
@@ -1916,7 +1916,7 @@
   {
    "team": "HAWN",
    "player": "Casey Schmitt",
-   "positions": "2B/1B/3B/OF/DH",
+   "positions": "2B/1B/3B/OF",
    "salary": 5,
    "year": 1,
    "acquired": "FA",
@@ -1931,7 +1931,7 @@
   {
    "team": "HAWN",
    "player": "TJ Rumfield",
-   "positions": "3B/1B/DH",
+   "positions": "3B/1B",
    "salary": 7,
    "year": 1,
    "acquired": "FA",
@@ -2036,7 +2036,7 @@
   {
    "team": "HAWN",
    "player": "Josue De Paula",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 4,
    "year": 1,
    "acquired": "FA",
@@ -2066,7 +2066,7 @@
   {
    "team": "HAWN",
    "player": "Dominic Canzone",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -2291,7 +2291,7 @@
   {
    "team": "JAKE",
    "player": "Salvador Perez",
-   "positions": "C/1B/DH",
+   "positions": "C/1B",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -2396,7 +2396,7 @@
   {
    "team": "JAKE",
    "player": "Juan Soto",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 23,
    "year": 4,
    "acquired": "Keep",
@@ -2426,7 +2426,7 @@
   {
    "team": "JAKE",
    "player": "Aaron Judge",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 21,
    "year": 1,
    "acquired": "Keep",
@@ -2711,7 +2711,7 @@
   {
    "team": "JST",
    "player": "Samuel Basallo",
-   "positions": "C/1B/DH",
+   "positions": "C/1B",
    "salary": 5,
    "year": 2,
    "acquired": "Keep",
@@ -2726,7 +2726,7 @@
   {
    "team": "JST",
    "player": "Vladimir Guerrero Jr.",
-   "positions": "1B/DH",
+   "positions": "1B",
    "salary": 16,
    "year": 2,
    "acquired": "Keep",
@@ -2741,7 +2741,7 @@
   {
    "team": "JST",
    "player": "Ketel Marte",
-   "positions": "2B/DH",
+   "positions": "2B",
    "salary": 15,
    "year": 1,
    "acquired": "Keep",
@@ -2816,7 +2816,7 @@
   {
    "team": "JST",
    "player": "Sebastian Walcott",
-   "positions": "SS/DH",
+   "positions": "SS",
    "salary": 4,
    "year": 2,
    "acquired": "Keep",
@@ -2861,7 +2861,7 @@
   {
    "team": "JST",
    "player": "Riley Greene",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 12,
    "year": 1,
    "acquired": "Keep",
@@ -2936,7 +2936,7 @@
   {
    "team": "JST",
    "player": "Shohei Ohtani",
-   "positions": "DH/SP",
+   "positions": "UT/SP",
    "salary": 41,
    "year": 6,
    "acquired": "Keep",
@@ -3146,7 +3146,7 @@
   {
    "team": "KELL",
    "player": "Ivan Herrera",
-   "positions": "DH/C",
+   "positions": "C",
    "salary": 6,
    "year": 2,
    "acquired": "Keep",
@@ -3161,7 +3161,7 @@
   {
    "team": "KELL",
    "player": "Gabriel Moreno",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -3176,7 +3176,7 @@
   {
    "team": "KELL",
    "player": "Sal Stewart",
-   "positions": "1B/3B/DH",
+   "positions": "1B/3B",
    "salary": 30,
    "year": 1,
    "acquired": "Trade",
@@ -3191,7 +3191,7 @@
   {
    "team": "KELL",
    "player": "Yandy Diaz",
-   "positions": "DH/1B",
+   "positions": "1B",
    "salary": 8,
    "year": 1,
    "acquired": "Keep",
@@ -3206,7 +3206,7 @@
   {
    "team": "KELL",
    "player": "Colt Keith",
-   "positions": "DH/1B/2B/3B",
+   "positions": "1B/2B/3B",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -3266,7 +3266,7 @@
   {
    "team": "KELL",
    "player": "Bryan Reynolds",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 8,
    "year": 2,
    "acquired": "Keep",
@@ -3296,7 +3296,7 @@
   {
    "team": "KELL",
    "player": "Alec Burleson",
-   "positions": "OF/1B/DH",
+   "positions": "OF/1B",
    "salary": 4,
    "year": 2,
    "acquired": "Keep",
@@ -3566,7 +3566,7 @@
   {
    "team": "NISH",
    "player": "William Contreras",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 12,
    "year": 4,
    "acquired": "Keep",
@@ -3581,7 +3581,7 @@
   {
    "team": "NISH",
    "player": "Pete Alonso",
-   "positions": "1B/DH",
+   "positions": "1B",
    "salary": 25,
    "year": 1,
    "acquired": "Keep",
@@ -3596,7 +3596,7 @@
   {
    "team": "NISH",
    "player": "Luis Garcia Jr.",
-   "positions": "2B/1B/DH",
+   "positions": "2B/1B",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -3611,7 +3611,7 @@
   {
    "team": "NISH",
    "player": "Jose Ramirez",
-   "positions": "3B/DH",
+   "positions": "3B",
    "salary": 34,
    "year": 1,
    "acquired": "Trade",
@@ -3626,7 +3626,7 @@
   {
    "team": "NISH",
    "player": "Alex Bregman",
-   "positions": "3B/DH",
+   "positions": "3B",
    "salary": 8,
    "year": 2,
    "acquired": "Keep",
@@ -3701,7 +3701,7 @@
   {
    "team": "NISH",
    "player": "Yordan Alvarez",
-   "positions": "DH/OF",
+   "positions": "OF",
    "salary": 17,
    "year": 1,
    "acquired": "Trade",
@@ -3986,7 +3986,7 @@
   {
    "team": "NORT",
    "player": "Carter Jensen",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -4001,7 +4001,7 @@
   {
    "team": "NORT",
    "player": "Francisco Alvarez",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -4016,7 +4016,7 @@
   {
    "team": "NORT",
    "player": "Shea Langeliers",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 2,
    "year": 2,
    "acquired": "Keep",
@@ -4136,7 +4136,7 @@
   {
    "team": "NORT",
    "player": "James Wood",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 7,
    "year": 1,
    "acquired": "Trade",
@@ -4151,7 +4151,7 @@
   {
    "team": "NORT",
    "player": "Roman Anthony",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 7,
    "year": 3,
    "acquired": "FA",
@@ -4166,7 +4166,7 @@
   {
    "team": "NORT",
    "player": "Brent Rooker",
-   "positions": "DH/OF",
+   "positions": "OF",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -4196,7 +4196,7 @@
   {
    "team": "NORT",
    "player": "Kyle Schwarber",
-   "positions": "DH",
+   "positions": "UT",
    "salary": 30,
    "year": 2,
    "acquired": "Keep",
@@ -4421,7 +4421,7 @@
   {
    "team": "SPER",
    "player": "Cal Raleigh",
-   "positions": "C/DH",
+   "positions": "C",
    "salary": 5,
    "year": 2,
    "acquired": "Keep",
@@ -4466,7 +4466,7 @@
   {
    "team": "SPER",
    "player": "Jose Altuve",
-   "positions": "2B/OF/DH",
+   "positions": "2B/OF",
    "salary": 36,
    "year": 5,
    "acquired": "Keep",
@@ -4586,7 +4586,7 @@
   {
    "team": "SPER",
    "player": "Heriberto Hernandez",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -4841,7 +4841,7 @@
   {
    "team": "WILB",
    "player": "Ben Rice",
-   "positions": "1B/C/DH",
+   "positions": "1B/C",
    "salary": 6,
    "year": 2,
    "acquired": "Keep",
@@ -4916,7 +4916,7 @@
   {
    "team": "WILB",
    "player": "CJ Abrams",
-   "positions": "SS/DH",
+   "positions": "SS",
    "salary": 12,
    "year": 4,
    "acquired": "Keep",
@@ -4976,7 +4976,7 @@
   {
    "team": "WILB",
    "player": "Kyle Stowers",
-   "positions": "OF/1B/DH",
+   "positions": "OF/1B",
    "salary": 8,
    "year": 2,
    "acquired": "Keep",
@@ -5006,7 +5006,7 @@
   {
    "team": "WILB",
    "player": "Max Clark",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 5,
    "year": 2,
    "acquired": "Keep",
@@ -5021,7 +5021,7 @@
   {
    "team": "WILB",
    "player": "Zyhir Hope",
-   "positions": "OF/DH",
+   "positions": "OF",
    "salary": 4,
    "year": 1,
    "acquired": "FA",
@@ -5155,6 +5155,21 @@
   },
   {
    "team": "WILB",
+   "player": "Cal Quantrill",
+   "positions": "SP/RP",
+   "salary": 4,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "TEX"
+  },
+  {
+   "team": "WILB",
    "player": "Jacob Misiorowski",
    "positions": "SP",
    "salary": 4,
@@ -5227,21 +5242,6 @@
    "rank": 10,
    "group": "P",
    "mlb": "TB"
-  },
-  {
-   "team": "WILB",
-   "player": "Cal Quantrill",
-   "positions": "SP/RP",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "TEX"
   },
   {
    "team": "WILB",

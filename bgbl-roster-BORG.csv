@@ -1,17 +1,17 @@
 team,owner,player,mlb_team,primary_position,positions,acquired,service_year,salary,next_year_salary,escalator
-BORG,Reggie Borges,Liam Hicks,TB,C,C/1B/DH,Trade,1,3,4,1
-BORG,Reggie Borges,Vinnie Pasquantino,KC,1B,1B/DH,Keep,2,5,8,3
+BORG,Reggie Borges,Liam Hicks,TB,C,C/1B,Trade,1,3,4,1
+BORG,Reggie Borges,Vinnie Pasquantino,KC,1B,1B,Keep,2,5,8,3
 BORG,Reggie Borges,Spencer Torkelson,DET,1B,1B,Keep,1,4,5,1
 BORG,Reggie Borges,Nico Hoerner,CHC,2B,2B/SS,Keep,2,9,12,3
 BORG,Reggie Borges,Royce Lewis,MIN,3B,3B/1B/2B,FA,1,4,5,1
 BORG,Reggie Borges,Francisco Lindor,NYM,SS,SS,Keep,1,30,31,1
 BORG,Reggie Borges,Trea Turner,PHI,SS,SS,Keep,2,16,19,3
-BORG,Reggie Borges,Bo Bichette,NYM,SS,SS/3B,Keep,0,13,13,0
+BORG,Reggie Borges,Bo Bichette,NYM,SS,SS/3B,Keep,1,13,14,1
 BORG,Reggie Borges,Michael Harris II,ATL,OF,OF,Trade,1,9,10,1
 BORG,Reggie Borges,Tyler Soderstrom,ATH,OF,OF/1B,Keep,1,6,7,1
 BORG,Reggie Borges,Cody Bellinger,NYY,OF,OF,Keep,1,5,6,1
-BORG,Reggie Borges,Griffin Conine,MIA,OF,OF/1B/DH,FA,1,3,4,1
-BORG,Reggie Borges,Byron Buxton,MIN,OF,OF/DH,Keep,1,2,3,1
+BORG,Reggie Borges,Griffin Conine,MIA,OF,OF/1B,FA,1,3,4,1
+BORG,Reggie Borges,Byron Buxton,MIN,OF,OF,Keep,1,2,3,1
 BORG,Reggie Borges,Shane McClanahan,TB,SP,SP,Trade,1,14,15,1
 BORG,Reggie Borges,Pablo Lopez,MIN,SP,SP,Keep,1,8,9,1
 BORG,Reggie Borges,Christian Scott,NYM,SP,SP,FA,1,6,7,1

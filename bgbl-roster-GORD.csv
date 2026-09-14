@@ -1,17 +1,17 @@
 team,owner,player,mlb_team,primary_position,positions,acquired,service_year,salary,next_year_salary,escalator
-GORD,Gordie Hanrahan,Adley Rutschman,BOS,C,C/DH,FA,1,5,6,1
-GORD,Gordie Hanrahan,Ryan Jeffers,MIN,C,C/DH,FA,1,3,4,1
+GORD,Gordie Hanrahan,Adley Rutschman,BOS,C,C,FA,1,5,6,1
+GORD,Gordie Hanrahan,Ryan Jeffers,MIN,C,C,FA,1,3,4,1
 GORD,Gordie Hanrahan,Matt Olson,ATL,1B,1B,Trade,1,25,26,1
-GORD,Gordie Hanrahan,Josh Naylor,SEA,1B,1B/DH,Keep,2,7,10,3
-GORD,Gordie Hanrahan,Brandon Lowe,PIT,2B,2B/DH,Keep,2,4,7,3
+GORD,Gordie Hanrahan,Josh Naylor,SEA,1B,1B,Keep,2,7,10,3
+GORD,Gordie Hanrahan,Brandon Lowe,PIT,2B,2B,Keep,2,4,7,3
 GORD,Gordie Hanrahan,Max Muncy,LAD,3B,3B,FA,1,7,8,1
 GORD,Gordie Hanrahan,Corey Seager,TEX,SS,SS,Keep,2,8,11,3
 GORD,Gordie Hanrahan,Colt Emerson,SEA,SS,SS/3B,FA,1,3,4,1
-GORD,Gordie Hanrahan,Ronald Acuna Jr.,ATL,OF,OF/DH,Trade,1,24,25,1
+GORD,Gordie Hanrahan,Ronald Acuna Jr.,ATL,OF,OF,Trade,1,24,25,1
 GORD,Gordie Hanrahan,Corbin Carroll,ARI,OF,OF,Keep,1,13,14,1
-GORD,Gordie Hanrahan,Mike Trout,LAA,OF,DH/OF,Trade,1,7,8,1
-GORD,Gordie Hanrahan,Daylen Lile,WSH,OF,OF/DH,Keep,2,4,7,3
-GORD,Gordie Hanrahan,Mickey Moniak,COL,OF,OF/DH,FA,1,4,5,1
+GORD,Gordie Hanrahan,Mike Trout,LAA,OF,OF,Trade,1,7,8,1
+GORD,Gordie Hanrahan,Daylen Lile,WSH,OF,OF,Keep,2,4,7,3
+GORD,Gordie Hanrahan,Mickey Moniak,COL,OF,OF,FA,1,4,5,1
 GORD,Gordie Hanrahan,Mauricio Dubon,ATL,OF,OF/2B/3B/SS,FA,1,3,4,1
 GORD,Gordie Hanrahan,Shota Imanaga,CHC,SP,SP,Draft,1,35,36,1
 GORD,Gordie Hanrahan,Max Fried,NYY,SP,SP,Keep,2,18,21,3

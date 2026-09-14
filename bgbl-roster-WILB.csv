@@ -1,17 +1,17 @@
 team,owner,player,mlb_team,primary_position,positions,acquired,service_year,salary,next_year_salary,escalator
-WILB,Dan Kamas & Mike Sasso,Ben Rice,NYY,1B,1B/C/DH,Keep,2,6,9,3
+WILB,Dan Kamas & Mike Sasso,Ben Rice,NYY,1B,1B/C,Keep,2,6,9,3
 WILB,Dan Kamas & Mike Sasso,Jonathan Aranda,TB,1B,1B,Keep,1,1,2,1
 WILB,Dan Kamas & Mike Sasso,Travis Bazzana,CLE,2B,2B,Keep,2,4,7,3
 WILB,Dan Kamas & Mike Sasso,Isaac Paredes,HOU,3B,3B/1B,Keep,4,12,19,7
 WILB,Dan Kamas & Mike Sasso,Josh Jung,TEX,3B,3B,FA,1,4,5,1
-WILB,Dan Kamas & Mike Sasso,CJ Abrams,WSH,SS,SS/DH,Keep,4,12,19,7
+WILB,Dan Kamas & Mike Sasso,CJ Abrams,WSH,SS,SS,Keep,4,12,19,7
 WILB,Dan Kamas & Mike Sasso,Kaelen Culpepper,MIN,SS,SS,FA,1,6,7,1
 WILB,Dan Kamas & Mike Sasso,George Lombard Jr.,NYY,SS,SS,FA,1,3,4,1
 WILB,Dan Kamas & Mike Sasso,Wilyer Abreu,BOS,OF,OF,Keep,3,9,14,5
-WILB,Dan Kamas & Mike Sasso,Kyle Stowers,MIA,OF,OF/1B/DH,Keep,2,8,11,3
+WILB,Dan Kamas & Mike Sasso,Kyle Stowers,MIA,OF,OF/1B,Keep,2,8,11,3
 WILB,Dan Kamas & Mike Sasso,Ian Happ,CHC,OF,OF,Keep,2,5,8,3
-WILB,Dan Kamas & Mike Sasso,Max Clark,DET,OF,OF/DH,Keep,2,5,8,3
-WILB,Dan Kamas & Mike Sasso,Zyhir Hope,DET,OF,OF/DH,FA,1,4,5,1
+WILB,Dan Kamas & Mike Sasso,Max Clark,DET,OF,OF,Keep,2,5,8,3
+WILB,Dan Kamas & Mike Sasso,Zyhir Hope,DET,OF,OF,FA,1,4,5,1
 WILB,Dan Kamas & Mike Sasso,Carson Benge,NYM,OF,OF,Draft,1,1,2,1
 WILB,Dan Kamas & Mike Sasso,Tatsuya Imai,HOU,SP,SP/RP,Draft,1,49,50,1
 WILB,Dan Kamas & Mike Sasso,Freddy Peralta,TB,SP,SP,Keep,2,30,33,3

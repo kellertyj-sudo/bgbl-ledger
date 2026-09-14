@@ -1,8 +1,8 @@
 team,owner,player,mlb_team,primary_position,positions,acquired,service_year,salary,next_year_salary,escalator
-SPER,Tyler Speer,Cal Raleigh,SEA,C,C/DH,Keep,2,5,8,3
+SPER,Tyler Speer,Cal Raleigh,SEA,C,C,Keep,2,5,8,3
 SPER,Tyler Speer,Freddie Freeman,LAD,1B,1B,Keep,2,37,40,3
 SPER,Tyler Speer,Curtis Mead,BOS,1B,1B/3B,FA,1,3,4,1
-SPER,Tyler Speer,Jose Altuve,HOU,2B,2B/OF/DH,Keep,5,36,41,5
+SPER,Tyler Speer,Jose Altuve,HOU,2B,2B/OF,Keep,5,36,41,5
 SPER,Tyler Speer,Cole Young,SEA,2B,2B,FA,1,5,6,1
 SPER,Tyler Speer,Zack Gelof,ATH,2B,2B/3B/OF,FA,1,3,4,1
 SPER,Tyler Speer,Munetaka Murakami,CHW,3B,3B/1B,FA,1,7,8,1
@@ -10,7 +10,7 @@ SPER,Tyler Speer,Miguel Vargas,CHW,3B,3B/1B,Keep,2,4,7,3
 SPER,Tyler Speer,Mookie Betts,LAD,SS,SS,Keep,2,28,31,3
 SPER,Tyler Speer,JJ Bleday,CIN,OF,OF,Trade,1,5,6,1
 SPER,Tyler Speer,Angel Martinez,CLE,OF,OF/2B,FA,1,3,4,1
-SPER,Tyler Speer,Heriberto Hernandez,MIA,OF,OF/DH,FA,1,3,4,1
+SPER,Tyler Speer,Heriberto Hernandez,MIA,OF,OF,FA,1,3,4,1
 SPER,Tyler Speer,Jake McCarthy,COL,OF,OF,FA,1,3,4,1
 SPER,Tyler Speer,Tristan Peters,CHW,OF,OF,FA,1,3,4,1
 SPER,Tyler Speer,Jacob deGrom,TEX,SP,SP,Keep,3,40,45,5
