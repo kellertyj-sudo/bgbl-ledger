@@ -1,12 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow">
-<meta name="description" content="BGBL keeper salary ledger - rosters, salaries and next-year keeper costs.">
-<style>html{color-scheme:light dark}body{margin:0;font:14px system-ui,sans-serif}
-img{max-width:100%}[hidden]{display:none!important}</style>
 <title>BGBL Ledger</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
@@ -18,6 +9,12 @@ img{max-width:100%}[hidden]{display:none!important}</style>
   --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
   --body:"Source Sans 3",system-ui,-apple-system,Segoe UI,sans-serif;
   --disp:"Bitter",Georgia,"Times New Roman",serif;
+  --acq-keep-bg:#DCDFE4; --acq-keep-fg:#44546F; --acq-keep-bd:#B3B9C4;
+  --acq-fa-bg:#C6EDFB; --acq-fa-fg:#164555; --acq-fa-bd:#6CC3E0;
+  --acq-trade-bg:#FEDEC8; --acq-trade-fg:#702E00; --acq-trade-bd:#FEA362;
+  --acq-draft-bg:#CCE0FF; --acq-draft-fg:#09326C; --acq-draft-bd:#579DFF;
+  --acq-wm-bg:#FFE2D1; --acq-wm-fg:#8C3A00; --acq-wm-bd:#C25100;
+  --action-bg:#EFE4C4; --action-fg:#5A4A1E; --action-bd:#C9B482;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
@@ -25,6 +22,12 @@ img{max-width:100%}[hidden]{display:none!important}</style>
     --muted:#9A9683; --accent:#7FB58E; --accent-soft:#25301F; --stitch:#E0796D;
     --over:#E0796D; --under:#7FB58E; --scrim:rgba(8,11,6,.74);
     --panelbg:rgba(28,33,23,.955); --shadow:0 0 0 1px rgba(237,230,212,.06),0 18px 50px rgba(0,0,0,.6);
+    --acq-keep-bg:#2C333A; --acq-keep-fg:#C7D1DB; --acq-keep-bd:#454F5B;
+    --acq-fa-bg:#164555; --acq-fa-fg:#9DD9EE; --acq-fa-bd:#227D9B;
+    --acq-trade-bg:#5F3811; --acq-trade-fg:#FEC195; --acq-trade-bd:#C25100;
+    --acq-draft-bg:#0B3B79; --acq-draft-fg:#B3D4FF; --acq-draft-bd:#0C66E4;
+    --acq-wm-bg:#4A2A0C; --acq-wm-fg:#FFC9A3; --acq-wm-bd:#C25100;
+    --action-bg:#332D1B; --action-fg:#E4D2A0; --action-bd:#5C5027;
   }
 }
 :root[data-theme="dark"]{
@@ -32,6 +35,12 @@ img{max-width:100%}[hidden]{display:none!important}</style>
   --muted:#9A9683; --accent:#7FB58E; --accent-soft:#25301F; --stitch:#E0796D;
   --over:#E0796D; --under:#7FB58E; --scrim:rgba(8,11,6,.74);
   --panelbg:rgba(28,33,23,.955); --shadow:0 0 0 1px rgba(237,230,212,.06),0 18px 50px rgba(0,0,0,.6);
+  --acq-keep-bg:#2C333A; --acq-keep-fg:#C7D1DB; --acq-keep-bd:#454F5B;
+  --acq-fa-bg:#164555; --acq-fa-fg:#9DD9EE; --acq-fa-bd:#227D9B;
+  --acq-trade-bg:#5F3811; --acq-trade-fg:#FEC195; --acq-trade-bd:#C25100;
+  --acq-draft-bg:#0B3B79; --acq-draft-fg:#B3D4FF; --acq-draft-bd:#0C66E4;
+  --acq-wm-bg:#4A2A0C; --acq-wm-fg:#FFC9A3; --acq-wm-bd:#C25100;
+  --action-bg:#332D1B; --action-fg:#E4D2A0; --action-bd:#5C5027;
 }
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--body);line-height:1.5;
@@ -42,7 +51,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--body);line-heigh
 .wrap{max-width:1080px;margin:0 auto;background:var(--panelbg);box-shadow:var(--shadow);
   padding-inline:26px;padding-block:0 72px;min-height:100vh}
 h1,h2,h3{font-family:var(--disp);text-wrap:balance;margin:0}
-.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+.eyebrow{font-family:var(--mono);font-size:12.3px;letter-spacing:.14em;text-transform:uppercase;
   color:var(--muted);margin:0}
 /* ---------- masthead ---------- */
 .mast{position:relative;margin-inline:-26px;padding:30px 26px 24px;
@@ -55,44 +64,44 @@ h1,h2,h3{font-family:var(--disp);text-wrap:balance;margin:0}
 .mast h1{font-size:clamp(30px,6vw,46px);font-weight:700;letter-spacing:-.015em;line-height:1.05;
   color:#FBF7EC;text-shadow:0 2px 10px rgba(0,0,0,.5)}
 .mast .sub{display:flex;flex-wrap:wrap;gap:6px 20px;align-items:baseline;margin-top:8px}
-.mast .sub p{margin:0;color:#DDD6C2;font-size:14px}
-.asof{font-family:var(--mono);font-size:12px;color:#9FD0AC;font-weight:600}
+.mast .sub p{margin:0;color:#DDD6C2;font-size:15.7px}
+.asof{font-family:var(--mono);font-size:13.4px;color:#9FD0AC;font-weight:600}
 /* ---------- thesis ---------- */
 .thesis{margin:26px 0 34px;padding:20px 22px;background:var(--sunk);
   border:1px solid var(--rule);border-left:4px solid var(--stitch);border-radius:3px}
-.thesis h2{font-size:19px;font-weight:700;margin-bottom:6px}
-.thesis p{margin:0;color:var(--muted);font-size:15px;max-width:65ch}
+.thesis h2{font-size:21.3px;font-weight:700;margin-bottom:6px}
+.thesis p{margin:0;color:var(--muted);font-size:16.8px;max-width:65ch}
 .thesis strong{color:var(--ink);font-family:var(--mono);font-weight:600}
 /* ---------- section ---------- */
 section{margin-top:44px}
 .shead{display:flex;align-items:baseline;justify-content:space-between;gap:16px;
   border-bottom:2px solid var(--accent);padding-bottom:7px;margin-bottom:16px;flex-wrap:wrap}
-.shead h2{font-size:15px;font-weight:700;letter-spacing:.02em;text-transform:uppercase}
-.shead .note{font-size:13px;color:var(--muted)}
+.shead h2{font-size:16.8px;font-weight:700;letter-spacing:.02em;text-transform:uppercase}
+.shead .note{font-size:14.6px;color:var(--muted)}
 /* ---------- tables ---------- */
 .scroll{overflow-x:auto}
-table{border-collapse:collapse;width:100%;font-size:14px}
-th{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+table{border-collapse:collapse;width:100%;font-size:15.7px}
+th{font-family:var(--mono);font-size:11.8px;letter-spacing:.1em;text-transform:uppercase;
   color:var(--muted);font-weight:500;text-align:right;padding:0 10px 8px;white-space:nowrap}
 th.l,td.l{text-align:left}
 td{padding:9px 10px;border-top:1px solid var(--rule);text-align:right;
   font-variant-numeric:tabular-nums;white-space:nowrap}
-td.num{font-family:var(--mono);font-size:13.5px}
+td.num{font-family:var(--mono);font-size:15.1px}
 tbody tr:hover{background:var(--accent-soft)}
-.team-tag{font-family:var(--mono);font-weight:600;font-size:13px;letter-spacing:.04em}
-.owner{color:var(--muted);font-size:13px}
+.team-tag{font-family:var(--mono);font-weight:600;font-size:14.6px;letter-spacing:.04em}
+.owner{color:var(--muted);font-size:14.6px}
 .bar{position:relative;height:8px;background:var(--rule);border-radius:1px;min-width:120px;overflow:hidden}
 .bar i{position:absolute;inset-block:0;left:0;display:block;background:var(--under);border-radius:1px}
 .bar i.hot{background:var(--over)}
 .bar u{position:absolute;inset-block:-3px;width:2px;background:var(--ink);opacity:.6}
-.delta{font-family:var(--mono);font-size:13px;font-weight:600}
+.delta{font-family:var(--mono);font-size:14.6px;font-weight:600}
 .delta.over{color:var(--over)} .delta.under{color:var(--under)}
 /* ---------- controls ---------- */
 .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
-input[type=search]{font-family:var(--body);font-size:14px;padding:8px 12px;color:var(--ink);
+input[type=search]{font-family:var(--body);font-size:15.7px;padding:8px 12px;color:var(--ink);
   background:var(--panel);border:1px solid var(--rule);border-radius:3px;min-width:200px;flex:1 1 200px}
 input[type=search]:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-button{font-family:var(--body);font-size:13px;padding:8px 13px;color:var(--ink);cursor:pointer;
+button{font-family:var(--body);font-size:14.6px;padding:8px 13px;color:var(--ink);cursor:pointer;
   background:var(--panel);border:1px solid var(--rule);border-radius:3px}
 button:hover{border-color:var(--accent);color:var(--accent)}
 button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--panel);font-weight:600}
@@ -101,27 +110,37 @@ button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);co
   overflow:hidden}
 .thead{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;justify-content:space-between;
   padding:13px 16px;border-bottom:1px solid var(--rule);background:var(--sunk)}
-.thead h3{font-size:17px;font-weight:700}
-.thead .espn{color:var(--muted);font-size:13px;font-style:italic}
-.figs{display:flex;gap:18px;font-family:var(--mono);font-size:12px;color:var(--muted);
+.thead h3{font-size:19px;font-weight:700}
+.thead .espn{color:var(--muted);font-size:14.6px;font-style:italic}
+.figs{display:flex;gap:18px;font-family:var(--mono);font-size:13.4px;color:var(--muted);
   flex-wrap:wrap;align-items:flex-start}
 .figs b{color:var(--ink);font-weight:600}
 .figs>span{display:flex;flex-direction:column;gap:2px;text-align:right;white-space:nowrap}
 .figs>span>span{white-space:nowrap}
-.figs em{font-style:normal;font-weight:600;font-size:11px;letter-spacing:.02em}
+.figs em{font-style:normal;font-weight:600;font-size:12.3px;letter-spacing:.02em}
 .figs em.over{color:var(--over)} .figs em.under{color:var(--under)}
-.team table{font-size:13.5px}
+.team table{font-size:15.1px}
 .team th{padding-top:11px}
 .team td,.team th{padding-inline:16px}
-.mlb{font-family:var(--mono);font-size:11px;color:var(--ink);letter-spacing:.05em}
-.pos{font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.03em;white-space:nowrap}
-.acq{font-family:var(--mono);font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;
-  color:var(--muted);border:1px solid var(--rule);padding:1px 5px;border-radius:2px}
-.yr{font-family:var(--mono);font-size:12px;color:var(--muted)}
-.next{font-family:var(--mono);font-size:13px}
-.next em{font-style:normal;color:var(--muted);font-size:11px;font-weight:500}
+.mlb{font-family:var(--mono);font-size:12.3px;color:var(--ink);letter-spacing:.05em}
+.pos{font-family:var(--mono);font-size:12.9px;color:var(--muted);letter-spacing:.03em;white-space:nowrap}
+.acq{font-family:var(--mono);font-size:11.8px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--muted);background:transparent;border:1px solid var(--rule);padding:2px 6px;
+  border-radius:2px;font-weight:500;display:inline-block;line-height:1.35}
+.acq.keep{background:var(--acq-keep-bg);color:var(--acq-keep-fg);border-color:var(--acq-keep-bd)}
+.acq.fa{background:var(--acq-fa-bg);color:var(--acq-fa-fg);border-color:var(--acq-fa-bd)}
+.acq.trade{background:var(--acq-trade-bg);color:var(--acq-trade-fg);border-color:var(--acq-trade-bd)}
+.acq.draft{background:var(--acq-draft-bg);color:var(--acq-draft-fg);border-color:var(--acq-draft-bd)}
+.acq.wm{background:var(--acq-wm-bg);color:var(--acq-wm-fg);border-color:var(--acq-wm-bd)}
+.acqcell{display:flex;flex-wrap:wrap;gap:4px}
+.acqkey{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin:0 0 14px}
+.acqkey .lbl{font-family:var(--mono);font-size:11.8px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted)}
+.yr{font-family:var(--mono);font-size:13.4px;color:var(--muted)}
+.next{font-family:var(--mono);font-size:14.6px}
+.next em{font-style:normal;color:var(--muted);font-size:12.3px;font-weight:500}
 tr.band td{background:var(--accent-soft);border-top:2px solid var(--accent);
-  font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  font-family:var(--mono);font-size:11.2px;letter-spacing:.14em;text-transform:uppercase;
   color:var(--accent);font-weight:600;padding-block:6px}
 tbody tr.band:hover td{background:var(--accent-soft)}
 .hidden{display:none}
@@ -140,9 +159,9 @@ tbody tr.band:hover td{background:var(--accent-soft)}
   display:flex;flex-direction:column}
 .sheet-head{padding:16px 18px;border-bottom:1px solid var(--rule);display:flex;
   justify-content:space-between;align-items:flex-start;gap:14px;background:var(--sunk)}
-.sheet-head h3{font-family:var(--disp);font-size:19px;font-weight:700}
-.sheet-head .meta{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:4px}
-.sheet-close{font-family:var(--body);font-size:13px;padding:5px 10px;flex:none}
+.sheet-head h3{font-family:var(--disp);font-size:21.3px;font-weight:700}
+.sheet-head .meta{font-family:var(--mono);font-size:12.9px;color:var(--muted);margin-top:4px}
+.sheet-close{font-family:var(--body);font-size:14.6px;padding:5px 10px;flex:none}
 .sheet-body{padding:16px 18px;overflow-y:auto}
 .tl{list-style:none;margin:0;padding:0;position:relative}
 .tl::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:var(--rule)}
@@ -151,39 +170,42 @@ tbody tr.band:hover td{background:var(--accent-soft)}
 .tl .dot{position:absolute;left:0;top:5px;width:14px;height:14px;border-radius:50%;
   border:3px solid var(--panel);background:var(--muted)}
 .tl .dot.in{background:var(--under)} .tl .dot.out{background:var(--over)}
-.tl .when{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
-.tl .what{font-size:14px;margin-top:1px}
+.tl .when{font-family:var(--mono);font-size:12.3px;color:var(--muted);letter-spacing:.04em}
+.tl .what{font-size:15.7px;margin-top:1px}
 .tl .what b{font-family:var(--mono);font-weight:600}
-.sheet-empty{color:var(--muted);font-size:14px;line-height:1.55}
-.lim{color:var(--muted);font-size:11px}
+.sheet-empty{color:var(--muted);font-size:15.7px;line-height:1.55}
+.lim{color:var(--muted);font-size:12.3px}
 .bad{color:var(--over);font-weight:700}
 .alert{margin:0 0 18px;padding:11px 15px;border:1px solid var(--over);border-left:4px solid var(--over);
-  border-radius:3px;font-size:13.5px;color:var(--ink);background:var(--panel)}
-.dl{display:inline-block;font-family:var(--body);font-size:13px;padding:8px 13px;
-  color:var(--panel);background:var(--accent);border:1px solid var(--accent);border-radius:3px;
-  text-decoration:none;font-weight:600}
-.dl:hover{filter:brightness(1.15)}
+  border-radius:3px;font-size:15.1px;color:var(--ink);background:var(--panel)}
+.dl,button.act{display:inline-block;font-family:var(--body);font-size:14.6px;padding:8px 13px;
+  color:var(--action-fg);background:var(--action-bg);border:1px solid var(--action-bd);
+  border-radius:3px;text-decoration:none;font-weight:600}
+.dl:hover,button.act:hover{border-color:var(--action-fg);color:var(--action-fg);
+  filter:brightness(1.04)}
 .dlrow{display:flex;flex-wrap:wrap;gap:8px;padding:11px 16px;border-top:1px solid var(--rule);
   background:var(--sunk)}
 .banner{margin:0 0 18px;padding:11px 15px;border:1px dashed var(--accent);border-radius:3px;
-  background:var(--accent-soft);font-size:13.5px;color:var(--ink)}
+  background:var(--accent-soft);font-size:15.1px;color:var(--ink)}
 /* ---------- log ---------- */
-.log{font-size:13.5px}
-.log td:first-child{font-family:var(--mono);font-size:12px;color:var(--muted)}
-.io{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;font-weight:600}
+.log{font-size:15.1px}
+.log td:first-child{font-family:var(--mono);font-size:13.4px;color:var(--muted)}
+.io{font-family:var(--mono);font-size:11.8px;letter-spacing:.08em;font-weight:600}
 .io.in{color:var(--under)} .io.out{color:var(--over)}
+.io.wm{color:var(--acq-trade-fg);background:var(--acq-trade-bg);border:1px solid var(--acq-trade-bd);
+  padding:1px 5px;border-radius:2px}
 /* ---------- rules ---------- */
 details{border:1px solid var(--rule);border-radius:3px;background:var(--panel);margin-bottom:8px}
-summary{padding:11px 16px;cursor:pointer;font-weight:600;font-size:14px}
+summary{padding:11px 16px;cursor:pointer;font-weight:600;font-size:15.7px}
 summary::marker{color:var(--stitch)}
-details .body{padding:0 16px 16px;font-size:14px;color:var(--muted);max-width:68ch}
+details .body{padding:0 16px 16px;font-size:15.7px;color:var(--muted);max-width:68ch}
 details .body p{margin:0 0 9px}
 details .body strong{color:var(--ink)}
 .esc-tab{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px}
-.esc-tab span{font-family:var(--mono);font-size:11.5px;border:1px solid var(--rule);
+.esc-tab span{font-family:var(--mono);font-size:12.9px;border:1px solid var(--rule);
   padding:3px 8px;border-radius:2px;color:var(--ink);background:var(--sunk)}
 footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
-  color:var(--muted);font-size:12.5px}
+  color:var(--muted);font-size:14px}
 @media (max-width:620px){
   .wrap{padding-inline:16px}
   .mast{margin-inline:-16px;padding-inline:16px}
@@ -192,9 +214,6 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
-</head>
-<body>
-
 <div class="field" aria-hidden="true"></div>
 <div class="wrap">
 
@@ -242,6 +261,10 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
   <p class="alert hidden" id="limitAlert"></p>
   <p class="banner hidden" id="previewNote">You are viewing the preview. File downloads only work on the
   published site &mdash; use <strong>Copy league CSV</strong> here and paste straight into a spreadsheet.</p>
+  <div class="acqkey"><span class="lbl">Acquired</span><span class="acq fa">FA</span>
+  <span class="acq trade">Trade</span><span class="acq wm">WM Trade</span>
+  <span class="acq draft">Draft</span><span class="acq keep">Keep</span>
+  <span class="lbl" style="letter-spacing:0;text-transform:none">&mdash; how he arrived, plus Keep if he was retained at the deadline</span></div>
   <div class="controls">
     <input type="search" id="q" placeholder="Search any player, team or position&hellip;" aria-label="Search players">
     <button type="button" id="sortPos" aria-pressed="true">Roster order</button>
@@ -249,19 +272,24 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
     <button type="button" id="sortName" aria-pressed="false">By name</button>
     <button type="button" class="dl" id="dlAll">Download league CSV</button>
     <button type="button" class="dl" id="dlTx">Download transactions</button>
-    <button type="button" id="copyAll">Copy league CSV</button>
+    <button type="button" class="act" id="copyAll">Copy league CSV</button>
   </div>
   <div id="rosters"></div>
 </section>
 
 <section>
   <div class="shead">
-    <h2>Recent transactions</h2>
-    <p class="note">58 moves from Aug 26 to Sep 13, validated against rosters with no exceptions.</p>
+    <h2>2026 transactions</h2>
+    <p class="note" id="lognote"></p>
+  </div>
+  <div class="controls">
+    <input type="search" id="logq" placeholder="Filter by player, team or position&hellip;" aria-label="Filter transactions">
+    <button type="button" id="logmore">Show all</button>
+    <button type="button" class="act" id="dlTx2">Download transactions CSV</button>
   </div>
   <div class="scroll"><table class="log" id="log">
     <thead><tr><th class="l">Date</th><th class="l">Team</th><th class="l"></th>
-      <th class="l">Player</th><th class="l">Pos</th><th>Salary</th></tr></thead>
+      <th class="l">Player</th><th class="l">Pos</th><th class="l">With</th><th>Salary</th></tr></thead>
     <tbody></tbody>
   </table></div>
 </section>
@@ -346,8 +374,9 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
 
 <footer>
   <p>Migrated from the Trello BGBL Ledger on Sep 14, 2026. Salaries, service years and acquisition
-  method carry over from the board&rsquo;s custom fields; the 58 transactions from Aug 26 onward were
-  parsed from ESPN and validated against every roster before being applied.</p>
+  method carry over from the board&rsquo;s custom fields; the 2026 transaction log was pulled from the
+  ESPN league feed and reconciled against every roster: three salaries were corrected to their winning
+  bid and the rest matched. Dates are Pacific, matching the league&rsquo;s deadlines.</p>
   <p style="margin-top:6px">Copy buttons place CSV on your clipboard &mdash; paste straight into a spreadsheet.</p>
 </footer>
 </div>
@@ -364,8 +393,9 @@ const room=DATA.teams.filter(t=>t.nextPayroll<t.budget).sort((a,b)=>a.nextPayrol
 $("#over-count").textContent=over.length;
 $("#escload").textContent="$"+DATA.teams.reduce((s,t)=>s+t.nextPayroll-t.payroll,0);
 $("#worst").textContent=`${over[0].abbr} at $${over[0].nextPayroll-260} above`;
-$("#room").textContent=`${room[0].abbr} has the most room at $${260-room[0].nextPayroll}; `
-  +`${DATA.teams.find(t=>t.nextPayroll===t.budget)?.abbr||""} sits exactly on the line.`;
+const onLine=DATA.teams.find(t=>t.nextPayroll===t.budget);
+$("#room").textContent=`${room[0].abbr} has the most room at $${260-room[0].nextPayroll}`
+  +(onLine?`; ${onLine.abbr} sits exactly on the line.`:".");
 
 /* ---- budget table ---- */
 const maxNext=Math.max(...DATA.teams.map(t=>t.nextPayroll));
@@ -394,11 +424,11 @@ const CMP={
   name:(a,b)=>a.player.localeCompare(b.player)
 };
 function csv(rows){
-  const h=["team","player","mlb_team","primary_position","positions","acquired","service_year",
-           "salary","next_year_salary"];
+  const h=["team","player","mlb_team","primary_position","positions","acquired","tags",
+           "service_year","salary","next_year_salary"];
   return [h.join(",")].concat([...rows].sort(CMP.position).map(p=>
-    [p.team,`"${p.player}"`,p.mlb,p.primary,p.positions,p.acquired,p.year,p.salary,
-     p.nextSalary].join(","))).join("\n");
+    [p.team,`"${p.player}"`,p.mlb,p.primary,p.positions,p.acquired,`"${TAGS(p).join("|")}"`,
+     p.year,p.salary,p.nextSalary].join(","))).join("\n");
 }
 function save(text,name){
   const b=new Blob([text],{type:"text/csv;charset=utf-8"});
@@ -407,9 +437,9 @@ function save(text,name){
   a.remove(); setTimeout(()=>URL.revokeObjectURL(u),1000);
 }
 function txcsv(){
-  const h=["date","team","direction","player","positions","salary"];
+  const h=["date","team","direction","player","positions","counterparty","salary","winter_meetings"];
   return [h.join(",")].concat(DATA.log.map(e=>[e.date,e.team,e.type,`"${e.player}"`,
-    e.positions,e.salary].join(","))).join("\n");
+    e.positions,e.counterparty||"",e.salary||"",e.wm?"Y":""].join(","))).join("\n");
 }
 function copy(text,btn){
   const done=()=>{const o=btn.textContent;btn.textContent="Copied";setTimeout(()=>btn.textContent=o,1400)};
@@ -444,7 +474,7 @@ function openSheet(pid){
           <div class="what">${VERB[e.type]||e.type} ${who?`by <b>${who}</b>`:""}${amt}</div></li>`;
       }).join("")}</ul>`
     : `<p class="sheet-empty">No transactions recorded for this player yet. The ledger currently
-       holds moves from Aug 26, 2026 onward; earlier history is still being migrated from Trello.</p>`;
+       holds the 2026 season from Feb 1 onward; earlier seasons are still being migrated from Trello.</p>`;
   $("#sheet").hidden=false;
   $("#sheet-close").focus();
 }
@@ -460,6 +490,9 @@ function budgetLabel(t){
   const d=t.nextPayroll-t.budget;
   return d>0 ? `over $${d}` : d<0 ? `under $${-d}` : "on the line";
 }
+const TAGCLS={FA:"fa",TRADE:"trade","WM TRADE":"wm",DRAFT:"draft",KEEP:"keep"};
+const TAGTXT={FA:"FA",TRADE:"Trade","WM TRADE":"WM Trade",DRAFT:"Draft",KEEP:"Keep"};
+const TAGS=p=>p.tags&&p.tags.length?p.tags:[{Keep:"KEEP",FA:"FA",Trade:"TRADE",Draft:"DRAFT"}[p.acquired]||"FA"];
 function prow(p){
   return `<tr>
     <td class="l">${HIST[p.pid]?.length
@@ -467,7 +500,8 @@ function prow(p){
       : `<button type="button" class="pname" data-pid="${p.pid}" disabled>${p.player}</button>`}</td>
     <td class="l mlb">${p.mlb}</td>
     <td class="l pos">${p.positions}</td>
-    <td class="l"><span class="acq">${p.acquired}</span></td>
+    <td class="l"><span class="acqcell">${TAGS(p).map(t=>
+      `<span class="acq ${TAGCLS[t]||""}">${TAGTXT[t]||t}</span>`).join("")}</span></td>
     <td class="yr">${p.year}</td>
     <td class="num">${money(p.salary)}</td>
     <td class="next">${money(p.nextSalary)}${p.escalator?` <em>+${p.escalator}</em>`:""}</td>
@@ -487,8 +521,8 @@ function render(){
   let shown=0;
   DATA.teams.forEach(t=>{
     let ps=DATA.players.filter(p=>p.team===t.abbr);
-    if(q) ps=ps.filter(p=>(p.player+" "+p.mlb+" "+p.positions+" "+p.team+" "+t.owner+" "+p.acquired)
-      .toLowerCase().includes(q));
+    if(q) ps=ps.filter(p=>(p.player+" "+p.mlb+" "+p.positions+" "+p.team+" "+t.owner+" "
+      +TAGS(p).join(" ")).toLowerCase().includes(q));
     if(!ps.length) return;
     ps.sort(CMP[sortMode]);
     shown+=ps.length;
@@ -508,7 +542,7 @@ function render(){
       </table></div>
       <div class="dlrow">
         <button type="button" class="dl" data-dl="${t.abbr}">Download ${t.abbr} CSV</button>
-        <button type="button" data-team="${t.abbr}">Copy to clipboard</button></div>`;
+        <button type="button" class="act" data-team="${t.abbr}">Copy to clipboard</button></div>`;
     sec.querySelector("[data-dl]").addEventListener("click",()=>
       save(csv(DATA.players.filter(p=>p.team===t.abbr)),`bgbl-roster-${t.abbr}.csv`));
     sec.querySelector("[data-team]").addEventListener("click",e=>
@@ -518,7 +552,7 @@ function render(){
   $("#shown").textContent = q
     ? `${shown} player${shown===1?"":"s"} matching &ldquo;${$("#q").value.trim()}&rdquo;`.replace(/&ldquo;|&rdquo;/g,'"')
     : `${DATA.players.length} players across 12 teams, in roster order. Next year shows the keeper cost if retained.`;
-  if(!shown) host.innerHTML=`<p style="color:var(--muted);font-size:14px">No players match that search.</p>`;
+  if(!shown) host.innerHTML=`<p style="color:var(--muted);font-size:15.7px">No players match that search.</p>`;
 }
 $("#q").addEventListener("input",render);
 const SORTBTN={position:"#sortPos",salary:"#sortSal",name:"#sortName"};
@@ -531,7 +565,7 @@ Object.entries(SORTBTN).forEach(([mode,sel])=>{
 });
 $("#copyAll").addEventListener("click",e=>copy(csv(DATA.players),e.currentTarget));
 $("#dlAll").addEventListener("click",()=>save(csv(DATA.players),"bgbl-rosters-league-wide.csv"));
-$("#dlTx").addEventListener("click",()=>save(txcsv(),"bgbl-transactions.csv"));
+$("#dlTx").addEventListener("click",()=>save(txcsv(),"bgbl-transactions-2026-season.csv"));
 const bust=DATA.teams.filter(t=>t.count>LIMIT);
 if(bust.length){
   const a=$("#limitAlert"); a.classList.remove("hidden");
@@ -550,15 +584,35 @@ render();
 /* ---- transaction log ---- */
 const ltb=$("#log tbody");
 const fmt=d=>new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});
-[...DATA.log].reverse().forEach(e=>{
-  const tr=document.createElement("tr");
-  tr.innerHTML=`<td class="l">${fmt(e.date)}</td>
-    <td class="l"><span class="team-tag">${e.team}</span></td>
-    <td class="l"><span class="io ${e.type==="add"?"in":"out"}">${e.type==="add"?"IN":"OUT"}</span></td>
-    <td class="l">${e.player}</td><td class="l pos">${e.positions}</td>
-    <td class="num">${money(e.salary)}</td>`;
-  ltb.appendChild(tr);
-});
+const LOGLBL={add:["IN","in"],drop:["OUT","out"],trade_in:["TRADE IN","in"],trade_out:["TRADE OUT","out"]};
+const WMLBL={trade_in:["WM TRADE IN","wm"],trade_out:["WM TRADE OUT","wm"]};
+const ALLLOG=[...DATA.log].reverse();
+let logCap=100;
+function renderLog(){
+  const q=$("#logq").value.trim().toLowerCase();
+  const rows=q?ALLLOG.filter(e=>(e.player+" "+e.team+" "+(e.positions||"")+" "+(e.counterparty||"")+(e.wm?" wm winter meetings":""))
+      .toLowerCase().includes(q)):ALLLOG;
+  const show=rows.slice(0,logCap);
+  ltb.innerHTML=show.map(e=>{
+    const [lbl,cls]=(e.wm&&WMLBL[e.type])||LOGLBL[e.type]||["OUT","out"];
+    return `<tr><td class="l">${fmt(e.date)}</td>
+      <td class="l"><span class="team-tag">${e.team}</span></td>
+      <td class="l"><span class="io ${cls}">${lbl}</span></td>
+      <td class="l">${e.player}</td><td class="l pos">${e.positions||""}</td>
+      <td class="l"><span class="team-tag" style="color:var(--muted)">${e.counterparty||""}</span></td>
+      <td class="num">${e.salary?money(e.salary):"&mdash;"}</td></tr>`;
+  }).join("");
+  $("#lognote").textContent = rows.length===ALLLOG.length
+    ? `${ALLLOG.length} moves from Feb 1 to Sep 13, 2026. Winter Meetings trades are tagged separately: they waive the escalator, which is why those salaries look low.`
+    : `${rows.length} of ${ALLLOG.length} moves match.`;
+  const btn=$("#logmore");
+  btn.hidden = rows.length<=100;
+  btn.textContent = logCap>=rows.length ? "Show most recent 100" : `Show all ${rows.length}`;
+}
+$("#logq").addEventListener("input",()=>{logCap=100;renderLog()});
+$("#logmore").addEventListener("click",()=>{logCap=logCap>=ALLLOG.length?100:1e9;renderLog()});
+$("#dlTx2").addEventListener("click",()=>save(txcsv(),"bgbl-transactions-2026-season.csv"));
+renderLog();
 }
 
 Promise.all([
@@ -578,5 +632,3 @@ Promise.all([
       "so it must sit beside index.html.";
   });
 </script>
-</body>
-</html>

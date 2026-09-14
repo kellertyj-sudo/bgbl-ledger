@@ -13060,6 +13060,30 @@
    "trello": "",
    "review": "",
    "note": "relief pitcher; retired. Distinct from Will Smith (C)"
+  },
+  {
+   "pid": "p1089",
+   "name": "Rico Garcia",
+   "key": "rico garcia",
+   "aliases": [],
+   "mlb": "BAL",
+   "positions": "RP",
+   "status": "free",
+   "team": "",
+   "trello": "",
+   "review": "minted 2026-09-14 - appeared in 2026 ESPN transactions, absent from registry"
+  },
+  {
+   "pid": "p1090",
+   "name": "Yainer Diaz",
+   "key": "yainer diaz",
+   "aliases": [],
+   "mlb": "HOU",
+   "positions": "C",
+   "status": "free",
+   "team": "",
+   "trello": "",
+   "review": "minted 2026-09-14 - appeared in 2026 ESPN transactions, absent from registry"
   }
  ]
 }
