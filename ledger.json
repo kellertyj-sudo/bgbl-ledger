@@ -33,7 +33,7 @@
   {
    "abbr": "GORD",
    "owner": "Gordie Hanrahan",
-   "espn": "S...littler's List",
+   "espn": "Schlittler's List",
    "count": 29,
    "payroll": 227,
    "nextPayroll": 270,
@@ -126,7 +126,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0016"
   },
   {
    "team": "BORG",
@@ -141,7 +142,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "KC"
+   "mlb": "KC",
+   "pid": "p0028"
   },
   {
    "team": "BORG",
@@ -156,7 +158,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0023"
   },
   {
    "team": "BORG",
@@ -171,7 +174,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0018"
   },
   {
    "team": "BORG",
@@ -186,7 +190,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0021"
   },
   {
    "team": "BORG",
@@ -201,7 +206,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0009"
   },
   {
    "team": "BORG",
@@ -216,7 +222,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0025"
   },
   {
    "team": "BORG",
@@ -231,7 +238,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0002"
   },
   {
    "team": "BORG",
@@ -246,7 +254,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0017"
   },
   {
    "team": "BORG",
@@ -261,7 +270,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0027"
   },
   {
    "team": "BORG",
@@ -276,7 +286,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0006"
   },
   {
    "team": "BORG",
@@ -291,7 +302,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "MIA"
+   "mlb": "MIA",
+   "pid": "p0010"
   },
   {
    "team": "BORG",
@@ -306,7 +318,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0003"
   },
   {
    "team": "BORG",
@@ -321,7 +334,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0022"
   },
   {
    "team": "BORG",
@@ -336,7 +350,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0019"
   },
   {
    "team": "BORG",
@@ -351,7 +366,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0005"
   },
   {
    "team": "BORG",
@@ -366,7 +382,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0008"
   },
   {
    "team": "BORG",
@@ -381,7 +398,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0024"
   },
   {
    "team": "BORG",
@@ -396,7 +414,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0011"
   },
   {
    "team": "BORG",
@@ -411,7 +430,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0014"
   },
   {
    "team": "BORG",
@@ -426,7 +446,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "LAA"
+   "mlb": "LAA",
+   "pid": "p0029"
   },
   {
    "team": "BORG",
@@ -441,7 +462,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "WSH"
+   "mlb": "WSH",
+   "pid": "p0001"
   },
   {
    "team": "BORG",
@@ -456,7 +478,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0012"
   },
   {
    "team": "BORG",
@@ -471,7 +494,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0020"
   },
   {
    "team": "BORG",
@@ -486,7 +510,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0004"
   },
   {
    "team": "BORG",
@@ -501,7 +526,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0007"
   },
   {
    "team": "BORG",
@@ -516,7 +542,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0013"
   },
   {
    "team": "BORG",
@@ -531,7 +558,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0015"
   },
   {
    "team": "BORG",
@@ -546,7 +574,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0026"
   },
   {
    "team": "CHAZ",
@@ -561,7 +590,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "COL"
+   "mlb": "COL",
+   "pid": "p0041"
   },
   {
    "team": "CHAZ",
@@ -576,7 +606,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0050"
   },
   {
    "team": "CHAZ",
@@ -591,7 +622,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0049"
   },
   {
    "team": "CHAZ",
@@ -606,7 +638,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0044"
   },
   {
    "team": "CHAZ",
@@ -621,7 +654,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "COL"
+   "mlb": "COL",
+   "pid": "p0034"
   },
   {
    "team": "CHAZ",
@@ -636,7 +670,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0039"
   },
   {
    "team": "CHAZ",
@@ -651,7 +686,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "CHW"
+   "mlb": "CHW",
+   "pid": "p0053"
   },
   {
    "team": "CHAZ",
@@ -666,7 +702,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "TOR"
+   "mlb": "TOR",
+   "pid": "p0038"
   },
   {
    "team": "CHAZ",
@@ -681,7 +718,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0042"
   },
   {
    "team": "CHAZ",
@@ -696,7 +734,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "WSH"
+   "mlb": "WSH",
+   "pid": "p0054"
   },
   {
    "team": "CHAZ",
@@ -711,7 +750,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0033"
   },
   {
    "team": "CHAZ",
@@ -726,7 +766,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0055"
   },
   {
    "team": "CHAZ",
@@ -741,7 +782,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0046"
   },
   {
    "team": "CHAZ",
@@ -756,7 +798,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0040"
   },
   {
    "team": "CHAZ",
@@ -771,7 +814,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0056"
   },
   {
    "team": "CHAZ",
@@ -786,7 +830,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "COL"
+   "mlb": "COL",
+   "pid": "p0057"
   },
   {
    "team": "CHAZ",
@@ -801,7 +846,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0032"
   },
   {
    "team": "CHAZ",
@@ -816,7 +862,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0045"
   },
   {
    "team": "CHAZ",
@@ -831,7 +878,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CIN"
+   "mlb": "CIN",
+   "pid": "p0035"
   },
   {
    "team": "CHAZ",
@@ -846,7 +894,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SF"
+   "mlb": "SF",
+   "pid": "p0048"
   },
   {
    "team": "CHAZ",
@@ -861,7 +910,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0051"
   },
   {
    "team": "CHAZ",
@@ -876,7 +926,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SF"
+   "mlb": "SF",
+   "pid": "p0030"
   },
   {
    "team": "CHAZ",
@@ -891,7 +942,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0058"
   },
   {
    "team": "CHAZ",
@@ -906,7 +958,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0036"
   },
   {
    "team": "CHAZ",
@@ -921,7 +974,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0037"
   },
   {
    "team": "CHAZ",
@@ -936,7 +990,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "LAA"
+   "mlb": "LAA",
+   "pid": "p0052"
   },
   {
    "team": "CHAZ",
@@ -951,7 +1006,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0031"
   },
   {
    "team": "CHAZ",
@@ -966,7 +1022,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0047"
   },
   {
    "team": "CHAZ",
@@ -981,7 +1038,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0043"
   },
   {
    "team": "FREE",
@@ -996,7 +1054,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0067"
   },
   {
    "team": "FREE",
@@ -1011,7 +1070,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0062"
   },
   {
    "team": "FREE",
@@ -1026,7 +1086,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "SF"
+   "mlb": "SF",
+   "pid": "p0082"
   },
   {
    "team": "FREE",
@@ -1041,7 +1102,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "BAL"
+   "mlb": "BAL",
+   "pid": "p0065"
   },
   {
    "team": "FREE",
@@ -1056,7 +1118,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0083"
   },
   {
    "team": "FREE",
@@ -1071,7 +1134,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0080"
   },
   {
    "team": "FREE",
@@ -1086,7 +1150,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0075"
   },
   {
    "team": "FREE",
@@ -1101,7 +1166,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0079"
   },
   {
    "team": "FREE",
@@ -1116,7 +1182,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0073"
   },
   {
    "team": "FREE",
@@ -1131,7 +1198,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0061"
   },
   {
    "team": "FREE",
@@ -1146,7 +1214,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0066"
   },
   {
    "team": "FREE",
@@ -1161,7 +1230,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0072"
   },
   {
    "team": "FREE",
@@ -1176,7 +1246,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0064"
   },
   {
    "team": "FREE",
@@ -1191,7 +1262,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0087"
   },
   {
    "team": "FREE",
@@ -1206,7 +1278,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0070"
   },
   {
    "team": "FREE",
@@ -1221,7 +1294,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0076"
   },
   {
    "team": "FREE",
@@ -1236,7 +1310,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CIN"
+   "mlb": "CIN",
+   "pid": "p0071"
   },
   {
    "team": "FREE",
@@ -1251,7 +1326,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0063"
   },
   {
    "team": "FREE",
@@ -1266,7 +1342,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0068"
   },
   {
    "team": "FREE",
@@ -1281,7 +1358,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0085"
   },
   {
    "team": "FREE",
@@ -1296,7 +1374,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BAL"
+   "mlb": "BAL",
+   "pid": "p0060"
   },
   {
    "team": "FREE",
@@ -1311,7 +1390,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0069"
   },
   {
    "team": "FREE",
@@ -1326,7 +1406,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "WSH"
+   "mlb": "WSH",
+   "pid": "p0074"
   },
   {
    "team": "FREE",
@@ -1341,7 +1422,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0077"
   },
   {
    "team": "FREE",
@@ -1356,7 +1438,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0081"
   },
   {
    "team": "FREE",
@@ -1371,7 +1454,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0086"
   },
   {
    "team": "FREE",
@@ -1386,7 +1470,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0084"
   },
   {
    "team": "FREE",
@@ -1401,7 +1486,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "TOR"
+   "mlb": "TOR",
+   "pid": "p0078"
   },
   {
    "team": "FREE",
@@ -1416,7 +1502,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0059"
   },
   {
    "team": "GORD",
@@ -1431,7 +1518,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0088"
   },
   {
    "team": "GORD",
@@ -1446,7 +1534,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0114"
   },
   {
    "team": "GORD",
@@ -1461,7 +1550,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0104"
   },
   {
    "team": "GORD",
@@ -1476,7 +1566,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0100"
   },
   {
    "team": "GORD",
@@ -1491,7 +1582,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0089"
   },
   {
    "team": "GORD",
@@ -1506,7 +1598,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0107"
   },
   {
    "team": "GORD",
@@ -1521,7 +1614,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "TEX"
+   "mlb": "TEX",
+   "pid": "p0095"
   },
   {
    "team": "GORD",
@@ -1536,7 +1630,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0093"
   },
   {
    "team": "GORD",
@@ -1551,7 +1646,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0113"
   },
   {
    "team": "GORD",
@@ -1566,7 +1662,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "ARI"
+   "mlb": "ARI",
+   "pid": "p0094"
   },
   {
    "team": "GORD",
@@ -1581,7 +1678,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "LAA"
+   "mlb": "LAA",
+   "pid": "p0110"
   },
   {
    "team": "GORD",
@@ -1596,7 +1694,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "WSH"
+   "mlb": "WSH",
+   "pid": "p0097"
   },
   {
    "team": "GORD",
@@ -1611,7 +1710,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "COL"
+   "mlb": "COL",
+   "pid": "p0109"
   },
   {
    "team": "GORD",
@@ -1626,7 +1726,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0105"
   },
   {
    "team": "GORD",
@@ -1641,7 +1742,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0115"
   },
   {
    "team": "GORD",
@@ -1656,7 +1758,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0106"
   },
   {
    "team": "GORD",
@@ -1671,7 +1774,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0098"
   },
   {
    "team": "GORD",
@@ -1686,7 +1790,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0102"
   },
   {
    "team": "GORD",
@@ -1701,7 +1806,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0091"
   },
   {
    "team": "GORD",
@@ -1716,7 +1822,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0096"
   },
   {
    "team": "GORD",
@@ -1731,7 +1838,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0108"
   },
   {
    "team": "GORD",
@@ -1746,7 +1854,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0099"
   },
   {
    "team": "GORD",
@@ -1761,7 +1870,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0090"
   },
   {
    "team": "GORD",
@@ -1776,7 +1886,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0092"
   },
   {
    "team": "GORD",
@@ -1791,7 +1902,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0101"
   },
   {
    "team": "GORD",
@@ -1806,7 +1918,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0111"
   },
   {
    "team": "GORD",
@@ -1821,7 +1934,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0116"
   },
   {
    "team": "GORD",
@@ -1836,7 +1950,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0103"
   },
   {
    "team": "GORD",
@@ -1851,7 +1966,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0112"
   },
   {
    "team": "HAWN",
@@ -1866,7 +1982,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0126"
   },
   {
    "team": "HAWN",
@@ -1881,7 +1998,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "SF"
+   "mlb": "SF",
+   "pid": "p0121"
   },
   {
    "team": "HAWN",
@@ -1896,7 +2014,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0124"
   },
   {
    "team": "HAWN",
@@ -1911,7 +2030,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "MIA"
+   "mlb": "MIA",
+   "pid": "p0145"
   },
   {
    "team": "HAWN",
@@ -1926,7 +2046,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "SF"
+   "mlb": "SF",
+   "pid": "p0122"
   },
   {
    "team": "HAWN",
@@ -1941,7 +2062,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "COL"
+   "mlb": "COL",
+   "pid": "p0141"
   },
   {
    "team": "HAWN",
@@ -1956,7 +2078,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "BAL"
+   "mlb": "BAL",
+   "pid": "p0130"
   },
   {
    "team": "HAWN",
@@ -1971,7 +2094,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "CHW"
+   "mlb": "CHW",
+   "pid": "p0123"
   },
   {
    "team": "HAWN",
@@ -1986,7 +2110,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0128"
   },
   {
    "team": "HAWN",
@@ -2001,7 +2126,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0138"
   },
   {
    "team": "HAWN",
@@ -2016,7 +2142,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0137"
   },
   {
    "team": "HAWN",
@@ -2031,7 +2158,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0118"
   },
   {
    "team": "HAWN",
@@ -2046,7 +2174,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0134"
   },
   {
    "team": "HAWN",
@@ -2061,7 +2190,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0136"
   },
   {
    "team": "HAWN",
@@ -2076,7 +2206,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0127"
   },
   {
    "team": "HAWN",
@@ -2091,7 +2222,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIA"
+   "mlb": "MIA",
+   "pid": "p0139"
   },
   {
    "team": "HAWN",
@@ -2106,7 +2238,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0143"
   },
   {
    "team": "HAWN",
@@ -2121,7 +2254,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "WSH"
+   "mlb": "WSH",
+   "pid": "p0125"
   },
   {
    "team": "HAWN",
@@ -2136,7 +2270,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0133"
   },
   {
    "team": "HAWN",
@@ -2151,7 +2286,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0119"
   },
   {
    "team": "HAWN",
@@ -2166,7 +2302,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0131"
   },
   {
    "team": "HAWN",
@@ -2181,7 +2318,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SF"
+   "mlb": "SF",
+   "pid": "p0132"
   },
   {
    "team": "HAWN",
@@ -2196,7 +2334,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0142"
   },
   {
    "team": "HAWN",
@@ -2211,7 +2350,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0117"
   },
   {
    "team": "HAWN",
@@ -2226,7 +2366,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BAL"
+   "mlb": "BAL",
+   "pid": "p0144"
   },
   {
    "team": "HAWN",
@@ -2241,7 +2382,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "KC"
+   "mlb": "KC",
+   "pid": "p0140"
   },
   {
    "team": "HAWN",
@@ -2256,7 +2398,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0129"
   },
   {
    "team": "HAWN",
@@ -2271,7 +2414,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0120"
   },
   {
    "team": "HAWN",
@@ -2286,7 +2430,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0135"
   },
   {
    "team": "JAKE",
@@ -2301,7 +2446,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "KC"
+   "mlb": "KC",
+   "pid": "p0167"
   },
   {
    "team": "JAKE",
@@ -2316,7 +2462,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0172"
   },
   {
    "team": "JAKE",
@@ -2331,7 +2478,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0163"
   },
   {
    "team": "JAKE",
@@ -2346,7 +2494,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0164"
   },
   {
    "team": "JAKE",
@@ -2361,7 +2510,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0149"
   },
   {
    "team": "JAKE",
@@ -2376,7 +2526,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "KC"
+   "mlb": "KC",
+   "pid": "p0148"
   },
   {
    "team": "JAKE",
@@ -2391,7 +2542,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0158"
   },
   {
    "team": "JAKE",
@@ -2406,7 +2558,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0157"
   },
   {
    "team": "JAKE",
@@ -2421,7 +2574,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0160"
   },
   {
    "team": "JAKE",
@@ -2436,7 +2590,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0146"
   },
   {
    "team": "JAKE",
@@ -2451,7 +2606,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0156"
   },
   {
    "team": "JAKE",
@@ -2466,7 +2622,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0170"
   },
   {
    "team": "JAKE",
@@ -2481,7 +2638,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0147"
   },
   {
    "team": "JAKE",
@@ -2496,7 +2654,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIA"
+   "mlb": "MIA",
+   "pid": "p0153"
   },
   {
    "team": "JAKE",
@@ -2511,7 +2670,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0154"
   },
   {
    "team": "JAKE",
@@ -2526,7 +2686,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BAL"
+   "mlb": "BAL",
+   "pid": "p0169"
   },
   {
    "team": "JAKE",
@@ -2541,7 +2702,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0166"
   },
   {
    "team": "JAKE",
@@ -2556,7 +2718,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0168"
   },
   {
    "team": "JAKE",
@@ -2571,7 +2734,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0152"
   },
   {
    "team": "JAKE",
@@ -2586,7 +2750,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BAL"
+   "mlb": "BAL",
+   "pid": "p0159"
   },
   {
    "team": "JAKE",
@@ -2601,7 +2766,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0150"
   },
   {
    "team": "JAKE",
@@ -2616,7 +2782,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0151"
   },
   {
    "team": "JAKE",
@@ -2631,7 +2798,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0155"
   },
   {
    "team": "JAKE",
@@ -2646,7 +2814,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0162"
   },
   {
    "team": "JAKE",
@@ -2661,7 +2830,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0165"
   },
   {
    "team": "JAKE",
@@ -2676,7 +2846,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0173"
   },
   {
    "team": "JAKE",
@@ -2691,7 +2862,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0161"
   },
   {
    "team": "JAKE",
@@ -2706,7 +2878,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0171"
   },
   {
    "team": "JST",
@@ -2721,7 +2894,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "BAL"
+   "mlb": "BAL",
+   "pid": "p0196"
   },
   {
    "team": "JST",
@@ -2736,7 +2910,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "TOR"
+   "mlb": "TOR",
+   "pid": "p0201"
   },
   {
    "team": "JST",
@@ -2751,7 +2926,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "ARI"
+   "mlb": "ARI",
+   "pid": "p0187"
   },
   {
    "team": "JST",
@@ -2766,7 +2942,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "BAL"
+   "mlb": "BAL",
+   "pid": "p0180"
   },
   {
    "team": "JST",
@@ -2781,7 +2958,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0189"
   },
   {
    "team": "JST",
@@ -2796,7 +2974,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0185"
   },
   {
    "team": "JST",
@@ -2811,7 +2990,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "CIN"
+   "mlb": "CIN",
+   "pid": "p0179"
   },
   {
    "team": "JST",
@@ -2826,7 +3006,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "TEX"
+   "mlb": "TEX",
+   "pid": "p0197"
   },
   {
    "team": "JST",
@@ -2841,7 +3022,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "CHW"
+   "mlb": "CHW",
+   "pid": "p0177"
   },
   {
    "team": "JST",
@@ -2856,7 +3038,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0182"
   },
   {
    "team": "JST",
@@ -2871,7 +3054,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0192"
   },
   {
    "team": "JST",
@@ -2886,7 +3070,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0174"
   },
   {
    "team": "JST",
@@ -2901,7 +3086,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0184"
   },
   {
    "team": "JST",
@@ -2916,7 +3102,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0200"
   },
   {
    "team": "JST",
@@ -2931,7 +3118,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0202"
   },
   {
    "team": "JST",
@@ -2946,7 +3134,8 @@
    "primary": "UT",
    "rank": 6,
    "group": "B",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0199"
   },
   {
    "team": "JST",
@@ -2961,7 +3150,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0188"
   },
   {
    "team": "JST",
@@ -2976,7 +3166,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0186"
   },
   {
    "team": "JST",
@@ -2991,7 +3182,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TOR"
+   "mlb": "TOR",
+   "pid": "p0178"
   },
   {
    "team": "JST",
@@ -3006,7 +3198,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "KC"
+   "mlb": "KC",
+   "pid": "p0176"
   },
   {
    "team": "JST",
@@ -3021,7 +3214,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHW"
+   "mlb": "CHW",
+   "pid": "p0190"
   },
   {
    "team": "JST",
@@ -3036,7 +3230,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0193"
   },
   {
    "team": "JST",
@@ -3051,7 +3246,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ARI"
+   "mlb": "ARI",
+   "pid": "p0175"
   },
   {
    "team": "JST",
@@ -3066,7 +3262,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0183"
   },
   {
    "team": "JST",
@@ -3081,7 +3278,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0198"
   },
   {
    "team": "JST",
@@ -3096,7 +3294,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0191"
   },
   {
    "team": "JST",
@@ -3111,7 +3310,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0194"
   },
   {
    "team": "JST",
@@ -3126,7 +3326,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "LAA"
+   "mlb": "LAA",
+   "pid": "p0195"
   },
   {
    "team": "JST",
@@ -3141,7 +3342,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "TEX"
+   "mlb": "TEX",
+   "pid": "p0181"
   },
   {
    "team": "KELL",
@@ -3156,7 +3358,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0216"
   },
   {
    "team": "KELL",
@@ -3171,7 +3374,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "ARI"
+   "mlb": "ARI",
+   "pid": "p0214"
   },
   {
    "team": "KELL",
@@ -3186,7 +3390,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "CIN"
+   "mlb": "CIN",
+   "pid": "p0226"
   },
   {
    "team": "KELL",
@@ -3201,7 +3406,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0230"
   },
   {
    "team": "KELL",
@@ -3216,7 +3422,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0212"
   },
   {
    "team": "KELL",
@@ -3231,7 +3438,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0223"
   },
   {
    "team": "KELL",
@@ -3246,7 +3454,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "MIA"
+   "mlb": "MIA",
+   "pid": "p0224"
   },
   {
    "team": "KELL",
@@ -3261,7 +3470,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0218"
   },
   {
    "team": "KELL",
@@ -3276,7 +3486,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0208"
   },
   {
    "team": "KELL",
@@ -3291,7 +3502,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "TEX"
+   "mlb": "TEX",
+   "pid": "p0229"
   },
   {
    "team": "KELL",
@@ -3306,7 +3518,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0203"
   },
   {
    "team": "KELL",
@@ -3321,7 +3534,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0210"
   },
   {
    "team": "KELL",
@@ -3336,7 +3550,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "COL"
+   "mlb": "COL",
+   "pid": "p0211"
   },
   {
    "team": "KELL",
@@ -3351,7 +3566,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0228"
   },
   {
    "team": "KELL",
@@ -3366,7 +3582,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ARI"
+   "mlb": "ARI",
+   "pid": "p0213"
   },
   {
    "team": "KELL",
@@ -3381,7 +3598,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TEX"
+   "mlb": "TEX",
+   "pid": "p0220"
   },
   {
    "team": "KELL",
@@ -3396,7 +3614,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0209"
   },
   {
    "team": "KELL",
@@ -3411,7 +3630,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0204"
   },
   {
    "team": "KELL",
@@ -3426,7 +3646,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0219"
   },
   {
    "team": "KELL",
@@ -3441,7 +3662,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "KC"
+   "mlb": "KC",
+   "pid": "p0221"
   },
   {
    "team": "KELL",
@@ -3456,7 +3678,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0222"
   },
   {
    "team": "KELL",
@@ -3471,7 +3694,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0227"
   },
   {
    "team": "KELL",
@@ -3486,7 +3710,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHW"
+   "mlb": "CHW",
+   "pid": "p0205"
   },
   {
    "team": "KELL",
@@ -3501,7 +3726,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0207"
   },
   {
    "team": "KELL",
@@ -3516,7 +3742,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TOR"
+   "mlb": "TOR",
+   "pid": "p0217"
   },
   {
    "team": "KELL",
@@ -3531,7 +3758,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0225"
   },
   {
    "team": "KELL",
@@ -3546,7 +3774,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0206"
   },
   {
    "team": "KELL",
@@ -3561,7 +3790,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0215"
   },
   {
    "team": "NISH",
@@ -3576,7 +3806,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0256"
   },
   {
    "team": "NISH",
@@ -3591,7 +3822,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "BAL"
+   "mlb": "BAL",
+   "pid": "p0250"
   },
   {
    "team": "NISH",
@@ -3606,7 +3838,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0245"
   },
   {
    "team": "NISH",
@@ -3621,7 +3854,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0242"
   },
   {
    "team": "NISH",
@@ -3636,7 +3870,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0232"
   },
   {
    "team": "NISH",
@@ -3651,7 +3886,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "KC"
+   "mlb": "KC",
+   "pid": "p0246"
   },
   {
    "team": "NISH",
@@ -3666,7 +3902,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "ARI"
+   "mlb": "ARI",
+   "pid": "p0239"
   },
   {
    "team": "NISH",
@@ -3681,7 +3918,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0244"
   },
   {
    "team": "NISH",
@@ -3696,7 +3934,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "TEX"
+   "mlb": "TEX",
+   "pid": "p0236"
   },
   {
    "team": "NISH",
@@ -3711,7 +3950,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0257"
   },
   {
    "team": "NISH",
@@ -3726,7 +3966,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0237"
   },
   {
    "team": "NISH",
@@ -3741,7 +3982,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "KC"
+   "mlb": "KC",
+   "pid": "p0240"
   },
   {
    "team": "NISH",
@@ -3756,7 +3998,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0251"
   },
   {
    "team": "NISH",
@@ -3771,7 +4014,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "SF"
+   "mlb": "SF",
+   "pid": "p0243"
   },
   {
    "team": "NISH",
@@ -3786,7 +4030,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0235"
   },
   {
    "team": "NISH",
@@ -3801,7 +4046,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0231"
   },
   {
    "team": "NISH",
@@ -3816,7 +4062,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0254"
   },
   {
    "team": "NISH",
@@ -3831,7 +4078,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0249"
   },
   {
    "team": "NISH",
@@ -3846,7 +4094,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0258"
   },
   {
    "team": "NISH",
@@ -3861,7 +4110,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0255"
   },
   {
    "team": "NISH",
@@ -3876,7 +4126,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0248"
   },
   {
    "team": "NISH",
@@ -3891,7 +4142,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0238"
   },
   {
    "team": "NISH",
@@ -3906,7 +4158,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIA"
+   "mlb": "MIA",
+   "pid": "p0247"
   },
   {
    "team": "NISH",
@@ -3921,7 +4174,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0252"
   },
   {
    "team": "NISH",
@@ -3936,7 +4190,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CHW"
+   "mlb": "CHW",
+   "pid": "p0253"
   },
   {
    "team": "NISH",
@@ -3951,7 +4206,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0233"
   },
   {
    "team": "NISH",
@@ -3966,7 +4222,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0234"
   },
   {
    "team": "NISH",
@@ -3981,7 +4238,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0241"
   },
   {
    "team": "NORT",
@@ -3996,7 +4254,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "KC"
+   "mlb": "KC",
+   "pid": "p0264"
   },
   {
    "team": "NORT",
@@ -4011,7 +4270,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0269"
   },
   {
    "team": "NORT",
@@ -4026,7 +4286,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0284"
   },
   {
    "team": "NORT",
@@ -4041,7 +4302,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0278"
   },
   {
    "team": "NORT",
@@ -4056,7 +4318,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0286"
   },
   {
    "team": "NORT",
@@ -4071,7 +4334,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0260"
   },
   {
    "team": "NORT",
@@ -4086,7 +4350,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "TOR"
+   "mlb": "TOR",
+   "pid": "p0277"
   },
   {
    "team": "NORT",
@@ -4101,7 +4366,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "LAA"
+   "mlb": "LAA",
+   "pid": "p0287"
   },
   {
    "team": "NORT",
@@ -4116,7 +4382,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0275"
   },
   {
    "team": "NORT",
@@ -4131,7 +4398,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0281"
   },
   {
    "team": "NORT",
@@ -4146,7 +4414,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "WSH"
+   "mlb": "WSH",
+   "pid": "p0274"
   },
   {
    "team": "NORT",
@@ -4161,7 +4430,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0282"
   },
   {
    "team": "NORT",
@@ -4176,7 +4446,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0259"
   },
   {
    "team": "NORT",
@@ -4191,7 +4462,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0276"
   },
   {
    "team": "NORT",
@@ -4206,7 +4478,8 @@
    "primary": "UT",
    "rank": 6,
    "group": "B",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0279"
   },
   {
    "team": "NORT",
@@ -4221,7 +4494,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0268"
   },
   {
    "team": "NORT",
@@ -4236,7 +4510,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0266"
   },
   {
    "team": "NORT",
@@ -4251,7 +4526,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0270"
   },
   {
    "team": "NORT",
@@ -4266,7 +4542,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "WSH"
+   "mlb": "WSH",
+   "pid": "p0262"
   },
   {
    "team": "NORT",
@@ -4281,7 +4558,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0261"
   },
   {
    "team": "NORT",
@@ -4296,7 +4574,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0272"
   },
   {
    "team": "NORT",
@@ -4311,7 +4590,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0283"
   },
   {
    "team": "NORT",
@@ -4326,7 +4606,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0271"
   },
   {
    "team": "NORT",
@@ -4341,7 +4622,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0273"
   },
   {
    "team": "NORT",
@@ -4356,7 +4638,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SF"
+   "mlb": "SF",
+   "pid": "p0280"
   },
   {
    "team": "NORT",
@@ -4371,7 +4654,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0285"
   },
   {
    "team": "NORT",
@@ -4386,7 +4670,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0263"
   },
   {
    "team": "NORT",
@@ -4401,7 +4686,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0267"
   },
   {
    "team": "NORT",
@@ -4416,7 +4702,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0265"
   },
   {
    "team": "SPER",
@@ -4431,7 +4718,8 @@
    "primary": "C",
    "rank": 0,
    "group": "B",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0290"
   },
   {
    "team": "SPER",
@@ -4446,7 +4734,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0297"
   },
   {
    "team": "SPER",
@@ -4461,7 +4750,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0294"
   },
   {
    "team": "SPER",
@@ -4476,7 +4766,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0303"
   },
   {
    "team": "SPER",
@@ -4491,7 +4782,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "SEA"
+   "mlb": "SEA",
+   "pid": "p0291"
   },
   {
    "team": "SPER",
@@ -4506,7 +4798,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "ATH"
+   "mlb": "ATH",
+   "pid": "p0315"
   },
   {
    "team": "SPER",
@@ -4521,7 +4814,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "CHW"
+   "mlb": "CHW",
+   "pid": "p0308"
   },
   {
    "team": "SPER",
@@ -4536,7 +4830,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "CHW"
+   "mlb": "CHW",
+   "pid": "p0306"
   },
   {
    "team": "SPER",
@@ -4551,7 +4846,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "LAD"
+   "mlb": "LAD",
+   "pid": "p0307"
   },
   {
    "team": "SPER",
@@ -4566,7 +4862,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "CIN"
+   "mlb": "CIN",
+   "pid": "p0300"
   },
   {
    "team": "SPER",
@@ -4581,7 +4878,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0289"
   },
   {
    "team": "SPER",
@@ -4596,7 +4894,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "MIA"
+   "mlb": "MIA",
+   "pid": "p0298"
   },
   {
    "team": "SPER",
@@ -4611,7 +4910,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "COL"
+   "mlb": "COL",
+   "pid": "p0302"
   },
   {
    "team": "SPER",
@@ -4626,7 +4926,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "CHW"
+   "mlb": "CHW",
+   "pid": "p0313"
   },
   {
    "team": "SPER",
@@ -4641,7 +4942,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TEX"
+   "mlb": "TEX",
+   "pid": "p0301"
   },
   {
    "team": "SPER",
@@ -4656,7 +4958,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TEX"
+   "mlb": "TEX",
+   "pid": "p0309"
   },
   {
    "team": "SPER",
@@ -4671,7 +4974,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CIN"
+   "mlb": "CIN",
+   "pid": "p0310"
   },
   {
    "team": "SPER",
@@ -4686,7 +4990,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PHI"
+   "mlb": "PHI",
+   "pid": "p0293"
   },
   {
    "team": "SPER",
@@ -4701,7 +5006,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0314"
   },
   {
    "team": "SPER",
@@ -4716,7 +5022,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ARI"
+   "mlb": "ARI",
+   "pid": "p0295"
   },
   {
    "team": "SPER",
@@ -4731,7 +5038,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0305"
   },
   {
    "team": "SPER",
@@ -4746,7 +5054,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0311"
   },
   {
    "team": "SPER",
@@ -4761,7 +5070,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "STL"
+   "mlb": "STL",
+   "pid": "p0292"
   },
   {
    "team": "SPER",
@@ -4776,7 +5086,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0304"
   },
   {
    "team": "SPER",
@@ -4791,7 +5102,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0299"
   },
   {
    "team": "SPER",
@@ -4806,7 +5118,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0288"
   },
   {
    "team": "SPER",
@@ -4821,7 +5134,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "CIN"
+   "mlb": "CIN",
+   "pid": "p0296"
   },
   {
    "team": "SPER",
@@ -4836,7 +5150,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0312"
   },
   {
    "team": "WILB",
@@ -4851,7 +5166,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0316"
   },
   {
    "team": "WILB",
@@ -4866,7 +5182,8 @@
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0329"
   },
   {
    "team": "WILB",
@@ -4881,7 +5198,8 @@
    "primary": "2B",
    "rank": 2,
    "group": "B",
-   "mlb": "CLE"
+   "mlb": "CLE",
+   "pid": "p0340"
   },
   {
    "team": "WILB",
@@ -4896,7 +5214,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0326"
   },
   {
    "team": "WILB",
@@ -4911,7 +5230,8 @@
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "TEX"
+   "mlb": "TEX",
+   "pid": "p0330"
   },
   {
    "team": "WILB",
@@ -4926,7 +5246,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "WSH"
+   "mlb": "WSH",
+   "pid": "p0318"
   },
   {
    "team": "WILB",
@@ -4941,7 +5262,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "MIN"
+   "mlb": "MIN",
+   "pid": "p0331"
   },
   {
    "team": "WILB",
@@ -4956,7 +5278,8 @@
    "primary": "SS",
    "rank": 4,
    "group": "B",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0323"
   },
   {
    "team": "WILB",
@@ -4971,7 +5294,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "BOS"
+   "mlb": "BOS",
+   "pid": "p0343"
   },
   {
    "team": "WILB",
@@ -4986,7 +5310,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "MIA"
+   "mlb": "MIA",
+   "pid": "p0332"
   },
   {
    "team": "WILB",
@@ -5001,7 +5326,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "CHC"
+   "mlb": "CHC",
+   "pid": "p0325"
   },
   {
    "team": "WILB",
@@ -5016,7 +5342,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0333"
   },
   {
    "team": "WILB",
@@ -5031,7 +5358,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "DET"
+   "mlb": "DET",
+   "pid": "p0344"
   },
   {
    "team": "WILB",
@@ -5046,7 +5374,8 @@
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "NYM"
+   "mlb": "NYM",
+   "pid": "p0320"
   },
   {
    "team": "WILB",
@@ -5061,7 +5390,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "HOU"
+   "mlb": "HOU",
+   "pid": "p0339"
   },
   {
    "team": "WILB",
@@ -5076,7 +5406,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0322"
   },
   {
    "team": "WILB",
@@ -5091,7 +5422,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0338"
   },
   {
    "team": "WILB",
@@ -5106,7 +5438,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PIT"
+   "mlb": "PIT",
+   "pid": "p0328"
   },
   {
    "team": "WILB",
@@ -5121,7 +5454,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "KC"
+   "mlb": "KC",
+   "pid": "p0335"
   },
   {
    "team": "WILB",
@@ -5136,7 +5470,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0317"
   },
   {
    "team": "WILB",
@@ -5151,7 +5486,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SD"
+   "mlb": "SD",
+   "pid": "p0336"
   },
   {
    "team": "WILB",
@@ -5166,7 +5502,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TEX"
+   "mlb": "TEX",
+   "pid": "p0319"
   },
   {
    "team": "WILB",
@@ -5181,7 +5518,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIL"
+   "mlb": "MIL",
+   "pid": "p0327"
   },
   {
    "team": "WILB",
@@ -5196,7 +5534,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TOR"
+   "mlb": "TOR",
+   "pid": "p0341"
   },
   {
    "team": "WILB",
@@ -5211,7 +5550,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ARI"
+   "mlb": "ARI",
+   "pid": "p0334"
   },
   {
    "team": "WILB",
@@ -5226,7 +5566,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATL"
+   "mlb": "ATL",
+   "pid": "p0337"
   },
   {
    "team": "WILB",
@@ -5241,7 +5582,8 @@
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "TB"
+   "mlb": "TB",
+   "pid": "p0342"
   },
   {
    "team": "WILB",
@@ -5256,7 +5598,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "NYY"
+   "mlb": "NYY",
+   "pid": "p0321"
   },
   {
    "team": "WILB",
@@ -5271,7 +5614,8 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "CHW"
+   "mlb": "CHW",
+   "pid": "p0324"
   }
  ],
  "log": [
