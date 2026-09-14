@@ -395,13 +395,10 @@ const CMP={
 };
 function csv(rows){
   const h=["team","player","mlb_team","primary_position","positions","acquired","service_year",
-           "salary","next_year_salary","team_payroll","team_payroll_if_all_kept","team_vs_budget"];
-  const T=Object.fromEntries(DATA.teams.map(t=>[t.abbr,t]));
-  return [h.join(",")].concat([...rows].sort(CMP.position).map(p=>{
-    const t=T[p.team];
-    return [p.team,`"${p.player}"`,p.mlb,p.primary,p.positions,p.acquired,p.year,p.salary,
-            p.nextSalary,t.payroll,t.nextPayroll,t.nextPayroll-t.budget].join(",");
-  })).join("\n");
+           "salary","next_year_salary"];
+  return [h.join(",")].concat([...rows].sort(CMP.position).map(p=>
+    [p.team,`"${p.player}"`,p.mlb,p.primary,p.positions,p.acquired,p.year,p.salary,
+     p.nextSalary].join(","))).join("\n");
 }
 function save(text,name){
   const b=new Blob([text],{type:"text/csv;charset=utf-8"});
