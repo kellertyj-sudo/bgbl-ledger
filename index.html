@@ -192,6 +192,7 @@ tbody tr.band:hover td{background:var(--accent-soft)}
 .log td:first-child{font-family:var(--mono);font-size:13.4px;color:var(--muted)}
 .io{font-family:var(--mono);font-size:11.8px;letter-spacing:.08em;font-weight:600}
 .io.in{color:var(--under)} .io.out{color:var(--over)}
+.io b{font-weight:inherit} .io .sm{display:none}
 .io.wm{color:var(--acq-trade-fg);background:var(--acq-trade-bg);border:1px solid var(--acq-trade-bd);
   padding:1px 5px;border-radius:2px}
 /* ---------- rules ---------- */
@@ -206,11 +207,50 @@ details .body strong{color:var(--ink)}
   padding:3px 8px;border-radius:2px;color:var(--ink);background:var(--sunk)}
 footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
   color:var(--muted);font-size:14px}
+.mini{display:none}
 @media (max-width:620px){
   .wrap{padding-inline:16px}
   .mast{margin-inline:-16px;padding-inline:16px}
   .mast img{width:64px;height:64px}
   .figs{width:100%}
+  /* Fold the secondary columns into a second line so salary and next-year stay
+     on screen. Horizontal scroll hides exactly the numbers people came for. */
+  .num .mini,#budget .mini{white-space:nowrap}
+  .mini{display:block;font-family:var(--mono);font-size:11.5px;color:var(--muted);
+    font-weight:400;letter-spacing:.02em;margin-top:3px;white-space:normal}
+  .mini.over{color:var(--over)} .mini.under{color:var(--under)}
+  table{font-size:14.5px}
+  .team table{font-size:14.5px}
+  .team td,.team th{padding-inline:12px}
+  td{padding:10px 8px;vertical-align:top}
+  th{padding:0 8px 8px}
+  /* rosters: Player(+sub) | Acquired | Salary(+next) */
+  .team th:nth-child(2),.team td:nth-child(2),
+  .team th:nth-child(3),.team td:nth-child(3),
+  .team th:nth-child(5),.team td:nth-child(5),
+  .team th:nth-child(7),.team td:nth-child(7){display:none}
+  .team tr.band td{display:table-cell}
+  .acqcell{gap:3px}
+  .acq{font-size:10.5px;padding:1px 4px;letter-spacing:.05em}
+  /* budget: Team(+owner) | Payroll | If all kept(+delta) */
+  #budget th:nth-child(2),#budget td:nth-child(2),
+  #budget th:nth-child(3),#budget td:nth-child(3),
+  #budget th:nth-child(6),#budget td:nth-child(6),
+  #budget th:nth-child(7),#budget td:nth-child(7){display:none}
+  /* log: Date | Team | in/out | Player(+pos, counterparty) | Salary */
+  #log th:nth-child(5),#log td:nth-child(5),
+  #log th:nth-child(6),#log td:nth-child(6){display:none}
+  .io .lg{display:none} .io .sm{display:inline}
+  #log td:first-child,#log th:first-child{padding-inline-start:0}
+  #log td:last-child,#log th:last-child{padding-inline-end:0}
+  #log td,#log th{padding-inline:5px}
+  #log .io{font-size:9.5px;letter-spacing:.04em}
+  #log td:first-child{font-size:11px;white-space:nowrap}
+  .log{font-size:13px}
+  .controls{gap:8px}
+  .controls button{flex:1 1 auto}
+  input[type=search]{flex:1 1 100%;min-width:0}
+  .acqkey .lbl:last-child{flex:1 1 100%}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
@@ -397,17 +437,23 @@ const onLine=DATA.teams.find(t=>t.nextPayroll===t.budget);
 $("#room").textContent=`${room[0].abbr} has the most room at $${260-room[0].nextPayroll}`
   +(onLine?`; ${onLine.abbr} sits exactly on the line.`:".");
 
+function budgetLabel(t){
+  const d=t.nextPayroll-t.budget;
+  return d>0 ? `over $${d}` : d<0 ? `under $${-d}` : "on the line";
+}
 /* ---- budget table ---- */
 const maxNext=Math.max(...DATA.teams.map(t=>t.nextPayroll));
 const btb=$("#budget tbody");
 [...DATA.teams].sort((a,b)=>b.nextPayroll-a.nextPayroll).forEach(t=>{
   const over=t.nextPayroll-t.budget, hot=over>0;
   const tr=document.createElement("tr");
-  tr.innerHTML=`<td class="l"><span class="team-tag">${t.abbr}</span></td>
+  tr.innerHTML=`<td class="l"><span class="team-tag">${t.abbr}</span>
+      <span class="mini">${t.owner}</span></td>
     <td class="l owner">${t.owner}</td>
     <td class="num ${t.count>LIMIT?"bad":""}">${t.count}<span class="lim">/${LIMIT}</span></td>
     <td class="num">${money(t.payroll)}</td>
-    <td class="num">${money(t.nextPayroll)}</td>
+    <td class="num">${money(t.nextPayroll)}
+      <span class="mini ${hot?"over":"under"}">${budgetLabel(t)}</span></td>
     <td class="num" style="color:var(--muted)">+${t.nextPayroll-t.payroll}</td>
     <td class="l"><div style="display:flex;align-items:center;gap:10px">
       <div class="bar"><i class="${hot?"hot":""}" style="width:${Math.round(t.nextPayroll/maxNext*100)}%"></i>
@@ -486,10 +532,6 @@ document.addEventListener("click",e=>{
 });
 document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeSheet(); });
 
-function budgetLabel(t){
-  const d=t.nextPayroll-t.budget;
-  return d>0 ? `over $${d}` : d<0 ? `under $${-d}` : "on the line";
-}
 const TAGCLS={FA:"fa",TRADE:"trade","WM TRADE":"wm",DRAFT:"draft",KEEP:"keep"};
 const TAGTXT={FA:"FA",TRADE:"Trade","WM TRADE":"WM Trade",DRAFT:"Draft",KEEP:"Keep"};
 const TAGS=p=>p.tags&&p.tags.length?p.tags:[{Keep:"KEEP",FA:"FA",Trade:"TRADE",Draft:"DRAFT"}[p.acquired]||"FA"];
@@ -497,13 +539,15 @@ function prow(p){
   return `<tr>
     <td class="l">${HIST[p.pid]?.length
       ? `<button type="button" class="pname" data-pid="${p.pid}">${p.player}${ICON}</button>`
-      : `<button type="button" class="pname" data-pid="${p.pid}" disabled>${p.player}</button>`}</td>
+      : `<button type="button" class="pname" data-pid="${p.pid}" disabled>${p.player}</button>`}
+      <span class="mini">${p.mlb} &middot; ${p.positions} &middot; Yr ${p.year}</span></td>
     <td class="l mlb">${p.mlb}</td>
     <td class="l pos">${p.positions}</td>
     <td class="l"><span class="acqcell">${TAGS(p).map(t=>
       `<span class="acq ${TAGCLS[t]||""}">${TAGTXT[t]||t}</span>`).join("")}</span></td>
     <td class="yr">${p.year}</td>
-    <td class="num">${money(p.salary)}</td>
+    <td class="num">${money(p.salary)}
+      <span class="mini">next ${money(p.nextSalary)}${p.escalator?` +${p.escalator}`:""}</span></td>
     <td class="next">${money(p.nextSalary)}${p.escalator?` <em>+${p.escalator}</em>`:""}</td>
   </tr>`;
 }
@@ -584,8 +628,9 @@ render();
 /* ---- transaction log ---- */
 const ltb=$("#log tbody");
 const fmt=d=>new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});
-const LOGLBL={add:["IN","in"],drop:["OUT","out"],trade_in:["TRADE IN","in"],trade_out:["TRADE OUT","out"]};
-const WMLBL={trade_in:["WM TRADE IN","wm"],trade_out:["WM TRADE OUT","wm"]};
+const LOGLBL={add:["IN","in","IN"],drop:["OUT","out","OUT"],
+  trade_in:["TRADE IN","in","TR IN"],trade_out:["TRADE OUT","out","TR OUT"]};
+const WMLBL={trade_in:["WM TRADE IN","wm","WM IN"],trade_out:["WM TRADE OUT","wm","WM OUT"]};
 const ALLLOG=[...DATA.log].reverse();
 let logCap=100;
 function renderLog(){
@@ -594,11 +639,13 @@ function renderLog(){
       .toLowerCase().includes(q)):ALLLOG;
   const show=rows.slice(0,logCap);
   ltb.innerHTML=show.map(e=>{
-    const [lbl,cls]=(e.wm&&WMLBL[e.type])||LOGLBL[e.type]||["OUT","out"];
+    const [lbl,cls,sm]=(e.wm&&WMLBL[e.type])||LOGLBL[e.type]||["OUT","out","OUT"];
     return `<tr><td class="l">${fmt(e.date)}</td>
       <td class="l"><span class="team-tag">${e.team}</span></td>
-      <td class="l"><span class="io ${cls}">${lbl}</span></td>
-      <td class="l">${e.player}</td><td class="l pos">${e.positions||""}</td>
+      <td class="l"><span class="io ${cls}"><b class="lg">${lbl}</b><b class="sm">${sm}</b></span></td>
+      <td class="l">${e.player}
+        <span class="mini">${e.positions||""}${e.counterparty?" &middot; with "+e.counterparty:""}</span></td>
+      <td class="l pos">${e.positions||""}</td>
       <td class="l"><span class="team-tag" style="color:var(--muted)">${e.counterparty||""}</span></td>
       <td class="num">${e.salary?money(e.salary):"&mdash;"}</td></tr>`;
   }).join("");
