@@ -269,73 +269,9 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
   </div>
 </header>
 
-
-<div class="thesis">
-  <h2>Seven of twelve teams are already over budget for next year</h2>
-  <p>If every owner kept every player, escalators would add <strong id="escload"></strong> to league payroll &mdash;
-  against a <strong>$260</strong> auction budget per team. <strong id="over-count"></strong> teams would be
-  over the line before bidding on anyone, led by <strong id="worst"></strong>.
-  <span id="room"></span></p>
-</div>
-
 <section>
-  <div class="shead">
-    <h2>Budget pressure</h2>
-    <p class="note">Next year assumes every current player is kept. Bar shows next-year payroll against the $260 budget.</p>
-  </div>
-  <div class="scroll"><table id="budget">
-    <thead><tr>
-      <th class="l">Team</th><th class="l">Owner</th><th>Roster</th>
-      <th>Payroll now</th><th>If all kept</th><th>Escalator</th>
-      <th class="l" style="min-width:150px">vs $260 budget</th>
-    </tr></thead><tbody></tbody>
-  </table></div>
-</section>
-
-<section>
-  <div class="shead">
-    <h2>Rosters</h2>
-    <p class="note"><span id="shown"></span></p>
-  </div>
-  <p class="alert" id="loaderr" hidden></p>
-  <p class="alert hidden" id="limitAlert"></p>
-  <p class="banner hidden" id="previewNote">You are viewing the preview. File downloads only work on the
-  published site &mdash; use <strong>Copy league CSV</strong> here and paste straight into a spreadsheet.</p>
-  <div class="acqkey"><span class="lbl">Acquired</span><span class="acq fa">FA</span>
-  <span class="acq trade">Trade</span><span class="acq wm">WM Trade</span>
-  <span class="acq draft">Draft</span><span class="acq keep">Keep</span>
-  <span class="lbl" style="letter-spacing:0;text-transform:none">&mdash; how he arrived, plus Keep if he was retained at the deadline</span></div>
-  <div class="controls">
-    <input type="search" id="q" placeholder="Search any player, team or position&hellip;" aria-label="Search players">
-    <button type="button" id="sortPos" aria-pressed="true">Roster order</button>
-    <button type="button" id="sortSal" aria-pressed="false">By salary</button>
-    <button type="button" id="sortName" aria-pressed="false">By name</button>
-    <button type="button" class="dl" id="dlAll">Download league CSV</button>
-    <button type="button" class="dl" id="dlTx">Download transactions</button>
-    <button type="button" class="act" id="copyAll">Copy league CSV</button>
-  </div>
-  <div id="rosters"></div>
-</section>
-
-<section>
-  <div class="shead">
-    <h2>2026 transactions</h2>
-    <p class="note" id="lognote"></p>
-  </div>
-  <div class="controls">
-    <input type="search" id="logq" placeholder="Filter by player, team or position&hellip;" aria-label="Filter transactions">
-    <button type="button" id="logmore">Show all</button>
-    <button type="button" class="act" id="dlTx2">Download transactions CSV</button>
-  </div>
-  <div class="scroll"><table class="log" id="log">
-    <thead><tr><th class="l">Date</th><th class="l">Team</th><th class="l"></th>
-      <th class="l">Player</th><th class="l">Pos</th><th class="l">With</th><th>Salary</th></tr></thead>
-    <tbody></tbody>
-  </table></div>
-</section>
-
-<section>
-  <div class="shead"><h2>Rules reference</h2></div>
+  <div class="shead"><h2>Rules &amp; reference</h2>
+    <p class="note">League rules, the escalator ladder and the Winter Meetings exception.</p></div>
 
   <details><summary>Keeper salaries &amp; the escalator</summary>
     <div class="body">
@@ -402,6 +338,67 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
   </details>
 </section>
 
+
+
+
+<section>
+  <div class="shead">
+    <h2>Budget pressure</h2>
+    <p class="note">Next year assumes every current player is kept. Bar shows next-year payroll against the $260 budget.</p>
+  </div>
+  <div class="scroll"><table id="budget">
+    <thead><tr>
+      <th class="l">Team</th><th class="l">Owner</th><th>Roster</th>
+      <th>Payroll now</th><th>If all kept</th><th>Escalator</th>
+      <th class="l" style="min-width:150px">vs $260 budget</th>
+    </tr></thead><tbody></tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="shead">
+    <h2>Rosters</h2>
+    <p class="note"><span id="shown"></span></p>
+  </div>
+  <p class="alert" id="loaderr" hidden></p>
+  <p class="alert hidden" id="limitAlert"></p>
+  <p class="banner hidden" id="previewNote">You are viewing the preview. File downloads only work on the
+  published site &mdash; use <strong>Copy league CSV</strong> here and paste straight into a spreadsheet.</p>
+  <div class="acqkey"><span class="lbl">Acquired</span><span class="acq fa">FA</span>
+  <span class="acq trade">Trade</span><span class="acq wm">WM Trade</span>
+  <span class="acq draft">Draft</span><span class="acq keep">Keep</span>
+  <span class="lbl" style="letter-spacing:0;text-transform:none">&mdash; how he arrived, plus Keep if he was retained at the deadline</span></div>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search any player, team or position&hellip;" aria-label="Search players">
+    <button type="button" id="sortPos" aria-pressed="true">Roster order</button>
+    <button type="button" id="sortSal" aria-pressed="false">By salary</button>
+    <button type="button" id="sortName" aria-pressed="false">By name</button>
+    <button type="button" class="dl" id="dlAll">Download league CSV</button>
+    <button type="button" class="dl" id="dlTx">Download transactions</button>
+    <button type="button" class="act" id="copyAll">Copy league CSV</button>
+  </div>
+  <div id="rosters"></div>
+</section>
+
+<section>
+  <div class="shead">
+    <h2>2026 transactions</h2>
+    <p class="note" id="lognote"></p>
+  </div>
+  <div class="controls">
+    <input type="search" id="logq" placeholder="Filter by player, team or position&hellip;" aria-label="Filter transactions">
+    <button type="button" id="logmore">Show all</button>
+    <button type="button" class="act" id="dlTx2">Download transactions CSV</button>
+  </div>
+  <div class="scroll"><table class="log" id="log">
+    <thead><tr><th class="l">Date</th><th class="l">Team</th><th class="l"></th>
+      <th class="l">Player</th><th class="l">Pos</th><th class="l">With</th><th>Salary</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+</section>
+
+
+
 <div id="sheet" hidden>
   <div class="sheet-card" role="dialog" aria-modal="true" aria-labelledby="sheet-name">
     <div class="sheet-head">
@@ -426,16 +423,6 @@ const $=s=>document.querySelector(s), money=n=>"$"+n;
 const LIMIT=29;            /* 26 active + 3 IL */
 function boot(){
 document.getElementById("pcount").textContent=DATA.players.length;
-
-/* ---- thesis: who has room ---- */
-const over=DATA.teams.filter(t=>t.nextPayroll>t.budget).sort((a,b)=>b.nextPayroll-a.nextPayroll);
-const room=DATA.teams.filter(t=>t.nextPayroll<t.budget).sort((a,b)=>a.nextPayroll-b.nextPayroll);
-$("#over-count").textContent=over.length;
-$("#escload").textContent="$"+DATA.teams.reduce((s,t)=>s+t.nextPayroll-t.payroll,0);
-$("#worst").textContent=`${over[0].abbr} at $${over[0].nextPayroll-260} above`;
-const onLine=DATA.teams.find(t=>t.nextPayroll===t.budget);
-$("#room").textContent=`${room[0].abbr} has the most room at $${260-room[0].nextPayroll}`
-  +(onLine?`; ${onLine.abbr} sits exactly on the line.`:".");
 
 function budgetLabel(t){
   const d=t.nextPayroll-t.budget;
