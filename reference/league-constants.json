@@ -155,6 +155,9 @@
   "transactions": "?view=mTransactions2&scoringPeriodId=N  (sweep N=1..180, dedupe by id, keep status EXECUTED). Has bidAmount. LOSES trades once accepted.",
   "activityFeed": "/communication/?view=kona_league_communication with x-fantasy-filter, page by offset. messageTypeId 180=add 181=drop 224=trade executed 239/245=drop 188=lineup(ignore). Has every trade, no salaries.",
   "bothRequired": true,
-  "trap": "On messageTypeId 239 and 245 the 'from' field is a lineup slot id, not a team id, and slot ids 1-12 collide with team ids."
+  "trap": "On messageTypeId 239 the 'from' field is a LINEUP SLOT id, not a team id, and slot ids 1-12 collide with team ids - mapping it through a team table produces confident wrong answers. Verified 2026-09-21: 239 'from' values run 0-17.",
+  "trapDoesNotApplyTo245": "On messageTypeId 245 the 'from' field IS a real team id. Verified across the whole 2026 season: every 245 'from' is 1-12, and all 11 in the pre-draft drop set matched the team derived independently from roster history. An earlier note claiming the trap covered both types was wrong.",
+  "draftKeeperFlag": "mDraftDetail picks carry a boolean 'keeper'. ESPN's UI renders BOTH keeper claims and auction buys as 'Drafted', which is where mislabelled history comes from. 2026: 312 picks = 247 keepers + 65 auction buys. Ty updates keeper salaries after the keeper deadline and before the draft, so the bidAmount on a keeper pick IS accurate.",
+  "playerIds": "ESPN playerId is stable and unique and is stored as 'espn' on every registry row. Resolve identity by that id, never by name - it is what separates p0107 Max Muncy (LAD) from p0846 Max Muncy (ATH)."
  }
 }

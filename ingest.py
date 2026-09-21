@@ -351,7 +351,8 @@ def run(src=None, apply=False, year=None, wm_date=None, keeper_roll=None):
     for nm, mlb, pos, _kin in newcomers:
         reg["registry"].append({"pid": f"p{nxt:04d}", "name": nm, "key": key(nm), "aliases": [],
                                 "mlb": mlb, "positions": POSMAP.get(pos, pos),
-                                "status": "rostered", "team": "", "trello": "", "review": ""})
+                                "status": "rostered", "team": "", "espn": None,
+                                "trello": "", "review": ""})
         kmap[key(nm)] = reg["registry"][-1]; nxt += 1
     for p in roster.values():                        # backfill pids minted just now
         if not p.get("pid"):
@@ -379,6 +380,46 @@ def run(src=None, apply=False, year=None, wm_date=None, keeper_roll=None):
         t["count"] = len(ps)
         t["payroll"] = sum(p["salary"] for p in ps)
         t["nextPayroll"] = sum(p["nextSalary"] for p in ps)
+
+    # ---- registry: team/status are DERIVED from the roster, never left to drift.
+    # Before 2026-09-21 this block did not exist: apply only ever appended new rows,
+    # so a dropped player kept saying "rostered" and a traded one kept his old team.
+    live = {p["pid"]: p["team"] for p in led["players"]}
+    for r in reg["registry"]:
+        if r["pid"] in live:
+            r["team"], r["status"] = live[r["pid"]], "rostered"
+        elif r.get("status") != "retired":
+            r["team"], r["status"] = "", "free"
+
+    # ---- notes: ESPN's own wording, so nothing downstream has to recompose a sentence.
+    def _note(kind, team, pid, salary, counterparty=""):
+        r = {x["pid"]: x for x in reg["registry"]}.get(pid, {})
+        nm = r.get("name", "?")
+        mlb = (r.get("mlb") or "FA")
+        pos = (r.get("positions") or "?").split("/")[0]
+        if kind == "fa_add":   return f"{team} added {nm}, {mlb} {pos} from Waivers for ${salary}"
+        if kind == "release":  return f"{team} dropped {nm}, {mlb} {pos} to Waivers"
+        if kind == "keep":     return f"Retained as Keeper by {team} for ${salary}"
+        if kind == "draft":    return f"Drafted for ${salary} by {team}"
+        if kind == "trade_in":  return f"{counterparty} traded {nm}, {mlb} {pos} to {team}"
+        if kind == "trade_out": return f"{team} traded {nm}, {mlb} {pos} to {counterparty}"
+        return ""
+
+    # staged rows carry `name`, not `pid` - so note the written transaction rows,
+    # which is the only place a pid is guaranteed to exist.
+    for row in txf["transactions"]:
+        if not row.get("note"):
+            cp = row.get("from") if row["type"] == "trade_in" else row.get("to")
+            row["note"] = _note(row["type"], row.get("to") or row.get("from"),
+                                row["pid"], row.get("salary", 0), cp)
+    LOGT = {"add": "fa_add", "drop": "release", "trade_in": "trade_in",
+            "trade_out": "trade_out", "keep": "keep", "draft": "draft"}
+    name2pid = {r["name"]: r["pid"] for r in reg["registry"]}
+    for e in logged:
+        if not e.get("note"):
+            e["note"] = _note(LOGT.get(e["type"], e["type"]), e["team"],
+                              name2pid.get(e["player"], ""),
+                              e.get("salary", 0), e.get("counterparty", ""))
 
     (HERE / "registry.json").write_text(json.dumps(reg, indent=1))
     (HERE / "transactions.json").write_text(json.dumps(txf, indent=1))

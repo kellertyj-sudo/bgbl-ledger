@@ -132,6 +132,19 @@ button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);co
 .acq.trade{background:var(--acq-trade-bg);color:var(--acq-trade-fg);border-color:var(--acq-trade-bd)}
 .acq.draft{background:var(--acq-draft-bg);color:var(--acq-draft-fg);border-color:var(--acq-draft-bd)}
 .acq.wm{background:var(--acq-wm-bg);color:var(--acq-wm-fg);border-color:var(--acq-wm-bd)}
+/* Transaction verbs are colour-coded to the acquisition labels they correspond to:
+   dropped/added -> FA, traded -> TRADE (or WM TRADE on a Winter Meetings deal),
+   Retained as Keeper -> KEEP, Drafted -> DRAFT. */
+.v{font-weight:700}
+.v-fa{color:var(--acq-fa-fg)}
+.v-trade{color:var(--acq-trade-fg)}
+.v-wm{color:var(--acq-wm-fg)}
+.v-keep{color:var(--acq-keep-fg)}
+.v-draft{color:var(--acq-draft-fg)}
+.wmbadge{display:inline-block;margin-left:.5em;padding:.05em .5em;border-radius:999px;
+  font-size:11px;font-weight:700;letter-spacing:.03em;vertical-align:middle;
+  background:var(--acq-wm-bg);color:var(--acq-wm-fg);border:1px solid var(--acq-wm-bd)}
+.tl .what+.what{margin-top:.15em}
 .acqcell{display:flex;flex-wrap:wrap;gap:4px}
 .acqkey{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin:0 0 14px}
 .acqkey .lbl{font-family:var(--mono);font-size:11.8px;letter-spacing:.1em;text-transform:uppercase;
@@ -418,7 +431,7 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
 </footer>
 </div>
 <script>
-let DATA=null, HIST={};
+let DATA=null, HIST={}, TXN={};
 const $=s=>document.querySelector(s), money=n=>"$"+n;
 /* long date, with year - used for "current through" and the log span. Derived, never typed. */
 const fmtLong=d=>d?new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}):"";
@@ -495,22 +508,56 @@ const VERB={fa_add:"Added from waivers", release:"Released to free agency",
             draft:"Drafted", keep:"Kept", trade_in:"Acquired by trade", trade_out:"Traded away"};
 function openSheet(pid){
   const p=DATA.players.find(x=>x.pid===pid); if(!p) return;
-  const evs=(HIST[pid]||[]).slice().sort((a,b)=>b.date.localeCompare(a.date));
   $("#sheet-name").textContent=p.player;
   $("#sheet-meta").textContent=
-    `${p.pid} · ${p.mlb} ${p.positions} · ${p.team} · $${p.salary}, year ${p.year}`;
-  $("#sheet-body").innerHTML = evs.length
-    ? `<ul class="tl">${evs.map(e=>{
-        const io = e.to ? "in" : e.from ? "out" : "";
-        const who = e.to || e.from || "";
-        const amt = e.salary ? ` for <b>$${e.salary}</b>` : "";
+    `${p.pid} \u00b7 ${p.mlb} ${p.positions} \u00b7 ${p.team} \u00b7 $${p.salary}, year ${p.year}`;
+
+  /* A transaction is a GROUP of events sharing a `txn` id - the trade's player legs
+     plus any roster-clearing drops and traded FAAB. Every player in the deal shows
+     the whole deal, because the point of the history is context. */
+  const mine=(HIST[pid]||[]), groups=[], seenTxn=new Set();
+  mine.forEach(e=>{
+    if(e.txn){ if(seenTxn.has(e.txn)) return; seenTxn.add(e.txn);
+      groups.push({date:e.date, wm:e.wm, rows:(TXN[e.txn]||[e])}); }
+    else groups.push({date:e.date, wm:e.wm, rows:[e]});
+  });
+  groups.sort((a,b)=>b.date.localeCompare(a.date));
+
+  const mid=r=>r.note.replace(new RegExp("^"+r.from+" traded "),"")
+                     .replace(new RegExp(" to "+r.to+"$"),"");
+  const paint=(s,wm)=>s
+    .replace(/\b(dropped|added)\b/g, '<span class="v v-fa">$1</span>')
+    .replace(/\b(traded)\b/g, '<span class="v '+(wm?"v-wm":"v-trade")+'">$1</span>')
+    .replace(/Retained as Keeper/g, '<span class="v v-keep">Retained as Keeper</span>')
+    .replace(/\bDrafted\b/g, '<span class="v v-draft">Drafted</span>')
+    .replace(/\$(\d+)/g, "<b>$$$1</b>");
+
+  function lines(g){
+    const out=[], rows=g.rows;
+    rows.filter(r=>r.type==="release").forEach(r=>out.push(r.note));
+    const sides=new Map();
+    rows.filter(r=>r.type==="trade_in").forEach(r=>{
+      const k=r.from+">"+r.to;
+      if(!sides.has(k)) sides.set(k,{from:r.from,to:r.to,items:[]});
+      sides.get(k).items.push(mid(r));
+    });
+    sides.forEach(s=>s.items.forEach((it,i)=>
+      out.push((i===0? s.from+" traded " : "traded ")+it+(i===s.items.length-1? " to "+s.to : ""))));
+    rows.filter(r=>r.type==="faab").forEach(r=>out.push(r.note));
+    rows.filter(r=>["fa_add","keep","draft"].includes(r.type)).forEach(r=>out.push(r.note));
+    return out;
+  }
+
+  $("#sheet-body").innerHTML = groups.length
+    ? `<ul class="tl">${groups.map(g=>{
+        const io = g.rows.some(r=>r.to===p.team) ? "in" : "out";
         return `<li><span class="dot ${io}"></span>
-          <div class="when">${new Date(e.date+"T12:00:00")
-            .toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})}</div>
-          <div class="what">${VERB[e.type]||e.type} ${who?`by <b>${who}</b>`:""}${amt}</div></li>`;
+          <div class="when">${new Date(g.date+"T12:00:00")
+            .toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})}${
+            g.wm?'<span class="wmbadge">WM TRADE</span>':""}</div>
+          ${lines(g).map(l=>`<div class="what">${paint(l,g.wm)}</div>`).join("")}</li>`;
       }).join("")}</ul>`
-    : `<p class="sheet-empty">No transactions recorded for this player yet. The ledger currently
-       holds the 2026 season from Feb 1 onward; earlier seasons are still being migrated from Trello.</p>`;
+    : `<p class="sheet-empty">No transactions recorded for this player yet.</p>`;
   $("#sheet").hidden=false;
   $("#sheet-close").focus();
 }
@@ -619,7 +666,9 @@ render();
 const ltb=$("#log tbody");
 const fmt=d=>new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});
 const LOGLBL={add:["IN","in","IN"],drop:["OUT","out","OUT"],
-  trade_in:["TRADE IN","in","TR IN"],trade_out:["TRADE OUT","out","TR OUT"]};
+  trade_in:["TRADE IN","in","TR IN"],trade_out:["TRADE OUT","out","TR OUT"],
+  keep:["KEEPER","keep","KEEP"],draft:["DRAFTED","draft","DRAFT"],
+  faab:["FAAB","in","FAAB"]};
 const WMLBL={trade_in:["WM TRADE IN","wm","WM IN"],trade_out:["WM TRADE OUT","wm","WM OUT"]};
 const ALLLOG=[...DATA.log].reverse();
 const LOGDATES=DATA.log.map(e=>e.date).filter(Boolean).sort();
@@ -661,7 +710,11 @@ Promise.all([
   .then(([d,t])=>{
     DATA=d;
     HIST={};
-    (t.transactions||[]).forEach(x=>{ (HIST[x.pid] ||= []).push(x); });
+    (t.transactions||[]).forEach(x=>{ if(x.pid) (HIST[x.pid] ||= []).push(x);
+        if(x.txn) (TXN[x.txn] ||= []).push(x); });
+      /* a FAAB leg has no pid, so attach it to every player in its transaction */
+      Object.values(TXN).forEach(rows=>rows.forEach(r=>{ if(r.type==="faab") return;
+        }));
     boot();
   })
   .catch(err=>{
