@@ -137,6 +137,7 @@ button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);co
    Retained as Keeper -> KEEP, Drafted -> DRAFT. */
 .v{font-weight:700}
 .v-fa{color:var(--acq-fa-fg)}
+.v-drop{color:var(--over)}
 .v-trade{color:var(--acq-trade-fg)}
 .v-wm{color:var(--acq-wm-fg)}
 .v-keep{color:var(--acq-keep-fg)}
@@ -442,7 +443,8 @@ const $=s=>document.querySelector(s), money=n=>"$"+n;
 /* Verbs are colour-coded to the acquisition labels: dropped/added -> FA,
    traded -> TRADE (WM TRADE on a Winter Meetings deal), kept -> KEEP, drafted -> DRAFT. */
 const paintVerbs=(s,wm)=>(s||"")
-  .replace(/\b(dropped|added)\b/g, '<span class="v v-fa">$1</span>')
+  .replace(/\bdropped\b/g, '<span class="v v-drop">dropped</span>')
+  .replace(/\badded\b/g, '<span class="v v-fa">added</span>')
   .replace(/\b(traded)\b/g, '<span class="v '+(wm?"v-wm":"v-trade")+'">$1</span>')
   .replace(/Retained as Keeper/g, '<span class="v v-keep">Retained as Keeper</span>')
   .replace(/\bDrafted\b/g, '<span class="v v-draft">Drafted</span>')
