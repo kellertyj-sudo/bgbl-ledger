@@ -1,0 +1,160 @@
+{
+ "league": {
+  "name": "BGBL \u2014 Berry Good Beisbol",
+  "espnLeagueId": 196985,
+  "season": 2026,
+  "budget": 260,
+  "rosterLimit": 29,
+  "rosterLimitNote": "26 active + 3 IL",
+  "minFaabBid": 3,
+  "faabBudget": "$100 plus whatever is left of the draft budget",
+  "faabCarryover": "None. Unspent FAAB does not carry into the next season, so late-season overbids by contending teams are rational and are not an error to flag."
+ },
+ "standingRule": {
+  "rule": "If anything looks odd, stop and ask Ty before changing it. Do not resolve ambiguity on your own judgment. (Ty, 2026-09-21)",
+  "appendVsEdit": "Appending transactions is the routine loop. CHANGING a value already in ledger.json, registry.json or transactions.json is never routine and needs Ty's explicit yes first - an append is replayable, an edit to existing state is not.",
+  "alwaysAsk": [
+    "a rostered player's ESPN salary disagrees with the ledger (likely a deliberate cash fake - see cashAssetsAndLiabilities)",
+    "a year, escalator or tag that doesn't match what the rules would produce",
+    "a transaction contradicting one already logged (reversal, duplicate, out-of-order dependency)",
+    "anything that would overwrite a number Ty entered by hand, including the migration baseline",
+    "anything you are about to reconcile 'for consistency'",
+    "anything the runbook does not cover"
+  ],
+  "notThisRule": "Surprising-but-legal league moves are not data anomalies. Log them without comment - see 'Things that are NOT problems' in the runbook."
+ },
+ "cashAssetsAndLiabilities": {
+  "status": "As of 2026-09-21 there is NO cash outstanding. Every team's budget is a clean $260. Do not invent adjustments.",
+  "rule": "Cash may be included in a trade as an asset or liability with a defined duration (e.g. $15 over 5 years). The yearly balance adjusts that team's draft budget right after the keeper deadline.",
+  "espnTrap": "ESPN has no way to represent cash. Ty's only workaround is to FAKE a player's salary in ESPN so the team's total reflects the cash impact. This is the standing reason the ledger, not ESPN, is the system of record.",
+  "doNotSync": "If a rostered player's ESPN salary ever disagrees with the ledger, do NOT assume ESPN is right and 'correct' the ledger. That rule ('ESPN transaction salaries are binding') applies to the bid recorded at the moment of acquisition, not to a salary edited afterward. A post-acquisition mismatch is most likely a deliberate cash fake - ask Ty before changing anything.",
+  "modelItProperly": "When cash returns, carry it on the TEAM object in ledger.json (amount, annual charge, years remaining) and apply it to 'budget' at the keeper roll. Never fake a player salary inside the ledger to represent cash."
+ },
+ "reacquisition": {
+  "rule": "The no-reacquisition rule applies to TRADES ONLY: you cannot trade a player away and trade him back in the same league year to reset his escalator.",
+  "waiversAreFine": "Dropping a player and re-adding him off waivers is legal and is normal roster management. Do not flag it.",
+  "source": "Ty, 2026-09-21, ruling on JAKE dropping and re-signing Nolan Arenado at the same $3."
+ },
+ "teams": {
+  "KELL": {
+   "owner": "Ty Keller",
+   "role": "Commissioner",
+   "espnTeamId": 1,
+   "espnName": "My Burly Sons"
+  },
+  "NORT": {
+   "owner": "Will Norton",
+   "espnTeamId": 2,
+   "espnName": "Fantasy Sport is Meaningless"
+  },
+  "JAKE": {
+   "owner": "Jake Kalos",
+   "espnTeamId": 3,
+   "espnName": "Judge, Eury, and Jacksocutioner"
+  },
+  "HAWN": {
+   "owner": "Brian Hawn",
+   "espnTeamId": 4,
+   "espnName": "Scrabble Ass Team"
+  },
+  "SPER": {
+   "owner": "Tyler Speer",
+   "espnTeamId": 5,
+   "espnName": "I Betts on Dumper"
+  },
+  "JST": {
+   "owner": "Joshua Tufts",
+   "espnTeamId": 6,
+   "espnName": "Sho me the Booby!"
+  },
+  "WILB": {
+   "owner": "Dan Kamas & Mike Sasso",
+   "espnTeamId": 7,
+   "espnName": "Arroz With Power"
+  },
+  "FREE": {
+   "owner": "Kevin Freeman",
+   "espnTeamId": 8,
+   "espnName": "He No Help With Curveball"
+  },
+  "CHAZ": {
+   "owner": "Charlie Cole",
+   "espnTeamId": 9,
+   "espnName": "Catholicism, Wow!"
+  },
+  "GORD": {
+   "owner": "Gordie Hanrahan",
+   "espnTeamId": 10,
+   "espnName": "Schlittler's List",
+   "note": "ESPN's API returns 'S...littler's List' - its profanity filter. The ledger value is correct; do not sync this one from ESPN."
+  },
+  "NISH": {
+   "owner": "Nick Sherrill",
+   "espnTeamId": 11,
+   "espnName": "Team .289 .358 .817"
+  },
+  "BORG": {
+   "owner": "Reggie Borges",
+   "espnTeamId": 12,
+   "espnName": "Francisco's Treats"
+  }
+ },
+ "formerTeamCodes": [
+  "TUKA",
+  "JERR",
+  "BooB"
+ ],
+ "escalator": {
+  "0": 0,
+  "1": 0,
+  "2": 1,
+  "3": 3,
+  "4": 5,
+  "5": 7,
+  "6+": 5,
+  "note": "Escalator is keyed to the year being ENTERED. Year 0 -> Year 1 takes nothing: that is the Winter Meetings waiver."
+ },
+ "acquisitionTags": {
+  "arrival": [
+   "FA",
+   "TRADE",
+   "WM TRADE",
+   "DRAFT"
+  ],
+  "stacking": [
+   "KEEP"
+  ],
+  "rule": "Exactly one arrival tag. KEEP is added on top when he survives a keeper deadline; it never replaces the arrival tag."
+ },
+ "leagueYear": {
+  "order": [
+   "Winter Meetings",
+   "keeper deadline",
+   "draft",
+   "season"
+  ],
+  "winterMeetings": "Ends the old league year. Next Year Salaries take effect at 12:00 AM PT at the close. A trade inside the 24h window waives the escalator and the player carries Year 0.",
+  "keeperDeadline": "Rosters finalize - functionally the start of the season. Year 0 becomes Year 1; everyone else advances a year and takes their escalator.",
+  "draft": "Effectively a large FAAB session. Auction buys enter at Year 1 for the winning bid.",
+  "datesMoveEveryYear": true,
+  "observed": {
+   "2026": {
+    "winterMeetings": "2026-02-01",
+    "keeperDeadline": "2026-03-21",
+    "draft": "2026-03-22/23"
+   }
+  }
+ },
+ "timezone": {
+  "leagueOperatesIn": "America/Los_Angeles",
+  "warning": "The ESPN API returns UTC. Anything logged after ~4-5 PM PT rolls onto the next UTC day. Convert before dating anything - this put 36 events on the wrong day once."
+ },
+ "espnApi": {
+  "base": "https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb/seasons/{season}/segments/0/leagues/196985",
+  "authNote": "Private league - calls must run from a browser already signed in to ESPN.",
+  "transactions": "?view=mTransactions2&scoringPeriodId=N  (sweep N=1..180, dedupe by id, keep status EXECUTED). Has bidAmount. LOSES trades once accepted.",
+  "activityFeed": "/communication/?view=kona_league_communication with x-fantasy-filter, page by offset. messageTypeId 180=add 181=drop 224=trade executed 239/245=drop 188=lineup(ignore). Has every trade, no salaries.",
+  "bothRequired": true,
+  "trap": "On messageTypeId 239 and 245 the 'from' field is a lineup slot id, not a team id, and slot ids 1-12 collide with team ids."
+ }
+}

@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-13",
+ "asOf": "2026-09-21",
  "season": 2026,
  "source": "Trello BGBL Ledger (baseline) + ESPN league 196985 transaction feed (2026 season)",
  "teams": [
@@ -16,9 +16,9 @@
    "abbr": "CHAZ",
    "owner": "Charlie Cole",
    "espn": "Catholicism, Wow!",
-   "count": 29,
-   "payroll": 142,
-   "nextPayroll": 191,
+   "count": 28,
+   "payroll": 139,
+   "nextPayroll": 187,
    "budget": 260
   },
   {
@@ -26,17 +26,17 @@
    "owner": "Kevin Freeman",
    "espn": "He No Help With Curveball",
    "count": 29,
-   "payroll": 208,
-   "nextPayroll": 265,
+   "payroll": 205,
+   "nextPayroll": 260,
    "budget": 260
   },
   {
    "abbr": "GORD",
    "owner": "Gordie Hanrahan",
    "espn": "Schlittler's List",
-   "count": 29,
-   "payroll": 227,
-   "nextPayroll": 270,
+   "count": 28,
+   "payroll": 229,
+   "nextPayroll": 271,
    "budget": 260
   },
   {
@@ -52,9 +52,9 @@
    "abbr": "JAKE",
    "owner": "Jake Kalos",
    "espn": "Judge, Eury, and Jacksocutioner",
-   "count": 28,
-   "payroll": 231,
-   "nextPayroll": 281,
+   "count": 29,
+   "payroll": 234,
+   "nextPayroll": 285,
    "budget": 260
   },
   {
@@ -79,9 +79,9 @@
    "abbr": "NISH",
    "owner": "Nick Sherrill",
    "espn": "Team .289 .358 .817",
-   "count": 28,
-   "payroll": 268,
-   "nextPayroll": 330,
+   "count": 27,
+   "payroll": 263,
+   "nextPayroll": 324,
    "budget": 260
   },
   {
@@ -89,8 +89,8 @@
    "owner": "Will Norton",
    "espn": "Fantasy Sport is Meaningless",
    "count": 29,
-   "payroll": 208,
-   "nextPayroll": 259,
+   "payroll": 210,
+   "nextPayroll": 261,
    "budget": 260
   },
   {
@@ -107,106 +107,163 @@
    "owner": "Dan Kamas & Mike Sasso",
    "espn": "Arroz With Power",
    "count": 29,
-   "payroll": 217,
-   "nextPayroll": 286,
+   "payroll": 219,
+   "nextPayroll": 288,
    "budget": 260
   }
  ],
  "players": [
   {
    "team": "BORG",
-   "player": "Liam Hicks",
-   "positions": "C/1B",
+   "player": "Andrew Alvarez",
+   "positions": "SP/RP",
    "salary": 3,
    "year": 1,
-   "acquired": "Trade",
+   "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "C",
-   "rank": 0,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "WSH",
+   "pid": "p0001",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Bo Bichette",
+   "positions": "SS/3B",
+   "salary": 13,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 14,
+   "escalator": 1,
+   "primary": "SS",
+   "rank": 4,
    "group": "B",
-   "mlb": "TB",
-   "pid": "p0016",
+   "mlb": "NYM",
+   "pid": "p0002",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Byron Buxton",
+   "positions": "OF",
+   "salary": 2,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 3,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "MIN",
+   "pid": "p0003",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Casey Mize",
+   "positions": "SP",
+   "salary": 1,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 2,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "SD",
+   "pid": "p0004",
    "tags": [
     "TRADE"
    ]
   },
   {
    "team": "BORG",
-   "player": "Vinnie Pasquantino",
-   "positions": "1B",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "KC",
-   "pid": "p0028",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Spencer Torkelson",
-   "positions": "1B",
-   "salary": 4,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "DET",
-   "pid": "p0023",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Nico Hoerner",
-   "positions": "2B/SS",
-   "salary": 9,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 12,
-   "escalator": 3,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "CHC",
-   "pid": "p0018",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Royce Lewis",
-   "positions": "3B/1B/2B",
-   "salary": 4,
+   "player": "Christian Scott",
+   "positions": "SP",
+   "salary": 6,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 5,
+   "nextSalary": 7,
    "escalator": 1,
-   "primary": "3B",
-   "rank": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "NYM",
+   "pid": "p0005",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Cody Bellinger",
+   "positions": "OF",
+   "salary": 5,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
    "group": "B",
-   "mlb": "MIN",
-   "pid": "p0021",
+   "mlb": "NYY",
+   "pid": "p0006",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Devin Williams",
+   "positions": "RP",
+   "salary": 18,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 19,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "NYM",
+   "pid": "p0007",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Emerson Hancock",
+   "positions": "SP",
+   "salary": 6,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 7,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "SEA",
+   "pid": "p0008",
    "tags": [
     "FA"
    ]
@@ -233,19 +290,76 @@
   },
   {
    "team": "BORG",
-   "player": "Trea Turner",
-   "positions": "SS",
-   "salary": 16,
+   "player": "Griffin Conine",
+   "positions": "OF/1B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "MIA",
+   "pid": "p0010",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Jacob Lopez",
+   "positions": "SP",
+   "salary": 5,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "ATH",
+   "pid": "p0011",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Jeffrey Springs",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "ATH",
+   "pid": "p0012",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Josh Hader",
+   "positions": "RP",
+   "salary": 12,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
-   "nextSalary": 19,
+   "nextSalary": 15,
    "escalator": 3,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "PHI",
-   "pid": "p0025",
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "HOU",
+   "pid": "p0013",
    "tags": [
     "TRADE",
     "KEEP"
@@ -253,22 +367,59 @@
   },
   {
    "team": "BORG",
-   "player": "Bo Bichette",
-   "positions": "SS/3B",
-   "salary": 13,
+   "player": "Keider Montero",
+   "positions": "SP/RP",
+   "salary": 5,
    "year": 1,
-   "acquired": "Keep",
+   "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 14,
+   "nextSalary": 6,
    "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "NYM",
-   "pid": "p0002",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "DET",
+   "pid": "p0014",
    "tags": [
-    "WM TRADE",
-    "KEEP"
+    "FA"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Kyle Leahy",
+   "positions": "RP/SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "STL",
+   "pid": "p0015",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Liam Hicks",
+   "positions": "C/1B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "TB",
+   "pid": "p0016",
+   "tags": [
+    "TRADE"
    ]
   },
   {
@@ -292,98 +443,19 @@
   },
   {
    "team": "BORG",
-   "player": "Tyler Soderstrom",
-   "positions": "OF/1B",
-   "salary": 6,
-   "year": 1,
+   "player": "Nico Hoerner",
+   "positions": "2B/SS",
+   "salary": 9,
+   "year": 2,
    "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 7,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
+   "nextYear": 3,
+   "nextSalary": 12,
+   "escalator": 3,
+   "primary": "2B",
+   "rank": 2,
    "group": "B",
-   "mlb": "ATH",
-   "pid": "p0027",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Cody Bellinger",
-   "positions": "OF",
-   "salary": 5,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "NYY",
-   "pid": "p0006",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Griffin Conine",
-   "positions": "OF/1B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "MIA",
-   "pid": "p0010",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Byron Buxton",
-   "positions": "OF",
-   "salary": 2,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 3,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "MIN",
-   "pid": "p0003",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Shane McClanahan",
-   "positions": "SP",
-   "salary": 14,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 15,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "TB",
-   "pid": "p0022",
+   "mlb": "CHC",
+   "pid": "p0018",
    "tags": [
     "TRADE",
     "KEEP"
@@ -411,40 +483,81 @@
   },
   {
    "team": "BORG",
-   "player": "Christian Scott",
+   "player": "Roki Sasaki",
    "positions": "SP",
-   "salary": 6,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 7,
-   "escalator": 1,
+   "salary": 2,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 5,
+   "escalator": 3,
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYM",
-   "pid": "p0005",
+   "mlb": "LAD",
+   "pid": "p0020",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Royce Lewis",
+   "positions": "3B/1B/2B",
+   "salary": 4,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "MIN",
+   "pid": "p0021",
    "tags": [
     "FA"
    ]
   },
   {
    "team": "BORG",
-   "player": "Emerson Hancock",
+   "player": "Shane McClanahan",
    "positions": "SP",
-   "salary": 6,
+   "salary": 14,
    "year": 1,
-   "acquired": "FA",
+   "acquired": "Trade",
    "nextYear": 2,
-   "nextSalary": 7,
+   "nextSalary": 15,
    "escalator": 1,
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SEA",
-   "pid": "p0008",
+   "mlb": "TB",
+   "pid": "p0022",
    "tags": [
-    "FA"
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Spencer Torkelson",
+   "positions": "1B",
+   "salary": 4,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "DET",
+   "pid": "p0023",
+   "tags": [
+    "TRADE",
+    "KEEP"
    ]
   },
   {
@@ -469,194 +582,22 @@
   },
   {
    "team": "BORG",
-   "player": "Jacob Lopez",
-   "positions": "SP",
-   "salary": 5,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ATH",
-   "pid": "p0011",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Keider Montero",
-   "positions": "SP/RP",
-   "salary": 5,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "DET",
-   "pid": "p0014",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Walbert Urena",
-   "positions": "SP",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "LAA",
-   "pid": "p0029",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Andrew Alvarez",
-   "positions": "SP/RP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "WSH",
-   "pid": "p0001",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Jeffrey Springs",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ATH",
-   "pid": "p0012",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Roki Sasaki",
-   "positions": "SP",
-   "salary": 2,
+   "player": "Trea Turner",
+   "positions": "SS",
+   "salary": 16,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
-   "nextSalary": 5,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "LAD",
-   "pid": "p0020",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Casey Mize",
-   "positions": "SP",
-   "salary": 1,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 2,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "SD",
-   "pid": "p0004",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Devin Williams",
-   "positions": "RP",
-   "salary": 18,
-   "year": 1,
-   "acquired": "Draft",
-   "nextYear": 2,
    "nextSalary": 19,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "NYM",
-   "pid": "p0007",
-   "tags": [
-    "DRAFT"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Josh Hader",
-   "positions": "RP",
-   "salary": 12,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 15,
    "escalator": 3,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "HOU",
-   "pid": "p0013",
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "PHI",
+   "pid": "p0025",
    "tags": [
     "TRADE",
     "KEEP"
-   ]
-  },
-  {
-   "team": "BORG",
-   "player": "Kyle Leahy",
-   "positions": "RP/SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "STL",
-   "pid": "p0015",
-   "tags": [
-    "FA"
    ]
   },
   {
@@ -679,312 +620,101 @@
    ]
   },
   {
-   "team": "CHAZ",
-   "player": "Hunter Goodman",
-   "positions": "C",
+   "team": "BORG",
+   "player": "Tyler Soderstrom",
+   "positions": "OF/1B",
    "salary": 6,
    "year": 1,
-   "acquired": "Trade",
+   "acquired": "Keep",
    "nextYear": 2,
    "nextSalary": 7,
    "escalator": 1,
-   "primary": "C",
-   "rank": 0,
-   "group": "B",
-   "mlb": "COL",
-   "pid": "p0041",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Mickey Gasper",
-   "positions": "C/1B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "C",
-   "rank": 0,
-   "group": "B",
-   "mlb": "BOS",
-   "pid": "p0050",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Luis Arraez",
-   "positions": "1B/2B",
-   "salary": 9,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 12,
-   "escalator": 3,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "PHI",
-   "pid": "p0049",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Jake Bauers",
-   "positions": "1B/OF",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "MIL",
-   "pid": "p0044",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Charlie Condon",
-   "positions": "1B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "COL",
-   "pid": "p0034",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Gleyber Torres",
-   "positions": "2B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "DET",
-   "pid": "p0039",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Sam Antonacci",
-   "positions": "2B/3B/OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "CHW",
-   "pid": "p0053",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Ernie Clement",
-   "positions": "3B/2B/SS",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "TOR",
-   "pid": "p0038",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "JJ Wetherholt",
-   "positions": "SS/2B",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "STL",
-   "pid": "p0042",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Seaver King",
-   "positions": "SS",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "WSH",
-   "pid": "p0054",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Ceddanne Rafaela",
-   "positions": "OF/2B",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "BOS",
-   "pid": "p0033",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Seiya Suzuki",
-   "positions": "OF",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "CHC",
-   "pid": "p0055",
+   "mlb": "ATH",
+   "pid": "p0027",
    "tags": [
     "WM TRADE",
     "KEEP"
    ]
   },
   {
-   "team": "CHAZ",
-   "player": "Jo Adell",
-   "positions": "OF",
+   "team": "BORG",
+   "player": "Vinnie Pasquantino",
+   "positions": "1B",
+   "salary": 5,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "KC",
+   "pid": "p0028",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "BORG",
+   "player": "Walbert Urena",
+   "positions": "SP",
    "salary": 4,
    "year": 1,
-   "acquired": "Trade",
+   "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 5,
    "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "CLE",
-   "pid": "p0046",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Henry Bolte",
-   "positions": "OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "ATH",
-   "pid": "p0040",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "LAA",
+   "pid": "p0029",
    "tags": [
     "FA"
    ]
   },
   {
    "team": "CHAZ",
-   "player": "Trent Grisham",
-   "positions": "OF",
-   "salary": 3,
+   "player": "Blade Tidwell",
+   "positions": "SP/RP",
+   "salary": 4,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 4,
+   "nextSalary": 5,
    "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "NYY",
-   "pid": "p0056",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "SF",
+   "pid": "p0030",
    "tags": [
     "FA"
    ]
   },
   {
    "team": "CHAZ",
-   "player": "Willi Castro",
-   "positions": "OF/1B/2B/3B/SS",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "COL",
-   "pid": "p0057",
+   "player": "Braxton Ashcraft",
+   "positions": "RP/SP",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "PIT",
+   "pid": "p0031",
    "tags": [
-    "FA"
+    "FA",
+    "KEEP"
    ]
   },
   {
@@ -1009,21 +739,41 @@
   },
   {
    "team": "CHAZ",
-   "player": "Jesus Luzardo",
-   "positions": "SP",
-   "salary": 6,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 7,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "PHI",
-   "pid": "p0045",
+   "player": "Ceddanne Rafaela",
+   "positions": "OF/2B",
+   "salary": 5,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "BOS",
+   "pid": "p0033",
    "tags": [
-    "TRADE"
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Charlie Condon",
+   "positions": "1B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "COL",
+   "pid": "p0034",
+   "tags": [
+    "FA"
    ]
   },
   {
@@ -1043,85 +793,6 @@
    "pid": "p0035",
    "tags": [
     "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Logan Webb",
-   "positions": "SP",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "SF",
-   "pid": "p0048",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Nick Pivetta",
-   "positions": "SP",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "SD",
-   "pid": "p0051",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Blade Tidwell",
-   "positions": "SP/RP",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "SF",
-   "pid": "p0030",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "CHAZ",
-   "player": "Yoshinobu Yamamoto",
-   "positions": "SP",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "LAD",
-   "pid": "p0058",
-   "tags": [
-    "TRADE",
     "KEEP"
    ]
   },
@@ -1165,41 +836,175 @@
   },
   {
    "team": "CHAZ",
-   "player": "Reid Detmers",
-   "positions": "RP/SP",
-   "salary": 20,
+   "player": "Ernie Clement",
+   "positions": "3B/2B/SS",
+   "salary": 3,
    "year": 1,
-   "acquired": "Draft",
+   "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 21,
+   "nextSalary": 4,
    "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "LAA",
-   "pid": "p0052",
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "TOR",
+   "pid": "p0038",
    "tags": [
-    "DRAFT"
+    "FA",
+    "KEEP"
    ]
   },
   {
    "team": "CHAZ",
-   "player": "Braxton Ashcraft",
-   "positions": "RP/SP",
+   "player": "Gleyber Torres",
+   "positions": "2B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "DET",
+   "pid": "p0039",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Henry Bolte",
+   "positions": "OF",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "ATH",
+   "pid": "p0040",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Hunter Goodman",
+   "positions": "C",
+   "salary": 6,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 7,
+   "escalator": 1,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "COL",
+   "pid": "p0041",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "JJ Wetherholt",
+   "positions": "SS/2B",
    "salary": 4,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
    "nextSalary": 7,
    "escalator": 3,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "PIT",
-   "pid": "p0031",
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "STL",
+   "pid": "p0042",
    "tags": [
     "FA",
     "KEEP"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Jack Perkins",
+   "positions": "RP/SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "ATH",
+   "pid": "p0043",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Jake Bauers",
+   "positions": "1B/OF",
+   "salary": 4,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "MIL",
+   "pid": "p0044",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Jesus Luzardo",
+   "positions": "SP",
+   "salary": 6,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 7,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "PHI",
+   "pid": "p0045",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Jo Adell",
+   "positions": "OF",
+   "salary": 4,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "CLE",
+   "pid": "p0046",
+   "tags": [
+    "TRADE"
    ]
   },
   {
@@ -1223,8 +1028,203 @@
   },
   {
    "team": "CHAZ",
-   "player": "Jack Perkins",
+   "player": "Logan Webb",
+   "positions": "SP",
+   "salary": 5,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "SF",
+   "pid": "p0048",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Luis Arraez",
+   "positions": "1B/2B",
+   "salary": 9,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 12,
+   "escalator": 3,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "PHI",
+   "pid": "p0049",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Mickey Gasper",
+   "positions": "C/1B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "BOS",
+   "pid": "p0050",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Nick Pivetta",
+   "positions": "SP",
+   "salary": 5,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "SD",
+   "pid": "p0051",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Reid Detmers",
    "positions": "RP/SP",
+   "salary": 20,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 21,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "LAA",
+   "pid": "p0052",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Sam Antonacci",
+   "positions": "2B/3B/OF",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "CHW",
+   "pid": "p0053",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Seaver King",
+   "positions": "SS",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "WSH",
+   "pid": "p0054",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Seiya Suzuki",
+   "positions": "OF",
+   "salary": 5,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "CHC",
+   "pid": "p0055",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Trent Grisham",
+   "positions": "OF",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "NYY",
+   "pid": "p0056",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "CHAZ",
+   "player": "Yoshinobu Yamamoto",
+   "positions": "SP",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "LAD",
+   "pid": "p0058",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "FREE",
+   "player": "Adrian Morejon",
+   "positions": "RP",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
@@ -1234,185 +1234,10 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "ATH",
-   "pid": "p0043",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Drake Baldwin",
-   "positions": "C",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "C",
-   "rank": 0,
-   "group": "B",
-   "mlb": "ATL",
-   "pid": "p0067",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Bryce Harper",
-   "positions": "1B/OF",
-   "salary": 44,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 47,
-   "escalator": 3,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "PHI",
-   "pid": "p0062",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Rafael Devers",
-   "positions": "1B",
-   "salary": 12,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 13,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "SF",
-   "pid": "p0082",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Coby Mayo",
-   "positions": "1B/3B",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "BAL",
-   "pid": "p0065",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Ryan O'Hearn",
-   "positions": "1B/OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "PIT",
-   "pid": "p0083",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Michael Busch",
-   "positions": "1B",
-   "salary": 2,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 3,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "CHC",
-   "pid": "p0080",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Jazz Chisholm Jr.",
-   "positions": "2B/3B",
-   "salary": 6,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 9,
-   "escalator": 3,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "NYY",
-   "pid": "p0075",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Manny Machado",
-   "positions": "3B",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
    "mlb": "SD",
-   "pid": "p0079",
+   "pid": "p0059",
    "tags": [
     "FA"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Jacob Wilson",
-   "positions": "SS",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "ATH",
-   "pid": "p0073",
-   "tags": [
-    "FA",
-    "KEEP"
    ]
   },
   {
@@ -1436,136 +1261,19 @@
   },
   {
    "team": "FREE",
-   "player": "Cooper Pratt",
-   "positions": "SS",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "MIL",
-   "pid": "p0066",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Jackson Chourio",
-   "positions": "OF",
-   "salary": 12,
-   "year": 4,
-   "acquired": "Keep",
-   "nextYear": 5,
-   "nextSalary": 19,
-   "escalator": 7,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "MIL",
-   "pid": "p0072",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Chase DeLauter",
-   "positions": "OF",
-   "salary": 1,
-   "year": 1,
-   "acquired": "Draft",
-   "nextYear": 2,
-   "nextSalary": 2,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "CLE",
-   "pid": "p0064",
-   "tags": [
-    "DRAFT"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Zack Wheeler",
-   "positions": "SP",
-   "salary": 20,
-   "year": 3,
-   "acquired": "Keep",
-   "nextYear": 4,
-   "nextSalary": 25,
-   "escalator": 5,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "PHI",
-   "pid": "p0087",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "George Kirby",
-   "positions": "SP",
-   "salary": 17,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 18,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "SEA",
-   "pid": "p0070",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Joe Ryan",
-   "positions": "SP",
-   "salary": 12,
-   "year": 3,
-   "acquired": "Keep",
-   "nextYear": 4,
-   "nextSalary": 17,
-   "escalator": 5,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "MIN",
-   "pid": "p0076",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Hunter Greene",
-   "positions": "SP",
-   "salary": 11,
+   "player": "Bryce Harper",
+   "positions": "1B/OF",
+   "salary": 44,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
-   "nextSalary": 14,
+   "nextSalary": 47,
    "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CIN",
-   "pid": "p0071",
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "PHI",
+   "pid": "p0062",
    "tags": [
     "TRADE",
     "KEEP"
@@ -1592,6 +1300,121 @@
    ]
   },
   {
+   "player": "Chad Patrick",
+   "team": "FREE",
+   "positions": "SP/RP",
+   "primary": "SP",
+   "mlb": "MIL",
+   "salary": 3,
+   "year": 1,
+   "pid": "p0466",
+   "rank": 0,
+   "group": "P",
+   "tags": [
+    "FA"
+   ],
+   "acquired": "FA",
+   "nextYear": 2,
+   "escalator": 1,
+   "nextSalary": 4
+  },
+  {
+   "team": "FREE",
+   "player": "Chase DeLauter",
+   "positions": "OF",
+   "salary": 1,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 2,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "CLE",
+   "pid": "p0064",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "team": "FREE",
+   "player": "Coby Mayo",
+   "positions": "1B/3B",
+   "salary": 4,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "BAL",
+   "pid": "p0065",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "player": "Connor Prielipp",
+   "team": "FREE",
+   "positions": "SP",
+   "primary": "SP",
+   "mlb": "MIN",
+   "salary": 4,
+   "year": 1,
+   "pid": "p0496",
+   "rank": 0,
+   "group": "P",
+   "tags": [
+    "FA"
+   ],
+   "acquired": "FA",
+   "nextYear": 2,
+   "escalator": 1,
+   "nextSalary": 5
+  },
+  {
+   "team": "FREE",
+   "player": "Cooper Pratt",
+   "positions": "SS",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "MIL",
+   "pid": "p0066",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "FREE",
+   "player": "Drake Baldwin",
+   "positions": "C",
+   "salary": 5,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "ATL",
+   "pid": "p0067",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
    "team": "FREE",
    "player": "Emmet Sheehan",
    "positions": "SP",
@@ -1606,44 +1429,6 @@
    "group": "P",
    "mlb": "LAD",
    "pid": "p0068",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Spencer Schwellenbach",
-   "positions": "SP",
-   "salary": 5,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ATL",
-   "pid": "p0085",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "FREE",
-   "player": "Brandon Young",
-   "positions": "SP",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "BAL",
-   "pid": "p0060",
    "tags": [
     "FA"
    ]
@@ -1669,6 +1454,104 @@
   },
   {
    "team": "FREE",
+   "player": "George Kirby",
+   "positions": "SP",
+   "salary": 17,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 18,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "SEA",
+   "pid": "p0070",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "FREE",
+   "player": "Hunter Greene",
+   "positions": "SP",
+   "salary": 11,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 14,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CIN",
+   "pid": "p0071",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "FREE",
+   "player": "Jackson Chourio",
+   "positions": "OF",
+   "salary": 12,
+   "year": 4,
+   "acquired": "Keep",
+   "nextYear": 5,
+   "nextSalary": 19,
+   "escalator": 7,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "MIL",
+   "pid": "p0072",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "FREE",
+   "player": "Jacob Wilson",
+   "positions": "SS",
+   "salary": 5,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "ATH",
+   "pid": "p0073",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "player": "Jakob Marsee",
+   "team": "FREE",
+   "positions": "OF",
+   "primary": "OF",
+   "mlb": "MIA",
+   "salary": 3,
+   "year": 1,
+   "pid": "p0645",
+   "rank": 0,
+   "group": "B",
+   "tags": [
+    "FA"
+   ],
+   "acquired": "FA",
+   "nextYear": 2,
+   "escalator": 1,
+   "nextSalary": 4
+  },
+  {
+   "team": "FREE",
    "player": "Jarlin Susana",
    "positions": "SP",
    "salary": 3,
@@ -1684,6 +1567,26 @@
    "pid": "p0074",
    "tags": [
     "FA"
+   ]
+  },
+  {
+   "team": "FREE",
+   "player": "Joe Ryan",
+   "positions": "SP",
+   "salary": 12,
+   "year": 3,
+   "acquired": "Keep",
+   "nextYear": 4,
+   "nextSalary": 17,
+   "escalator": 5,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "MIN",
+   "pid": "p0076",
+   "tags": [
+    "TRADE",
+    "KEEP"
    ]
   },
   {
@@ -1707,6 +1610,63 @@
   },
   {
    "team": "FREE",
+   "player": "Louis Varland",
+   "positions": "RP",
+   "salary": 4,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "TOR",
+   "pid": "p0078",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "FREE",
+   "player": "Manny Machado",
+   "positions": "3B",
+   "salary": 4,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "SD",
+   "pid": "p0079",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "FREE",
+   "player": "Michael Busch",
+   "positions": "1B",
+   "salary": 2,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 3,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "CHC",
+   "pid": "p0080",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "FREE",
    "player": "Quinn Mathews",
    "positions": "SP",
    "salary": 3,
@@ -1726,19 +1686,38 @@
   },
   {
    "team": "FREE",
-   "player": "Tyler Wells",
-   "positions": "SP/RP",
+   "player": "Rafael Devers",
+   "positions": "1B",
+   "salary": 12,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 13,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "SF",
+   "pid": "p0082",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "FREE",
+   "player": "Ryan O'Hearn",
+   "positions": "1B/OF",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "TB",
-   "pid": "p0086",
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "PIT",
+   "pid": "p0083",
    "tags": [
     "FA"
    ]
@@ -1764,40 +1743,41 @@
   },
   {
    "team": "FREE",
-   "player": "Louis Varland",
-   "positions": "RP",
-   "salary": 4,
+   "player": "Spencer Schwellenbach",
+   "positions": "SP",
+   "salary": 5,
    "year": 1,
-   "acquired": "FA",
+   "acquired": "Trade",
    "nextYear": 2,
-   "nextSalary": 5,
+   "nextSalary": 6,
    "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
+   "primary": "SP",
+   "rank": 10,
    "group": "P",
-   "mlb": "TOR",
-   "pid": "p0078",
+   "mlb": "ATL",
+   "pid": "p0085",
    "tags": [
-    "FA"
+    "TRADE"
    ]
   },
   {
    "team": "FREE",
-   "player": "Adrian Morejon",
-   "positions": "RP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
+   "player": "Zack Wheeler",
+   "positions": "SP",
+   "salary": 20,
+   "year": 3,
+   "acquired": "Keep",
+   "nextYear": 4,
+   "nextSalary": 25,
+   "escalator": 5,
+   "primary": "SP",
+   "rank": 10,
    "group": "P",
-   "mlb": "SD",
-   "pid": "p0059",
+   "mlb": "PHI",
+   "pid": "p0087",
    "tags": [
-    "FA"
+    "TRADE",
+    "KEEP"
    ]
   },
   {
@@ -1821,19 +1801,312 @@
   },
   {
    "team": "GORD",
-   "player": "Ryan Jeffers",
-   "positions": "C",
+   "player": "Brandon Lowe",
+   "positions": "2B",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "PIT",
+   "pid": "p0089",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Cade Horton",
+   "positions": "SP",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "C",
-   "rank": 0,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CHC",
+   "pid": "p0090",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Cam Schlittler",
+   "positions": "SP",
+   "salary": 6,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 7,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "NYY",
+   "pid": "p0091",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Clay Holmes",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CHC",
+   "pid": "p0092",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Colt Emerson",
+   "positions": "SS/3B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SS",
+   "rank": 4,
    "group": "B",
-   "mlb": "MIN",
-   "pid": "p0114",
+   "mlb": "SEA",
+   "pid": "p0093",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Corbin Carroll",
+   "positions": "OF",
+   "salary": 13,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 14,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "ARI",
+   "pid": "p0094",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Corey Seager",
+   "positions": "SS",
+   "salary": 8,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 11,
+   "escalator": 3,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "TEX",
+   "pid": "p0095",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Cristian Javier",
+   "positions": "SP/RP",
+   "salary": 5,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "HOU",
+   "pid": "p0096",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Daylen Lile",
+   "positions": "OF",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "WSH",
+   "pid": "p0097",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "player": "Drew Anderson",
+   "team": "GORD",
+   "positions": "SP/RP",
+   "primary": "SP",
+   "mlb": "DET",
+   "salary": 9,
+   "year": 1,
+   "pid": "p1091",
+   "rank": 0,
+   "group": "P",
+   "tags": [
+    "FA"
+   ],
+   "acquired": "FA",
+   "nextYear": 2,
+   "escalator": 1,
+   "nextSalary": 10
+  },
+  {
+   "team": "GORD",
+   "player": "Drew Rasmussen",
+   "positions": "SP",
+   "salary": 7,
+   "year": 3,
+   "acquired": "Keep",
+   "nextYear": 4,
+   "nextSalary": 12,
+   "escalator": 5,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "TB",
+   "pid": "p0098",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Gerrit Cole",
+   "positions": "SP",
+   "salary": 4,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "NYY",
+   "pid": "p0099",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Josh Naylor",
+   "positions": "1B",
+   "salary": 7,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 10,
+   "escalator": 3,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "SEA",
+   "pid": "p0100",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Kris Bubic",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "LAD",
+   "pid": "p0101",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Logan Gilbert",
+   "positions": "SP",
+   "salary": 7,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 8,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "SEA",
+   "pid": "p0102",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Mason Montgomery",
+   "positions": "RP/SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "PIT",
+   "pid": "p0103",
    "tags": [
     "FA"
    ]
@@ -1859,201 +2132,6 @@
   },
   {
    "team": "GORD",
-   "player": "Josh Naylor",
-   "positions": "1B",
-   "salary": 7,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 10,
-   "escalator": 3,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "SEA",
-   "pid": "p0100",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Brandon Lowe",
-   "positions": "2B",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "PIT",
-   "pid": "p0089",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Max Muncy",
-   "positions": "3B",
-   "salary": 7,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 8,
-   "escalator": 1,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "LAD",
-   "pid": "p0107",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Corey Seager",
-   "positions": "SS",
-   "salary": 8,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 11,
-   "escalator": 3,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "TEX",
-   "pid": "p0095",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Colt Emerson",
-   "positions": "SS/3B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "SEA",
-   "pid": "p0093",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Ronald Acuna Jr.",
-   "positions": "OF",
-   "salary": 24,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 25,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "ATL",
-   "pid": "p0113",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Corbin Carroll",
-   "positions": "OF",
-   "salary": 13,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 14,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "ARI",
-   "pid": "p0094",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Mike Trout",
-   "positions": "OF",
-   "salary": 7,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 8,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "LAA",
-   "pid": "p0110",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Daylen Lile",
-   "positions": "OF",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "WSH",
-   "pid": "p0097",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Mickey Moniak",
-   "positions": "OF",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "COL",
-   "pid": "p0109",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "GORD",
    "player": "Mauricio Dubon",
    "positions": "OF/2B/3B/SS",
    "salary": 3,
@@ -2069,25 +2147,6 @@
    "pid": "p0105",
    "tags": [
     "FA"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Shota Imanaga",
-   "positions": "SP",
-   "salary": 35,
-   "year": 1,
-   "acquired": "Draft",
-   "nextYear": 2,
-   "nextSalary": 36,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHC",
-   "pid": "p0115",
-   "tags": [
-    "DRAFT"
    ]
   },
   {
@@ -2112,78 +2171,19 @@
   },
   {
    "team": "GORD",
-   "player": "Drew Rasmussen",
-   "positions": "SP",
+   "player": "Max Muncy",
+   "positions": "3B",
    "salary": 7,
-   "year": 3,
-   "acquired": "Keep",
-   "nextYear": 4,
-   "nextSalary": 12,
-   "escalator": 5,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "TB",
-   "pid": "p0098",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Logan Gilbert",
-   "positions": "SP",
-   "salary": 7,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 8,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "SEA",
-   "pid": "p0102",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Cam Schlittler",
-   "positions": "SP",
-   "salary": 6,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 7,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "NYY",
-   "pid": "p0091",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Cristian Javier",
-   "positions": "SP/RP",
-   "salary": 5,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 6,
+   "nextSalary": 8,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "HOU",
-   "pid": "p0096",
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "LAD",
+   "pid": "p0107",
    "tags": [
     "FA"
    ]
@@ -2210,79 +2210,21 @@
   },
   {
    "team": "GORD",
-   "player": "Gerrit Cole",
-   "positions": "SP",
-   "salary": 4,
+   "player": "Mike Trout",
+   "positions": "OF",
+   "salary": 7,
    "year": 1,
-   "acquired": "Keep",
+   "acquired": "Trade",
    "nextYear": 2,
-   "nextSalary": 5,
+   "nextSalary": 8,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "NYY",
-   "pid": "p0099",
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "LAA",
+   "pid": "p0110",
    "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Cade Horton",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHC",
-   "pid": "p0090",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Clay Holmes",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHC",
-   "pid": "p0092",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Kris Bubic",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "LAD",
-   "pid": "p0101",
-   "tags": [
-    "FA"
+    "TRADE"
    ]
   },
   {
@@ -2300,6 +2242,63 @@
    "group": "P",
    "mlb": "TB",
    "pid": "p0111",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Ronald Acuna Jr.",
+   "positions": "OF",
+   "salary": 24,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 25,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "ATL",
+   "pid": "p0113",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Ryan Jeffers",
+   "positions": "C",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "MIN",
+   "pid": "p0114",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "GORD",
+   "player": "Shota Imanaga",
+   "positions": "SP",
+   "salary": 35,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 36,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CHC",
+   "pid": "p0115",
    "tags": [
     "DRAFT"
    ]
@@ -2324,58 +2323,78 @@
    ]
   },
   {
-   "team": "GORD",
-   "player": "Mason Montgomery",
-   "positions": "RP/SP",
+   "team": "HAWN",
+   "player": "Andre Pallante",
+   "positions": "SP",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "PIT",
-   "pid": "p0103",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "GORD",
-   "player": "Riley O'Brien",
-   "positions": "RP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
+   "primary": "SP",
+   "rank": 10,
    "group": "P",
    "mlb": "STL",
-   "pid": "p0112",
+   "pid": "p0117",
    "tags": [
     "FA"
    ]
   },
   {
    "team": "HAWN",
-   "player": "Dillon Dingler",
-   "positions": "C",
-   "salary": 5,
+   "player": "Andy Pages",
+   "positions": "OF",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "LAD",
+   "pid": "p0118",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "HAWN",
+   "player": "Antonio Senzatela",
+   "positions": "SP/RP",
+   "salary": 4,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 6,
+   "nextSalary": 5,
    "escalator": 1,
-   "primary": "C",
-   "rank": 0,
-   "group": "B",
-   "mlb": "DET",
-   "pid": "p0126",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "MIL",
+   "pid": "p0119",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "HAWN",
+   "player": "Brent Headrick",
+   "positions": "RP",
+   "salary": 4,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "NYY",
+   "pid": "p0120",
    "tags": [
     "FA"
    ]
@@ -2401,44 +2420,6 @@
   },
   {
    "team": "HAWN",
-   "player": "Christian Walker",
-   "positions": "1B",
-   "salary": 5,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "HOU",
-   "pid": "p0124",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "Xavier Edwards",
-   "positions": "2B/SS",
-   "salary": 7,
-   "year": 1,
-   "acquired": "Draft",
-   "nextYear": 2,
-   "nextSalary": 8,
-   "escalator": 1,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "MIA",
-   "pid": "p0145",
-   "tags": [
-    "DRAFT"
-   ]
-  },
-  {
-   "team": "HAWN",
    "player": "Casey Schmitt",
    "positions": "2B/1B/3B/OF",
    "salary": 5,
@@ -2454,44 +2435,6 @@
    "pid": "p0122",
    "tags": [
     "FA"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "TJ Rumfield",
-   "positions": "3B/1B",
-   "salary": 7,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 8,
-   "escalator": 1,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "COL",
-   "pid": "p0141",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "Gunnar Henderson",
-   "positions": "SS",
-   "salary": 14,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 15,
-   "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "BAL",
-   "pid": "p0130",
-   "tags": [
-    "TRADE"
    ]
   },
   {
@@ -2515,38 +2458,38 @@
   },
   {
    "team": "HAWN",
-   "player": "Franklin Arias",
-   "positions": "SS",
-   "salary": 3,
+   "player": "Christian Walker",
+   "positions": "1B",
+   "salary": 5,
    "year": 1,
-   "acquired": "Trade",
+   "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 4,
+   "nextSalary": 6,
    "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
+   "primary": "1B",
+   "rank": 1,
    "group": "B",
-   "mlb": "BOS",
-   "pid": "p0128",
+   "mlb": "HOU",
+   "pid": "p0124",
    "tags": [
-    "TRADE"
+    "FA"
    ]
   },
   {
    "team": "HAWN",
-   "player": "Pete Crow-Armstrong",
-   "positions": "OF",
-   "salary": 12,
-   "year": 4,
+   "player": "Connelly Early",
+   "positions": "SP",
+   "salary": 9,
+   "year": 2,
    "acquired": "Keep",
-   "nextYear": 5,
-   "nextSalary": 19,
-   "escalator": 7,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "CHC",
-   "pid": "p0138",
+   "nextYear": 3,
+   "nextSalary": 12,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "WSH",
+   "pid": "p0125",
    "tags": [
     "FA",
     "KEEP"
@@ -2554,77 +2497,19 @@
   },
   {
    "team": "HAWN",
-   "player": "Oneil Cruz",
-   "positions": "OF",
-   "salary": 11,
-   "year": 1,
-   "acquired": "Draft",
-   "nextYear": 2,
-   "nextSalary": 12,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "PIT",
-   "pid": "p0137",
-   "tags": [
-    "DRAFT"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "Andy Pages",
-   "positions": "OF",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "LAD",
-   "pid": "p0118",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "Josue De Paula",
-   "positions": "OF",
-   "salary": 4,
+   "player": "Dillon Dingler",
+   "positions": "C",
+   "salary": 5,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 5,
+   "nextSalary": 6,
    "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
+   "primary": "C",
+   "rank": 0,
    "group": "B",
-   "mlb": "LAD",
-   "pid": "p0134",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "Mike Sirota",
-   "positions": "OF",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "LAD",
-   "pid": "p0136",
+   "mlb": "DET",
+   "pid": "p0126",
    "tags": [
     "FA"
    ]
@@ -2650,99 +2535,59 @@
   },
   {
    "team": "HAWN",
-   "player": "Sandy Alcantara",
-   "positions": "SP",
-   "salary": 16,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 17,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "MIA",
-   "pid": "p0139",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "Tarik Skubal",
-   "positions": "SP",
-   "salary": 15,
+   "player": "Franklin Arias",
+   "positions": "SS",
+   "salary": 3,
    "year": 1,
    "acquired": "Trade",
    "nextYear": 2,
-   "nextSalary": 16,
+   "nextSalary": 4,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "LAD",
-   "pid": "p0143",
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "BOS",
+   "pid": "p0128",
    "tags": [
     "TRADE"
    ]
   },
   {
    "team": "HAWN",
-   "player": "Connelly Early",
-   "positions": "SP",
-   "salary": 9,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 12,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "WSH",
-   "pid": "p0125",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "Jackson Jobe",
-   "positions": "SP",
+   "player": "Gregory Soto",
+   "positions": "RP",
    "salary": 5,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "DET",
-   "pid": "p0133",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "Antonio Senzatela",
-   "positions": "SP/RP",
-   "salary": 4,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 5,
+   "nextSalary": 6,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
+   "primary": "RP",
+   "rank": 11,
    "group": "P",
-   "mlb": "MIL",
-   "pid": "p0119",
+   "mlb": "PIT",
+   "pid": "p0129",
    "tags": [
     "FA"
+   ]
+  },
+  {
+   "team": "HAWN",
+   "player": "Gunnar Henderson",
+   "positions": "SS",
+   "salary": 14,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 15,
+   "escalator": 1,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "BAL",
+   "pid": "p0130",
+   "tags": [
+    "TRADE"
    ]
   },
   {
@@ -2785,57 +2630,134 @@
   },
   {
    "team": "HAWN",
-   "player": "Taj Bradley",
+   "player": "Jackson Jobe",
    "positions": "SP",
-   "salary": 4,
+   "salary": 5,
    "year": 1,
    "acquired": "Trade",
    "nextYear": 2,
-   "nextSalary": 5,
+   "nextSalary": 6,
    "escalator": 1,
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "MIN",
-   "pid": "p0142",
+   "mlb": "DET",
+   "pid": "p0133",
    "tags": [
     "TRADE"
    ]
   },
   {
    "team": "HAWN",
-   "player": "Andre Pallante",
-   "positions": "SP",
-   "salary": 3,
+   "player": "Josue De Paula",
+   "positions": "OF",
+   "salary": 4,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 4,
+   "nextSalary": 5,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "STL",
-   "pid": "p0117",
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "LAD",
+   "pid": "p0134",
    "tags": [
     "FA"
    ]
   },
   {
    "team": "HAWN",
-   "player": "Trevor Rogers",
-   "positions": "SP",
+   "player": "Justin Wrobleski",
+   "positions": "RP/SP",
    "salary": 3,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "LAD",
+   "pid": "p0135",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "HAWN",
+   "player": "Mike Sirota",
+   "positions": "OF",
+   "salary": 4,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "LAD",
+   "pid": "p0136",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "HAWN",
+   "player": "Oneil Cruz",
+   "positions": "OF",
+   "salary": 11,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 12,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "PIT",
+   "pid": "p0137",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "team": "HAWN",
+   "player": "Pete Crow-Armstrong",
+   "positions": "OF",
+   "salary": 12,
+   "year": 4,
+   "acquired": "Keep",
+   "nextYear": 5,
+   "nextSalary": 19,
+   "escalator": 7,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "CHC",
+   "pid": "p0138",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "HAWN",
+   "player": "Sandy Alcantara",
+   "positions": "SP",
+   "salary": 16,
    "year": 1,
    "acquired": "Keep",
    "nextYear": 2,
-   "nextSalary": 4,
+   "nextSalary": 17,
    "escalator": 1,
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "BAL",
-   "pid": "p0144",
+   "mlb": "MIA",
+   "pid": "p0139",
    "tags": [
     "WM TRADE",
     "KEEP"
@@ -2863,234 +2785,98 @@
   },
   {
    "team": "HAWN",
-   "player": "Gregory Soto",
-   "positions": "RP",
-   "salary": 5,
+   "player": "TJ Rumfield",
+   "positions": "3B/1B",
+   "salary": 7,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "PIT",
-   "pid": "p0129",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "Brent Headrick",
-   "positions": "RP",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "NYY",
-   "pid": "p0120",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "HAWN",
-   "player": "Justin Wrobleski",
-   "positions": "RP/SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "LAD",
-   "pid": "p0135",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Salvador Perez",
-   "positions": "C/1B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "C",
-   "rank": 0,
-   "group": "B",
-   "mlb": "KC",
-   "pid": "p0167",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Ty France",
-   "positions": "1B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "SD",
-   "pid": "p0172",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Nick Kurtz",
-   "positions": "1B",
-   "salary": 2,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 3,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "ATH",
-   "pid": "p0163",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Ozzie Albies",
-   "positions": "2B",
-   "salary": 24,
-   "year": 1,
-   "acquired": "Draft",
-   "nextYear": 2,
-   "nextSalary": 25,
-   "escalator": 1,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "ATL",
-   "pid": "p0164",
-   "tags": [
-    "DRAFT"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Caleb Durbin",
-   "positions": "3B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
+   "nextSalary": 8,
    "escalator": 1,
    "primary": "3B",
    "rank": 3,
    "group": "B",
-   "mlb": "BOS",
-   "pid": "p0149",
+   "mlb": "COL",
+   "pid": "p0141",
    "tags": [
     "FA"
    ]
   },
   {
-   "team": "JAKE",
-   "player": "Bobby Witt Jr.",
-   "positions": "SS",
-   "salary": 13,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 16,
-   "escalator": 3,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "KC",
-   "pid": "p0148",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Kevin McGonigle",
-   "positions": "SS/3B",
+   "team": "HAWN",
+   "player": "Taj Bradley",
+   "positions": "SP",
    "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "DET",
-   "pid": "p0158",
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "MIN",
+   "pid": "p0142",
    "tags": [
-    "FA",
-    "KEEP"
+    "TRADE"
    ]
   },
   {
-   "team": "JAKE",
-   "player": "Juan Soto",
-   "positions": "OF",
-   "salary": 23,
-   "year": 4,
-   "acquired": "Keep",
-   "nextYear": 5,
-   "nextSalary": 30,
-   "escalator": 7,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "NYM",
-   "pid": "p0157",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Kyle Tucker",
-   "positions": "OF",
-   "salary": 23,
-   "year": 3,
-   "acquired": "Keep",
-   "nextYear": 4,
-   "nextSalary": 28,
-   "escalator": 5,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
+   "team": "HAWN",
+   "player": "Tarik Skubal",
+   "positions": "SP",
+   "salary": 15,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 16,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
    "mlb": "LAD",
-   "pid": "p0160",
+   "pid": "p0143",
    "tags": [
-    "TRADE",
+    "TRADE"
+   ]
+  },
+  {
+   "team": "HAWN",
+   "player": "Trevor Rogers",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "BAL",
+   "pid": "p0144",
+   "tags": [
+    "WM TRADE",
     "KEEP"
+   ]
+  },
+  {
+   "team": "HAWN",
+   "player": "Xavier Edwards",
+   "positions": "2B/SS",
+   "salary": 7,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 8,
+   "escalator": 1,
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "MIA",
+   "pid": "p0145",
+   "tags": [
+    "DRAFT"
    ]
   },
   {
@@ -3115,45 +2901,6 @@
   },
   {
    "team": "JAKE",
-   "player": "Jackson Merrill",
-   "positions": "OF",
-   "salary": 8,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 11,
-   "escalator": 3,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "SD",
-   "pid": "p0156",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Steven Kwan",
-   "positions": "OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "CLE",
-   "pid": "p0170",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JAKE",
    "player": "Blake Snell",
    "positions": "SP",
    "salary": 22,
@@ -3167,6 +2914,102 @@
    "group": "P",
    "mlb": "LAD",
    "pid": "p0147",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Bobby Witt Jr.",
+   "positions": "SS",
+   "salary": 13,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 16,
+   "escalator": 3,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "KC",
+   "pid": "p0148",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Caleb Durbin",
+   "positions": "3B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "BOS",
+   "pid": "p0149",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "David Peterson",
+   "positions": "SP/RP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CHC",
+   "pid": "p0150",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Dustin May",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "MIL",
+   "pid": "p0151",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Edward Cabrera",
+   "positions": "SP",
+   "salary": 4,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CHC",
+   "pid": "p0152",
    "tags": [
     "TRADE"
    ]
@@ -3213,80 +3056,81 @@
   },
   {
    "team": "JAKE",
-   "player": "Shane Baz",
+   "player": "Grant Holmes",
    "positions": "SP",
-   "salary": 9,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 10,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "BAL",
-   "pid": "p0169",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Ranger Suarez",
-   "positions": "SP",
-   "salary": 5,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "BOS",
-   "pid": "p0166",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Sean Manaea",
-   "positions": "SP/RP",
-   "salary": 5,
+   "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 6,
+   "nextSalary": 4,
    "escalator": 1,
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "NYM",
-   "pid": "p0168",
+   "mlb": "ATL",
+   "pid": "p0155",
    "tags": [
     "FA"
    ]
   },
   {
    "team": "JAKE",
-   "player": "Edward Cabrera",
-   "positions": "SP",
-   "salary": 4,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHC",
-   "pid": "p0152",
+   "player": "Jackson Merrill",
+   "positions": "OF",
+   "salary": 8,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 11,
+   "escalator": 3,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "SD",
+   "pid": "p0156",
    "tags": [
-    "TRADE"
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Juan Soto",
+   "positions": "OF",
+   "salary": 23,
+   "year": 4,
+   "acquired": "Keep",
+   "nextYear": 5,
+   "nextSalary": 30,
+   "escalator": 7,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "NYM",
+   "pid": "p0157",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Kevin McGonigle",
+   "positions": "SS/3B",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "DET",
+   "pid": "p0158",
+   "tags": [
+    "FA",
+    "KEEP"
    ]
   },
   {
@@ -3311,116 +3155,22 @@
   },
   {
    "team": "JAKE",
-   "player": "David Peterson",
-   "positions": "SP/RP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHC",
-   "pid": "p0150",
+   "player": "Kyle Tucker",
+   "positions": "OF",
+   "salary": 23,
+   "year": 3,
+   "acquired": "Keep",
+   "nextYear": 4,
+   "nextSalary": 28,
+   "escalator": 5,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "LAD",
+   "pid": "p0160",
    "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Dustin May",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "MIL",
-   "pid": "p0151",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Grant Holmes",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ATL",
-   "pid": "p0155",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Matthew Boyd",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHC",
-   "pid": "p0162",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Patrick Sandoval",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "BOS",
-   "pid": "p0165",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JAKE",
-   "player": "Tyler Mahle",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ATL",
-   "pid": "p0173",
-   "tags": [
-    "FA"
+    "TRADE",
+    "KEEP"
    ]
   },
   {
@@ -3445,6 +3195,198 @@
   },
   {
    "team": "JAKE",
+   "player": "Matthew Boyd",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CHC",
+   "pid": "p0162",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Nick Kurtz",
+   "positions": "1B",
+   "salary": 2,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 3,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "ATH",
+   "pid": "p0163",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "player": "Nolan Arenado",
+   "team": "JAKE",
+   "positions": "3B",
+   "primary": "3B",
+   "mlb": "ARI",
+   "salary": 3,
+   "year": 1,
+   "pid": "p1075",
+   "rank": 0,
+   "group": "B",
+   "tags": [
+    "FA"
+   ],
+   "acquired": "FA",
+   "nextYear": 2,
+   "escalator": 1,
+   "nextSalary": 4
+  },
+  {
+   "team": "JAKE",
+   "player": "Ozzie Albies",
+   "positions": "2B",
+   "salary": 24,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 25,
+   "escalator": 1,
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "ATL",
+   "pid": "p0164",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Patrick Sandoval",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "BOS",
+   "pid": "p0165",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Ranger Suarez",
+   "positions": "SP",
+   "salary": 5,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "BOS",
+   "pid": "p0166",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Salvador Perez",
+   "positions": "C/1B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "KC",
+   "pid": "p0167",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Sean Manaea",
+   "positions": "SP/RP",
+   "salary": 5,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "NYM",
+   "pid": "p0168",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Shane Baz",
+   "positions": "SP",
+   "salary": 9,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 10,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "BAL",
+   "pid": "p0169",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Steven Kwan",
+   "positions": "OF",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "CLE",
+   "pid": "p0170",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JAKE",
    "player": "Tanner Scott",
    "positions": "RP",
    "salary": 4,
@@ -3463,160 +3405,98 @@
    ]
   },
   {
-   "team": "JST",
-   "player": "Samuel Basallo",
-   "positions": "C/1B",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "C",
-   "rank": 0,
-   "group": "B",
-   "mlb": "BAL",
-   "pid": "p0196",
-   "tags": [
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Vladimir Guerrero Jr.",
+   "team": "JAKE",
+   "player": "Ty France",
    "positions": "1B",
-   "salary": 16,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 19,
-   "escalator": 3,
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
    "primary": "1B",
    "rank": 1,
    "group": "B",
-   "mlb": "TOR",
-   "pid": "p0201",
+   "mlb": "SD",
+   "pid": "p0172",
    "tags": [
-    "TRADE",
-    "KEEP"
+    "FA"
+   ]
+  },
+  {
+   "team": "JAKE",
+   "player": "Tyler Mahle",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "ATL",
+   "pid": "p0173",
+   "tags": [
+    "FA"
    ]
   },
   {
    "team": "JST",
-   "player": "Ketel Marte",
-   "positions": "2B",
-   "salary": 15,
+   "player": "A.J. Ewing",
+   "positions": "OF",
+   "salary": 5,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "NYM",
+   "pid": "p0174",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Brandon Pfaadt",
+   "positions": "SP/RP",
+   "salary": 5,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "ARI",
+   "pid": "p0175",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Cole Ragans",
+   "positions": "SP",
+   "salary": 7,
    "year": 1,
    "acquired": "Keep",
    "nextYear": 2,
-   "nextSalary": 16,
+   "nextSalary": 8,
    "escalator": 1,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "ARI",
-   "pid": "p0187",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "KC",
+   "pid": "p0176",
    "tags": [
     "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Jackson Holliday",
-   "positions": "2B",
-   "salary": 9,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 10,
-   "escalator": 1,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "BAL",
-   "pid": "p0180",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Luke Keaschall",
-   "positions": "2B/OF",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "MIN",
-   "pid": "p0189",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Junior Caminero",
-   "positions": "3B",
-   "salary": 12,
-   "year": 4,
-   "acquired": "Keep",
-   "nextYear": 5,
-   "nextSalary": 19,
-   "escalator": 7,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "TB",
-   "pid": "p0185",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Elly De La Cruz",
-   "positions": "SS",
-   "salary": 10,
-   "year": 4,
-   "acquired": "Keep",
-   "nextYear": 5,
-   "nextSalary": 17,
-   "escalator": 7,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "CIN",
-   "pid": "p0179",
-   "tags": [
-    "DRAFT",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Sebastian Walcott",
-   "positions": "SS",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "TEX",
-   "pid": "p0197",
-   "tags": [
-    "FA",
     "KEEP"
    ]
   },
@@ -3642,6 +3522,84 @@
   },
   {
    "team": "JST",
+   "player": "Dylan Cease",
+   "positions": "SP",
+   "salary": 8,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 11,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "TOR",
+   "pid": "p0178",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Elly De La Cruz",
+   "positions": "SS",
+   "salary": 10,
+   "year": 4,
+   "acquired": "Keep",
+   "nextYear": 5,
+   "nextSalary": 17,
+   "escalator": 7,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "CIN",
+   "pid": "p0179",
+   "tags": [
+    "DRAFT",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Jackson Holliday",
+   "positions": "2B",
+   "salary": 9,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 10,
+   "escalator": 1,
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "BAL",
+   "pid": "p0180",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Jacob Latz",
+   "positions": "RP/SP",
+   "salary": 5,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "TEX",
+   "pid": "p0181",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JST",
    "player": "Jesus Made",
    "positions": "SS",
    "salary": 3,
@@ -3661,39 +3619,19 @@
   },
   {
    "team": "JST",
-   "player": "Riley Greene",
-   "positions": "OF",
-   "salary": 12,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 13,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "DET",
-   "pid": "p0192",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "A.J. Ewing",
-   "positions": "OF",
+   "player": "Jonah Tong",
+   "positions": "SP",
    "salary": 5,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 6,
    "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
    "mlb": "NYM",
-   "pid": "p0174",
+   "pid": "p0183",
    "tags": [
     "FA"
    ]
@@ -3719,78 +3657,21 @@
   },
   {
    "team": "JST",
-   "player": "Theo Gillen",
-   "positions": "OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
+   "player": "Junior Caminero",
+   "positions": "3B",
+   "salary": 12,
+   "year": 4,
+   "acquired": "Keep",
+   "nextYear": 5,
+   "nextSalary": 19,
+   "escalator": 7,
+   "primary": "3B",
+   "rank": 3,
    "group": "B",
    "mlb": "TB",
-   "pid": "p0200",
+   "pid": "p0185",
    "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Walker Jenkins",
-   "positions": "OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "MIN",
-   "pid": "p0202",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Shohei Ohtani",
-   "positions": "UT/SP",
-   "salary": 41,
-   "year": 6,
-   "acquired": "Keep",
-   "nextYear": 7,
-   "nextSalary": 46,
-   "escalator": 5,
-   "primary": "UT",
-   "rank": 6,
-   "group": "B",
-   "mlb": "LAD",
-   "pid": "p0199",
-   "tags": [
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Kevin Gausman",
-   "positions": "SP",
-   "salary": 15,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 16,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHC",
-   "pid": "p0188",
-   "tags": [
-    "WM TRADE",
+    "FA",
     "KEEP"
    ]
   },
@@ -3816,41 +3697,61 @@
   },
   {
    "team": "JST",
-   "player": "Dylan Cease",
-   "positions": "SP",
-   "salary": 8,
-   "year": 2,
+   "player": "Ketel Marte",
+   "positions": "2B",
+   "salary": 15,
+   "year": 1,
    "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 11,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "TOR",
-   "pid": "p0178",
+   "nextYear": 2,
+   "nextSalary": 16,
+   "escalator": 1,
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "ARI",
+   "pid": "p0187",
    "tags": [
-    "TRADE",
+    "WM TRADE",
     "KEEP"
    ]
   },
   {
    "team": "JST",
-   "player": "Cole Ragans",
+   "player": "Kevin Gausman",
    "positions": "SP",
-   "salary": 7,
+   "salary": 15,
    "year": 1,
    "acquired": "Keep",
    "nextYear": 2,
-   "nextSalary": 8,
+   "nextSalary": 16,
    "escalator": 1,
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "KC",
-   "pid": "p0176",
+   "mlb": "CHC",
+   "pid": "p0188",
    "tags": [
     "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Luke Keaschall",
+   "positions": "2B/OF",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "MIN",
+   "pid": "p0189",
+   "tags": [
+    "FA",
     "KEEP"
    ]
   },
@@ -3876,83 +3777,6 @@
   },
   {
    "team": "JST",
-   "player": "Robbie Ray",
-   "positions": "SP",
-   "salary": 6,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 9,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "SD",
-   "pid": "p0193",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Brandon Pfaadt",
-   "positions": "SP/RP",
-   "salary": 5,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ARI",
-   "pid": "p0175",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Jonah Tong",
-   "positions": "SP",
-   "salary": 5,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "NYM",
-   "pid": "p0183",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JST",
-   "player": "Seth Hernandez",
-   "positions": "SP",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "PIT",
-   "pid": "p0198",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "JST",
    "player": "Payton Tolle",
    "positions": "SP",
    "salary": 3,
@@ -3968,6 +3792,46 @@
    "pid": "p0191",
    "tags": [
     "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Riley Greene",
+   "positions": "OF",
+   "salary": 12,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 13,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "DET",
+   "pid": "p0192",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Robbie Ray",
+   "positions": "SP",
+   "salary": 6,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 9,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "SD",
+   "pid": "p0193",
+   "tags": [
+    "TRADE",
     "KEEP"
    ]
   },
@@ -4012,38 +3876,154 @@
   },
   {
    "team": "JST",
-   "player": "Jacob Latz",
-   "positions": "RP/SP",
+   "player": "Samuel Basallo",
+   "positions": "C/1B",
    "salary": 5,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "BAL",
+   "pid": "p0196",
+   "tags": [
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Sebastian Walcott",
+   "positions": "SS",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "TEX",
+   "pid": "p0197",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Seth Hernandez",
+   "positions": "SP",
+   "salary": 4,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 6,
+   "nextSalary": 5,
    "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
+   "primary": "SP",
+   "rank": 10,
    "group": "P",
-   "mlb": "TEX",
-   "pid": "p0181",
+   "mlb": "PIT",
+   "pid": "p0198",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Shohei Ohtani",
+   "positions": "UT/SP",
+   "salary": 41,
+   "year": 6,
+   "acquired": "Keep",
+   "nextYear": 7,
+   "nextSalary": 46,
+   "escalator": 5,
+   "primary": "UT",
+   "rank": 6,
+   "group": "B",
+   "mlb": "LAD",
+   "pid": "p0199",
+   "tags": [
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Theo Gillen",
+   "positions": "OF",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "TB",
+   "pid": "p0200",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Vladimir Guerrero Jr.",
+   "positions": "1B",
+   "salary": 16,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 19,
+   "escalator": 3,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "TOR",
+   "pid": "p0201",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "JST",
+   "player": "Walker Jenkins",
+   "positions": "OF",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "MIN",
+   "pid": "p0202",
    "tags": [
     "FA"
    ]
   },
   {
    "team": "KELL",
-   "player": "Ivan Herrera",
-   "positions": "C",
-   "salary": 6,
+   "player": "Alec Burleson",
+   "positions": "OF/1B",
+   "salary": 4,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
-   "nextSalary": 9,
+   "nextSalary": 7,
    "escalator": 3,
-   "primary": "C",
-   "rank": 0,
+   "primary": "OF",
+   "rank": 5,
    "group": "B",
    "mlb": "STL",
-   "pid": "p0216",
+   "pid": "p0203",
    "tags": [
     "FA",
     "KEEP"
@@ -4051,138 +4031,60 @@
   },
   {
    "team": "KELL",
-   "player": "Gabriel Moreno",
-   "positions": "C",
-   "salary": 3,
+   "player": "Andrew Painter",
+   "positions": "SP",
+   "salary": 4,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 4,
+   "nextSalary": 5,
    "escalator": 1,
-   "primary": "C",
-   "rank": 0,
-   "group": "B",
-   "mlb": "ARI",
-   "pid": "p0214",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "PHI",
+   "pid": "p0204",
    "tags": [
     "FA"
    ]
   },
   {
    "team": "KELL",
-   "player": "Sal Stewart",
-   "positions": "1B/3B",
-   "salary": 30,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 31,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "CIN",
-   "pid": "p0226",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "KELL",
-   "player": "Yandy Diaz",
-   "positions": "1B",
-   "salary": 8,
-   "year": 1,
+   "player": "Aroldis Chapman",
+   "positions": "RP",
+   "salary": 5,
+   "year": 2,
    "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 9,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "TB",
-   "pid": "p0230",
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "BOS",
+   "pid": "p0206",
    "tags": [
-    "WM TRADE",
+    "FA",
     "KEEP"
    ]
   },
   {
    "team": "KELL",
-   "player": "Colt Keith",
-   "positions": "1B/2B/3B",
+   "player": "Ben Brown",
+   "positions": "SP/RP",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "DET",
-   "pid": "p0212",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CHC",
+   "pid": "p0207",
    "tags": [
     "FA"
-   ]
-  },
-  {
-   "team": "KELL",
-   "player": "Nick Gonzales",
-   "positions": "2B/3B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "PIT",
-   "pid": "p0223",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "KELL",
-   "player": "Otto Lopez",
-   "positions": "SS/2B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "MIA",
-   "pid": "p0224",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "KELL",
-   "player": "Julio Rodriguez",
-   "positions": "OF",
-   "salary": 14,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 15,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "SEA",
-   "pid": "p0218",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
    ]
   },
   {
@@ -4207,40 +4109,21 @@
   },
   {
    "team": "KELL",
-   "player": "Wyatt Langford",
-   "positions": "OF",
-   "salary": 7,
+   "player": "Bryce Miller",
+   "positions": "SP",
+   "salary": 5,
    "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 8,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "TEX",
-   "pid": "p0229",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "KELL",
-   "player": "Alec Burleson",
-   "positions": "OF/1B",
-   "salary": 4,
-   "year": 2,
    "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "STL",
-   "pid": "p0203",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "SEA",
+   "pid": "p0209",
    "tags": [
-    "FA",
+    "WM TRADE",
     "KEEP"
    ]
   },
@@ -4284,22 +4167,21 @@
   },
   {
    "team": "KELL",
-   "player": "Tyler Glasnow",
-   "positions": "SP",
-   "salary": 20,
+   "player": "Colt Keith",
+   "positions": "1B/2B/3B",
+   "salary": 3,
    "year": 1,
-   "acquired": "Keep",
+   "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 21,
+   "nextSalary": 4,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "LAD",
-   "pid": "p0228",
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "DET",
+   "pid": "p0212",
    "tags": [
-    "WM TRADE",
-    "KEEP"
+    "FA"
    ]
   },
   {
@@ -4324,38 +4206,77 @@
   },
   {
    "team": "KELL",
-   "player": "MacKenzie Gore",
-   "positions": "SP",
-   "salary": 8,
+   "player": "Gabriel Moreno",
+   "positions": "C",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "ARI",
+   "pid": "p0214",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "KELL",
+   "player": "Griffin Jax",
+   "positions": "RP/SP",
+   "salary": 4,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "TB",
+   "pid": "p0215",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "KELL",
+   "player": "Ivan Herrera",
+   "positions": "C",
+   "salary": 6,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
-   "nextSalary": 11,
+   "nextSalary": 9,
    "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "TEX",
-   "pid": "p0220",
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "STL",
+   "pid": "p0216",
    "tags": [
+    "FA",
     "KEEP"
    ]
   },
   {
    "team": "KELL",
-   "player": "Bryce Miller",
+   "player": "Jose Soriano",
    "positions": "SP",
-   "salary": 5,
+   "salary": 1,
    "year": 1,
    "acquired": "Keep",
    "nextYear": 2,
-   "nextSalary": 6,
+   "nextSalary": 2,
    "escalator": 1,
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SEA",
-   "pid": "p0209",
+   "mlb": "TOR",
+   "pid": "p0217",
    "tags": [
     "WM TRADE",
     "KEEP"
@@ -4363,21 +4284,22 @@
   },
   {
    "team": "KELL",
-   "player": "Andrew Painter",
-   "positions": "SP",
-   "salary": 4,
+   "player": "Julio Rodriguez",
+   "positions": "OF",
+   "salary": 14,
    "year": 1,
-   "acquired": "FA",
+   "acquired": "Keep",
    "nextYear": 2,
-   "nextSalary": 5,
+   "nextSalary": 15,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "PHI",
-   "pid": "p0204",
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "SEA",
+   "pid": "p0218",
    "tags": [
-    "FA"
+    "WM TRADE",
+    "KEEP"
    ]
   },
   {
@@ -4397,6 +4319,25 @@
    "pid": "p0219",
    "tags": [
     "FA"
+   ]
+  },
+  {
+   "team": "KELL",
+   "player": "MacKenzie Gore",
+   "positions": "SP",
+   "salary": 8,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 11,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "TEX",
+   "pid": "p0220",
+   "tags": [
+    "KEEP"
    ]
   },
   {
@@ -4441,76 +4382,38 @@
   },
   {
    "team": "KELL",
-   "player": "Shane Drohan",
-   "positions": "SP/RP",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "MIL",
-   "pid": "p0227",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "KELL",
-   "player": "Anthony Kay",
-   "positions": "SP",
+   "player": "Nick Gonzales",
+   "positions": "2B/3B",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHW",
-   "pid": "p0205",
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "PIT",
+   "pid": "p0223",
    "tags": [
     "FA"
    ]
   },
   {
    "team": "KELL",
-   "player": "Ben Brown",
-   "positions": "SP/RP",
+   "player": "Otto Lopez",
+   "positions": "SS/2B",
    "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHC",
-   "pid": "p0207",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "KELL",
-   "player": "Jose Soriano",
-   "positions": "SP",
-   "salary": 1,
    "year": 1,
    "acquired": "Keep",
    "nextYear": 2,
-   "nextSalary": 2,
+   "nextSalary": 4,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "TOR",
-   "pid": "p0217",
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "MIA",
+   "pid": "p0224",
    "tags": [
     "WM TRADE",
     "KEEP"
@@ -4537,333 +4440,117 @@
   },
   {
    "team": "KELL",
-   "player": "Aroldis Chapman",
-   "positions": "RP",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "BOS",
-   "pid": "p0206",
+   "player": "Sal Stewart",
+   "positions": "1B/3B",
+   "salary": 30,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 31,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "CIN",
+   "pid": "p0226",
    "tags": [
-    "FA",
-    "KEEP"
+    "TRADE"
    ]
   },
   {
    "team": "KELL",
-   "player": "Griffin Jax",
-   "positions": "RP/SP",
+   "player": "Shane Drohan",
+   "positions": "SP/RP",
    "salary": 4,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 5,
    "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
+   "primary": "SP",
+   "rank": 10,
    "group": "P",
-   "mlb": "TB",
-   "pid": "p0215",
+   "mlb": "MIL",
+   "pid": "p0227",
    "tags": [
     "FA"
    ]
   },
   {
-   "team": "NISH",
-   "player": "William Contreras",
-   "positions": "C",
-   "salary": 12,
-   "year": 4,
-   "acquired": "Keep",
-   "nextYear": 5,
-   "nextSalary": 19,
-   "escalator": 7,
-   "primary": "C",
+   "player": "Thomas White",
+   "team": "KELL",
+   "positions": "SP",
+   "primary": "SP",
+   "mlb": "MIA",
+   "salary": 3,
+   "year": 1,
+   "pid": "p0993",
    "rank": 0,
-   "group": "B",
-   "mlb": "MIL",
-   "pid": "p0256",
+   "group": "P",
    "tags": [
-    "FA",
-    "KEEP"
-   ]
+    "FA"
+   ],
+   "acquired": "FA",
+   "nextYear": 2,
+   "escalator": 1,
+   "nextSalary": 4
   },
   {
-   "team": "NISH",
-   "player": "Pete Alonso",
-   "positions": "1B",
-   "salary": 25,
+   "team": "KELL",
+   "player": "Tyler Glasnow",
+   "positions": "SP",
+   "salary": 20,
    "year": 1,
    "acquired": "Keep",
    "nextYear": 2,
-   "nextSalary": 26,
+   "nextSalary": 21,
    "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "BAL",
-   "pid": "p0250",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "LAD",
+   "pid": "p0228",
    "tags": [
     "WM TRADE",
     "KEEP"
    ]
   },
   {
-   "team": "NISH",
-   "player": "Luis Garcia Jr.",
-   "positions": "2B/1B",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "NYY",
-   "pid": "p0245",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Jose Ramirez",
-   "positions": "3B",
-   "salary": 34,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 35,
-   "escalator": 1,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "CLE",
-   "pid": "p0242",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Alex Bregman",
-   "positions": "3B",
-   "salary": 8,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 11,
-   "escalator": 3,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "CHC",
-   "pid": "p0232",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Maikel Garcia",
-   "positions": "3B",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "KC",
-   "pid": "p0246",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Geraldo Perdomo",
-   "positions": "SS",
+   "team": "KELL",
+   "player": "Wyatt Langford",
+   "positions": "OF",
    "salary": 7,
    "year": 1,
    "acquired": "Trade",
    "nextYear": 2,
    "nextSalary": 8,
    "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "ARI",
-   "pid": "p0239",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Konnor Griffin",
-   "positions": "SS",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "PIT",
-   "pid": "p0244",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Ezequiel Duran",
-   "positions": "SS/1B/2B/3B/OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
+   "primary": "OF",
+   "rank": 5,
    "group": "B",
    "mlb": "TEX",
-   "pid": "p0236",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Yordan Alvarez",
-   "positions": "OF",
-   "salary": 17,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 18,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "HOU",
-   "pid": "p0257",
+   "pid": "p0229",
    "tags": [
     "TRADE"
    ]
   },
   {
-   "team": "NISH",
-   "player": "Fernando Tatis Jr.",
-   "positions": "OF/2B",
-   "salary": 10,
+   "team": "KELL",
+   "player": "Yandy Diaz",
+   "positions": "1B",
+   "salary": 8,
    "year": 1,
    "acquired": "Keep",
    "nextYear": 2,
-   "nextSalary": 11,
+   "nextSalary": 9,
    "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
+   "primary": "1B",
+   "rank": 1,
    "group": "B",
-   "mlb": "SD",
-   "pid": "p0237",
+   "mlb": "TB",
+   "pid": "p0230",
    "tags": [
     "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Jac Caglianone",
-   "positions": "OF/1B",
-   "salary": 10,
-   "year": 2,
-   "acquired": "Draft",
-   "nextYear": 3,
-   "nextSalary": 13,
-   "escalator": 3,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "KC",
-   "pid": "p0240",
-   "tags": [
-    "DRAFT"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Randy Arozarena",
-   "positions": "OF",
-   "salary": 6,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 9,
-   "escalator": 3,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "SEA",
-   "pid": "p0251",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Jung Hoo Lee",
-   "positions": "OF",
-   "salary": 5,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "SF",
-   "pid": "p0243",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Chris Sale",
-   "positions": "SP",
-   "salary": 27,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 30,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ATL",
-   "pid": "p0235",
-   "tags": [
-    "TRADE",
     "KEEP"
    ]
   },
@@ -4888,177 +4575,22 @@
   },
   {
    "team": "NISH",
-   "player": "Sonny Gray",
-   "positions": "SP",
-   "salary": 15,
+   "player": "Alex Bregman",
+   "positions": "3B",
+   "salary": 8,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
-   "nextSalary": 18,
+   "nextSalary": 11,
    "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "BOS",
-   "pid": "p0254",
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "CHC",
+   "pid": "p0232",
    "tags": [
     "TRADE",
     "KEEP"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Paul Skenes",
-   "positions": "SP",
-   "salary": 12,
-   "year": 3,
-   "acquired": "Trade",
-   "nextYear": 4,
-   "nextSalary": 17,
-   "escalator": 5,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "PIT",
-   "pid": "p0249",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Zebby Matthews",
-   "positions": "SP",
-   "salary": 6,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 7,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "MIN",
-   "pid": "p0258",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Walker Buehler",
-   "positions": "SP",
-   "salary": 5,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "SD",
-   "pid": "p0255",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Nolan McLean",
-   "positions": "SP",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "NYM",
-   "pid": "p0248",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Foster Griffin",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CLE",
-   "pid": "p0238",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Max Meyer",
-   "positions": "SP",
-   "salary": 3,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 6,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "MIA",
-   "pid": "p0247",
-   "tags": [
-    "DRAFT",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "River Ryan",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "DET",
-   "pid": "p0252",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NISH",
-   "player": "Sean Burke",
-   "positions": "SP",
-   "salary": 6,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 7,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CHW",
-   "pid": "p0253",
-   "tags": [
-    "FA"
    ]
   },
   {
@@ -5102,6 +4634,103 @@
   },
   {
    "team": "NISH",
+   "player": "Chris Sale",
+   "positions": "SP",
+   "salary": 27,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 30,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "ATL",
+   "pid": "p0235",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Fernando Tatis Jr.",
+   "positions": "OF/2B",
+   "salary": 10,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 11,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "SD",
+   "pid": "p0237",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Foster Griffin",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CLE",
+   "pid": "p0238",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Geraldo Perdomo",
+   "positions": "SS",
+   "salary": 7,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 8,
+   "escalator": 1,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "ARI",
+   "pid": "p0239",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Jac Caglianone",
+   "positions": "OF/1B",
+   "salary": 10,
+   "year": 2,
+   "acquired": "Draft",
+   "nextYear": 3,
+   "nextSalary": 13,
+   "escalator": 3,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "KC",
+   "pid": "p0240",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "team": "NISH",
    "player": "Jhoan Duran",
    "positions": "RP",
    "salary": 4,
@@ -5121,99 +4750,373 @@
    ]
   },
   {
-   "team": "NORT",
-   "player": "Carter Jensen",
-   "positions": "C",
-   "salary": 3,
+   "team": "NISH",
+   "player": "Jose Ramirez",
+   "positions": "3B",
+   "salary": 34,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 35,
+   "escalator": 1,
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "CLE",
+   "pid": "p0242",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Jung Hoo Lee",
+   "positions": "OF",
+   "salary": 5,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 4,
+   "nextSalary": 6,
    "escalator": 1,
-   "primary": "C",
-   "rank": 0,
+   "primary": "OF",
+   "rank": 5,
    "group": "B",
-   "mlb": "KC",
-   "pid": "p0264",
+   "mlb": "SF",
+   "pid": "p0243",
    "tags": [
     "FA"
    ]
   },
   {
-   "team": "NORT",
-   "player": "Francisco Alvarez",
-   "positions": "C",
+   "player": "Justin Martinez",
+   "team": "NISH",
+   "positions": "RP",
+   "primary": "RP",
+   "mlb": "ARI",
    "salary": 3,
    "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "C",
+   "pid": "p0743",
    "rank": 0,
-   "group": "B",
-   "mlb": "NYM",
-   "pid": "p0269",
+   "group": "P",
    "tags": [
     "FA"
-   ]
+   ],
+   "acquired": "FA",
+   "nextYear": 2,
+   "escalator": 1,
+   "nextSalary": 4
   },
   {
-   "team": "NORT",
-   "player": "Shea Langeliers",
-   "positions": "C",
-   "salary": 2,
+   "team": "NISH",
+   "player": "Konnor Griffin",
+   "positions": "SS",
+   "salary": 5,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
-   "nextSalary": 5,
+   "nextSalary": 8,
    "escalator": 3,
-   "primary": "C",
-   "rank": 0,
+   "primary": "SS",
+   "rank": 4,
    "group": "B",
-   "mlb": "ATH",
-   "pid": "p0284",
+   "mlb": "PIT",
+   "pid": "p0244",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Luis Garcia Jr.",
+   "positions": "2B/1B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "NYY",
+   "pid": "p0245",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Maikel Garcia",
+   "positions": "3B",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "KC",
+   "pid": "p0246",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Max Meyer",
+   "positions": "SP",
+   "salary": 3,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 6,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "MIA",
+   "pid": "p0247",
    "tags": [
     "DRAFT",
     "KEEP"
    ]
   },
   {
-   "team": "NORT",
-   "player": "Kody Clemens",
-   "positions": "1B/2B/OF",
+   "team": "NISH",
+   "player": "Nolan McLean",
+   "positions": "SP",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "NYM",
+   "pid": "p0248",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Paul Skenes",
+   "positions": "SP",
+   "salary": 12,
+   "year": 3,
+   "acquired": "Trade",
+   "nextYear": 4,
+   "nextSalary": 17,
+   "escalator": 5,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "PIT",
+   "pid": "p0249",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Pete Alonso",
+   "positions": "1B",
+   "salary": 25,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 26,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "BAL",
+   "pid": "p0250",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Randy Arozarena",
+   "positions": "OF",
+   "salary": 6,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 9,
+   "escalator": 3,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "SEA",
+   "pid": "p0251",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "River Ryan",
+   "positions": "SP",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "MIN",
-   "pid": "p0278",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "DET",
+   "pid": "p0252",
    "tags": [
     "FA"
    ]
   },
   {
+   "team": "NISH",
+   "player": "Sean Burke",
+   "positions": "SP",
+   "salary": 6,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 7,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "CHW",
+   "pid": "p0253",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Sonny Gray",
+   "positions": "SP",
+   "salary": 15,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 18,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "BOS",
+   "pid": "p0254",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "William Contreras",
+   "positions": "C",
+   "salary": 12,
+   "year": 4,
+   "acquired": "Keep",
+   "nextYear": 5,
+   "nextSalary": 19,
+   "escalator": 7,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "MIL",
+   "pid": "p0256",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Yordan Alvarez",
+   "positions": "OF",
+   "salary": 17,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 18,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "HOU",
+   "pid": "p0257",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "NISH",
+   "player": "Zebby Matthews",
+   "positions": "SP",
+   "salary": 6,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 7,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "MIN",
+   "pid": "p0258",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "player": "Brayan Bello",
    "team": "NORT",
-   "player": "Willson Contreras",
-   "positions": "1B",
+   "positions": "SP/RP",
+   "primary": "SP",
+   "mlb": "BOS",
+   "salary": 4,
+   "year": 1,
+   "pid": "p1074",
+   "rank": 0,
+   "group": "P",
+   "tags": [
+    "FA"
+   ],
+   "acquired": "FA",
+   "nextYear": 2,
+   "escalator": 1,
+   "nextSalary": 5
+  },
+  {
+   "team": "NORT",
+   "player": "Brent Rooker",
+   "positions": "OF",
    "salary": 3,
    "year": 1,
-   "acquired": "Draft",
+   "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
+   "primary": "OF",
+   "rank": 5,
    "group": "B",
-   "mlb": "BOS",
-   "pid": "p0286",
+   "mlb": "ATH",
+   "pid": "p0259",
    "tags": [
-    "DRAFT"
+    "FA"
    ]
   },
   {
@@ -5238,42 +5141,255 @@
   },
   {
    "team": "NORT",
-   "player": "Kazuma Okamoto",
-   "positions": "3B/1B",
-   "salary": 23,
+   "player": "Bryan Woo",
+   "positions": "SP",
+   "salary": 5,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "SEA",
+   "pid": "p0261",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Cade Cavalli",
+   "positions": "SP",
+   "salary": 6,
    "year": 1,
    "acquired": "Trade",
    "nextYear": 2,
-   "nextSalary": 24,
+   "nextSalary": 7,
    "escalator": 1,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "TOR",
-   "pid": "p0277",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "WSH",
+   "pid": "p0262",
    "tags": [
     "TRADE"
    ]
   },
   {
    "team": "NORT",
-   "player": "Zach Neto",
-   "positions": "SS",
-   "salary": 6,
+   "player": "Cade Smith",
+   "positions": "RP",
+   "salary": 14,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
-   "nextSalary": 9,
+   "nextSalary": 17,
    "escalator": 3,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "LAA",
-   "pid": "p0287",
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "CLE",
+   "pid": "p0263",
    "tags": [
     "TRADE",
     "KEEP"
    ]
+  },
+  {
+   "team": "NORT",
+   "player": "Carter Jensen",
+   "positions": "C",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "KC",
+   "pid": "p0264",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Didier Fuentes",
+   "positions": "SP/RP",
+   "salary": 11,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 12,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "ATL",
+   "pid": "p0266",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Edwin Diaz",
+   "positions": "RP",
+   "salary": 8,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 9,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "LAD",
+   "pid": "p0267",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Framber Valdez",
+   "positions": "SP",
+   "salary": 24,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 27,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "DET",
+   "pid": "p0268",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Garrett Crochet",
+   "positions": "SP",
+   "salary": 8,
+   "year": 3,
+   "acquired": "Trade",
+   "nextYear": 4,
+   "nextSalary": 13,
+   "escalator": 5,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "BOS",
+   "pid": "p0270",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Hayden Wesneski",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "HOU",
+   "pid": "p0271",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Hunter Brown",
+   "positions": "SP",
+   "salary": 5,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "HOU",
+   "pid": "p0272",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Jake Bennett",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "BOS",
+   "pid": "p0273",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "James Wood",
+   "positions": "OF",
+   "salary": 7,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 8,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "WSH",
+   "pid": "p0274",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "player": "Jazz Chisholm Jr.",
+   "team": "NORT",
+   "positions": "2B/3B",
+   "primary": "2B",
+   "mlb": "NYY",
+   "salary": 4,
+   "year": 1,
+   "pid": "p0075",
+   "rank": 0,
+   "group": "B",
+   "tags": [
+    "FA"
+   ],
+   "acquired": "FA",
+   "nextYear": 2,
+   "escalator": 1,
+   "nextSalary": 5
   },
   {
    "team": "NORT",
@@ -5297,83 +5413,6 @@
   },
   {
    "team": "NORT",
-   "player": "Leo De Vries",
-   "positions": "SS",
-   "salary": 4,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "ATH",
-   "pid": "p0281",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "NORT",
-   "player": "James Wood",
-   "positions": "OF",
-   "salary": 7,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 8,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "WSH",
-   "pid": "p0274",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "NORT",
-   "player": "Roman Anthony",
-   "positions": "OF",
-   "salary": 7,
-   "year": 3,
-   "acquired": "Keep",
-   "nextYear": 4,
-   "nextSalary": 12,
-   "escalator": 5,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "BOS",
-   "pid": "p0282",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NORT",
-   "player": "Brent Rooker",
-   "positions": "OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "ATH",
-   "pid": "p0259",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NORT",
    "player": "Jordan Walker",
    "positions": "OF",
    "salary": 3,
@@ -5387,6 +5426,44 @@
    "group": "B",
    "mlb": "STL",
    "pid": "p0276",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Kazuma Okamoto",
+   "positions": "3B/1B",
+   "salary": 23,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 24,
+   "escalator": 1,
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "TOR",
+   "pid": "p0277",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Kody Clemens",
+   "positions": "1B/2B/OF",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "MIN",
+   "pid": "p0278",
    "tags": [
     "FA"
    ]
@@ -5413,119 +5490,59 @@
   },
   {
    "team": "NORT",
-   "player": "Framber Valdez",
+   "player": "Landen Roupp",
    "positions": "SP",
-   "salary": 24,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 27,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "DET",
-   "pid": "p0268",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NORT",
-   "player": "Didier Fuentes",
-   "positions": "SP/RP",
-   "salary": 11,
+   "salary": 3,
    "year": 1,
-   "acquired": "Draft",
+   "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 12,
+   "nextSalary": 4,
    "escalator": 1,
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "ATL",
-   "pid": "p0266",
+   "mlb": "SF",
+   "pid": "p0280",
    "tags": [
-    "DRAFT"
+    "FA"
    ]
   },
   {
    "team": "NORT",
-   "player": "Garrett Crochet",
-   "positions": "SP",
-   "salary": 8,
-   "year": 3,
-   "acquired": "Trade",
-   "nextYear": 4,
-   "nextSalary": 13,
-   "escalator": 5,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "BOS",
-   "pid": "p0270",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NORT",
-   "player": "Cade Cavalli",
-   "positions": "SP",
-   "salary": 6,
+   "player": "Leo De Vries",
+   "positions": "SS",
+   "salary": 4,
    "year": 1,
    "acquired": "Trade",
    "nextYear": 2,
-   "nextSalary": 7,
+   "nextSalary": 5,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "WSH",
-   "pid": "p0262",
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "ATH",
+   "pid": "p0281",
    "tags": [
     "TRADE"
    ]
   },
   {
    "team": "NORT",
-   "player": "Bryan Woo",
-   "positions": "SP",
-   "salary": 5,
-   "year": 1,
+   "player": "Roman Anthony",
+   "positions": "OF",
+   "salary": 7,
+   "year": 3,
    "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "SEA",
-   "pid": "p0261",
+   "nextYear": 4,
+   "nextSalary": 12,
+   "escalator": 5,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "BOS",
+   "pid": "p0282",
    "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "NORT",
-   "player": "Hunter Brown",
-   "positions": "SP",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "HOU",
-   "pid": "p0272",
-   "tags": [
-    "TRADE",
+    "FA",
     "KEEP"
    ]
   },
@@ -5550,59 +5567,22 @@
   },
   {
    "team": "NORT",
-   "player": "Hayden Wesneski",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "HOU",
-   "pid": "p0271",
+   "player": "Shea Langeliers",
+   "positions": "C",
+   "salary": 2,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 5,
+   "escalator": 3,
+   "primary": "C",
+   "rank": 0,
+   "group": "B",
+   "mlb": "ATH",
+   "pid": "p0284",
    "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NORT",
-   "player": "Jake Bennett",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "BOS",
-   "pid": "p0273",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NORT",
-   "player": "Landen Roupp",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "SF",
-   "pid": "p0280",
-   "tags": [
-    "FA"
+    "DRAFT",
+    "KEEP"
    ]
   },
   {
@@ -5627,46 +5607,46 @@
   },
   {
    "team": "NORT",
-   "player": "Cade Smith",
-   "positions": "RP",
-   "salary": 14,
+   "player": "Willson Contreras",
+   "positions": "1B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "BOS",
+   "pid": "p0286",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "team": "NORT",
+   "player": "Zach Neto",
+   "positions": "SS",
+   "salary": 6,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
-   "nextSalary": 17,
+   "nextSalary": 9,
    "escalator": 3,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "CLE",
-   "pid": "p0263",
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "LAA",
+   "pid": "p0287",
    "tags": [
     "TRADE",
     "KEEP"
    ]
   },
   {
-   "team": "NORT",
-   "player": "Edwin Diaz",
-   "positions": "RP",
-   "salary": 8,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 9,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "LAD",
-   "pid": "p0267",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "NORT",
-   "player": "Daniel Palencia",
+   "team": "SPER",
+   "player": "AJ Blubaugh",
    "positions": "RP",
    "salary": 3,
    "year": 1,
@@ -5677,8 +5657,27 @@
    "primary": "RP",
    "rank": 11,
    "group": "P",
-   "mlb": "CHC",
-   "pid": "p0265",
+   "mlb": "HOU",
+   "pid": "p0288",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Angel Martinez",
+   "positions": "OF/2B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "CLE",
+   "pid": "p0289",
    "tags": [
     "FA"
    ]
@@ -5705,6 +5704,122 @@
   },
   {
    "team": "SPER",
+   "player": "Cole Young",
+   "positions": "2B",
+   "salary": 5,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "SEA",
+   "pid": "p0291",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Cooper Hjerpe",
+   "positions": "SP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "STL",
+   "pid": "p0292",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Cristopher Sanchez",
+   "positions": "SP",
+   "salary": 12,
+   "year": 4,
+   "acquired": "Keep",
+   "nextYear": 5,
+   "nextSalary": 19,
+   "escalator": 7,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "PHI",
+   "pid": "p0293",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Curtis Mead",
+   "positions": "1B/3B",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "BOS",
+   "pid": "p0294",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Eduardo Rodriguez",
+   "positions": "SP",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "ARI",
+   "pid": "p0295",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Emilio Pagan",
+   "positions": "RP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "CIN",
+   "pid": "p0296",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "SPER",
    "player": "Freddie Freeman",
    "positions": "1B",
    "salary": 37,
@@ -5725,19 +5840,97 @@
   },
   {
    "team": "SPER",
-   "player": "Curtis Mead",
-   "positions": "1B/3B",
+   "player": "Heriberto Hernandez",
+   "positions": "OF",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
+   "primary": "OF",
+   "rank": 5,
    "group": "B",
-   "mlb": "BOS",
-   "pid": "p0294",
+   "mlb": "MIA",
+   "pid": "p0298",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Ian Seymour",
+   "positions": "RP/SP",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "TB",
+   "pid": "p0299",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "JJ Bleday",
+   "positions": "OF",
+   "salary": 5,
+   "year": 1,
+   "acquired": "Trade",
+   "nextYear": 2,
+   "nextSalary": 6,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "CIN",
+   "pid": "p0300",
+   "tags": [
+    "TRADE"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Jacob deGrom",
+   "positions": "SP",
+   "salary": 40,
+   "year": 3,
+   "acquired": "Keep",
+   "nextYear": 4,
+   "nextSalary": 45,
+   "escalator": 5,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "TEX",
+   "pid": "p0301",
+   "tags": [
+    "DRAFT",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Jake McCarthy",
+   "positions": "OF",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "COL",
+   "pid": "p0302",
    "tags": [
     "FA"
    ]
@@ -5764,59 +5957,41 @@
   },
   {
    "team": "SPER",
-   "player": "Cole Young",
-   "positions": "2B",
-   "salary": 5,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "SEA",
-   "pid": "p0291",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Zack Gelof",
-   "positions": "2B/3B/OF",
+   "player": "Kyle Harrison",
+   "positions": "SP",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "ATH",
-   "pid": "p0315",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "MIL",
+   "pid": "p0304",
    "tags": [
     "FA"
    ]
   },
   {
    "team": "SPER",
-   "player": "Munetaka Murakami",
-   "positions": "3B/1B",
-   "salary": 7,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 8,
-   "escalator": 1,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "CHW",
-   "pid": "p0308",
+   "player": "Michael McGreevy",
+   "positions": "SP",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "STL",
+   "pid": "p0305",
    "tags": [
-    "FA"
+    "FA",
+    "KEEP"
    ]
   },
   {
@@ -5861,117 +6036,21 @@
   },
   {
    "team": "SPER",
-   "player": "JJ Bleday",
-   "positions": "OF",
-   "salary": 5,
-   "year": 1,
-   "acquired": "Trade",
-   "nextYear": 2,
-   "nextSalary": 6,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "CIN",
-   "pid": "p0300",
-   "tags": [
-    "TRADE"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Angel Martinez",
-   "positions": "OF/2B",
-   "salary": 3,
+   "player": "Munetaka Murakami",
+   "positions": "3B/1B",
+   "salary": 7,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 4,
+   "nextSalary": 8,
    "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "CLE",
-   "pid": "p0289",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Heriberto Hernandez",
-   "positions": "OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "MIA",
-   "pid": "p0298",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Jake McCarthy",
-   "positions": "OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "COL",
-   "pid": "p0302",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Tristan Peters",
-   "positions": "OF",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
+   "primary": "3B",
+   "rank": 3,
    "group": "B",
    "mlb": "CHW",
-   "pid": "p0313",
+   "pid": "p0308",
    "tags": [
     "FA"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Jacob deGrom",
-   "positions": "SP",
-   "salary": 40,
-   "year": 3,
-   "acquired": "Keep",
-   "nextYear": 4,
-   "nextSalary": 45,
-   "escalator": 5,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "TEX",
-   "pid": "p0301",
-   "tags": [
-    "DRAFT",
-    "KEEP"
    ]
   },
   {
@@ -6016,22 +6095,60 @@
   },
   {
    "team": "SPER",
-   "player": "Cristopher Sanchez",
+   "player": "Parker Messick",
    "positions": "SP",
-   "salary": 12,
-   "year": 4,
+   "salary": 4,
+   "year": 2,
    "acquired": "Keep",
-   "nextYear": 5,
-   "nextSalary": 19,
-   "escalator": 7,
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "PHI",
-   "pid": "p0293",
+   "mlb": "CLE",
+   "pid": "p0311",
    "tags": [
     "FA",
     "KEEP"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Raisel Iglesias",
+   "positions": "RP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "ATL",
+   "pid": "p0312",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "SPER",
+   "player": "Tristan Peters",
+   "positions": "OF",
+   "salary": 3,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "CHW",
+   "pid": "p0313",
+   "tags": [
+    "FA"
    ]
   },
   {
@@ -6055,175 +6172,19 @@
   },
   {
    "team": "SPER",
-   "player": "Eduardo Rodriguez",
-   "positions": "SP",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ARI",
-   "pid": "p0295",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Michael McGreevy",
-   "positions": "SP",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "STL",
-   "pid": "p0305",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Parker Messick",
-   "positions": "SP",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "CLE",
-   "pid": "p0311",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Cooper Hjerpe",
-   "positions": "SP",
+   "player": "Zack Gelof",
+   "positions": "2B/3B/OF",
    "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
    "nextSalary": 4,
    "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "STL",
-   "pid": "p0292",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Kyle Harrison",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "MIL",
-   "pid": "p0304",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Ian Seymour",
-   "positions": "RP/SP",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "TB",
-   "pid": "p0299",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "AJ Blubaugh",
-   "positions": "RP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "HOU",
-   "pid": "p0288",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Emilio Pagan",
-   "positions": "RP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "CIN",
-   "pid": "p0296",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "SPER",
-   "player": "Raisel Iglesias",
-   "positions": "RP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "ATL",
-   "pid": "p0312",
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "ATH",
+   "pid": "p0315",
    "tags": [
     "FA"
    ]
@@ -6250,79 +6211,19 @@
   },
   {
    "team": "WILB",
-   "player": "Jonathan Aranda",
-   "positions": "1B",
-   "salary": 1,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 2,
-   "escalator": 1,
-   "primary": "1B",
-   "rank": 1,
-   "group": "B",
-   "mlb": "TB",
-   "pid": "p0329",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Travis Bazzana",
-   "positions": "2B",
-   "salary": 4,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 7,
-   "escalator": 3,
-   "primary": "2B",
-   "rank": 2,
-   "group": "B",
-   "mlb": "CLE",
-   "pid": "p0340",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Isaac Paredes",
-   "positions": "3B/1B",
-   "salary": 12,
-   "year": 4,
-   "acquired": "Keep",
-   "nextYear": 5,
-   "nextSalary": 19,
-   "escalator": 7,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "HOU",
-   "pid": "p0326",
-   "tags": [
-    "FA",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Josh Jung",
-   "positions": "3B",
-   "salary": 4,
+   "player": "Bryce Elder",
+   "positions": "SP",
+   "salary": 5,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 5,
+   "nextSalary": 6,
    "escalator": 1,
-   "primary": "3B",
-   "rank": 3,
-   "group": "B",
-   "mlb": "TEX",
-   "pid": "p0330",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "ATL",
+   "pid": "p0317",
    "tags": [
     "FA"
    ]
@@ -6349,21 +6250,80 @@
   },
   {
    "team": "WILB",
-   "player": "Kaelen Culpepper",
-   "positions": "SS",
-   "salary": 6,
+   "player": "Cal Quantrill",
+   "positions": "SP/RP",
+   "salary": 4,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 7,
+   "nextSalary": 5,
    "escalator": 1,
-   "primary": "SS",
-   "rank": 4,
-   "group": "B",
-   "mlb": "MIN",
-   "pid": "p0331",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "TEX",
+   "pid": "p0319",
    "tags": [
     "FA"
+   ]
+  },
+  {
+   "team": "WILB",
+   "player": "Carson Benge",
+   "positions": "OF",
+   "salary": 1,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 2,
+   "escalator": 1,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "NYM",
+   "pid": "p0320",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "team": "WILB",
+   "player": "David Bednar",
+   "positions": "RP",
+   "salary": 3,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 4,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "NYY",
+   "pid": "p0321",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "WILB",
+   "player": "Freddy Peralta",
+   "positions": "SP",
+   "salary": 30,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 31,
+   "escalator": 1,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "TB",
+   "pid": "p0322",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
    ]
   },
   {
@@ -6387,22 +6347,178 @@
   },
   {
    "team": "WILB",
-   "player": "Wilyer Abreu",
+   "player": "Grant Taylor",
+   "positions": "RP/SP",
+   "salary": 1,
+   "year": 1,
+   "acquired": "Draft",
+   "nextYear": 2,
+   "nextSalary": 2,
+   "escalator": 1,
+   "primary": "RP",
+   "rank": 11,
+   "group": "P",
+   "mlb": "CHW",
+   "pid": "p0324",
+   "tags": [
+    "DRAFT"
+   ]
+  },
+  {
+   "player": "Hagen Smith",
+   "team": "WILB",
+   "positions": "SP/RP",
+   "primary": "SP",
+   "mlb": "CHW",
+   "salary": 5,
+   "year": 1,
+   "pid": "p0602",
+   "rank": 0,
+   "group": "P",
+   "tags": [
+    "FA"
+   ],
+   "acquired": "FA",
+   "nextYear": 2,
+   "escalator": 1,
+   "nextSalary": 6
+  },
+  {
+   "team": "WILB",
+   "player": "Ian Happ",
    "positions": "OF",
-   "salary": 9,
-   "year": 3,
+   "salary": 5,
+   "year": 2,
    "acquired": "Keep",
-   "nextYear": 4,
-   "nextSalary": 14,
-   "escalator": 5,
+   "nextYear": 3,
+   "nextSalary": 8,
+   "escalator": 3,
    "primary": "OF",
    "rank": 5,
    "group": "B",
-   "mlb": "BOS",
-   "pid": "p0343",
+   "mlb": "CHC",
+   "pid": "p0325",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "WILB",
+   "player": "Isaac Paredes",
+   "positions": "3B/1B",
+   "salary": 12,
+   "year": 4,
+   "acquired": "Keep",
+   "nextYear": 5,
+   "nextSalary": 19,
+   "escalator": 7,
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "HOU",
+   "pid": "p0326",
    "tags": [
     "FA",
     "KEEP"
+   ]
+  },
+  {
+   "team": "WILB",
+   "player": "Jacob Misiorowski",
+   "positions": "SP",
+   "salary": 4,
+   "year": 2,
+   "acquired": "Keep",
+   "nextYear": 3,
+   "nextSalary": 7,
+   "escalator": 3,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "MIL",
+   "pid": "p0327",
+   "tags": [
+    "FA",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "WILB",
+   "player": "Jared Jones",
+   "positions": "SP",
+   "salary": 6,
+   "year": 3,
+   "acquired": "Keep",
+   "nextYear": 4,
+   "nextSalary": 11,
+   "escalator": 5,
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "PIT",
+   "pid": "p0328",
+   "tags": [
+    "TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "WILB",
+   "player": "Jonathan Aranda",
+   "positions": "1B",
+   "salary": 1,
+   "year": 1,
+   "acquired": "Keep",
+   "nextYear": 2,
+   "nextSalary": 2,
+   "escalator": 1,
+   "primary": "1B",
+   "rank": 1,
+   "group": "B",
+   "mlb": "TB",
+   "pid": "p0329",
+   "tags": [
+    "WM TRADE",
+    "KEEP"
+   ]
+  },
+  {
+   "team": "WILB",
+   "player": "Josh Jung",
+   "positions": "3B",
+   "salary": 4,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 5,
+   "escalator": 1,
+   "primary": "3B",
+   "rank": 3,
+   "group": "B",
+   "mlb": "TEX",
+   "pid": "p0330",
+   "tags": [
+    "FA"
+   ]
+  },
+  {
+   "team": "WILB",
+   "player": "Kaelen Culpepper",
+   "positions": "SS",
+   "salary": 6,
+   "year": 1,
+   "acquired": "FA",
+   "nextYear": 2,
+   "nextSalary": 7,
+   "escalator": 1,
+   "primary": "SS",
+   "rank": 4,
+   "group": "B",
+   "mlb": "MIN",
+   "pid": "p0331",
+   "tags": [
+    "FA"
    ]
   },
   {
@@ -6420,26 +6536,6 @@
    "group": "B",
    "mlb": "MIA",
    "pid": "p0332",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Ian Happ",
-   "positions": "OF",
-   "salary": 5,
-   "year": 2,
-   "acquired": "Keep",
-   "nextYear": 3,
-   "nextSalary": 8,
-   "escalator": 3,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "CHC",
-   "pid": "p0325",
    "tags": [
     "TRADE",
     "KEEP"
@@ -6467,119 +6563,21 @@
   },
   {
    "team": "WILB",
-   "player": "Zyhir Hope",
-   "positions": "OF",
-   "salary": 4,
+   "player": "Michael Soroka",
+   "positions": "SP",
+   "salary": 3,
    "year": 1,
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 5,
+   "nextSalary": 4,
    "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "DET",
-   "pid": "p0344",
+   "primary": "SP",
+   "rank": 10,
+   "group": "P",
+   "mlb": "ARI",
+   "pid": "p0334",
    "tags": [
     "FA"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Carson Benge",
-   "positions": "OF",
-   "salary": 1,
-   "year": 1,
-   "acquired": "Draft",
-   "nextYear": 2,
-   "nextSalary": 2,
-   "escalator": 1,
-   "primary": "OF",
-   "rank": 5,
-   "group": "B",
-   "mlb": "NYM",
-   "pid": "p0320",
-   "tags": [
-    "DRAFT"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Tatsuya Imai",
-   "positions": "SP/RP",
-   "salary": 49,
-   "year": 1,
-   "acquired": "Draft",
-   "nextYear": 2,
-   "nextSalary": 50,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "HOU",
-   "pid": "p0339",
-   "tags": [
-    "DRAFT"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Freddy Peralta",
-   "positions": "SP",
-   "salary": 30,
-   "year": 1,
-   "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 31,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "TB",
-   "pid": "p0322",
-   "tags": [
-    "WM TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Spencer Strider",
-   "positions": "SP",
-   "salary": 11,
-   "year": 3,
-   "acquired": "Keep",
-   "nextYear": 4,
-   "nextSalary": 16,
-   "escalator": 5,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ATL",
-   "pid": "p0338",
-   "tags": [
-    "TRADE",
-    "KEEP"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Jared Jones",
-   "positions": "SP",
-   "salary": 6,
-   "year": 3,
-   "acquired": "Keep",
-   "nextYear": 4,
-   "nextSalary": 11,
-   "escalator": 5,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "PIT",
-   "pid": "p0328",
-   "tags": [
-    "TRADE",
-    "KEEP"
    ]
   },
   {
@@ -6603,77 +6601,78 @@
    ]
   },
   {
+   "player": "Robert Gasser",
    "team": "WILB",
-   "player": "Bryce Elder",
    "positions": "SP",
+   "primary": "SP",
+   "mlb": "MIL",
    "salary": 5,
    "year": 1,
+   "pid": "p0933",
+   "rank": 0,
+   "group": "P",
+   "tags": [
+    "FA"
+   ],
    "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 6,
    "escalator": 1,
+   "nextSalary": 6
+  },
+  {
+   "team": "WILB",
+   "player": "Spencer Strider",
+   "positions": "SP",
+   "salary": 11,
+   "year": 3,
+   "acquired": "Keep",
+   "nextYear": 4,
+   "nextSalary": 16,
+   "escalator": 5,
    "primary": "SP",
    "rank": 10,
    "group": "P",
    "mlb": "ATL",
-   "pid": "p0317",
+   "pid": "p0338",
    "tags": [
-    "FA"
+    "TRADE",
+    "KEEP"
    ]
   },
   {
    "team": "WILB",
-   "player": "Randy Vasquez",
+   "player": "Tatsuya Imai",
    "positions": "SP/RP",
-   "salary": 5,
+   "salary": 49,
    "year": 1,
-   "acquired": "FA",
+   "acquired": "Draft",
    "nextYear": 2,
-   "nextSalary": 6,
+   "nextSalary": 50,
    "escalator": 1,
    "primary": "SP",
    "rank": 10,
    "group": "P",
-   "mlb": "SD",
-   "pid": "p0336",
+   "mlb": "HOU",
+   "pid": "p0339",
    "tags": [
-    "FA"
+    "DRAFT"
    ]
   },
   {
    "team": "WILB",
-   "player": "Cal Quantrill",
-   "positions": "SP/RP",
-   "salary": 4,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 5,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "TEX",
-   "pid": "p0319",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Jacob Misiorowski",
-   "positions": "SP",
+   "player": "Travis Bazzana",
+   "positions": "2B",
    "salary": 4,
    "year": 2,
    "acquired": "Keep",
    "nextYear": 3,
    "nextSalary": 7,
    "escalator": 3,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "MIL",
-   "pid": "p0327",
+   "primary": "2B",
+   "rank": 2,
+   "group": "B",
+   "mlb": "CLE",
+   "pid": "p0340",
    "tags": [
     "FA",
     "KEEP"
@@ -6701,44 +6700,6 @@
   },
   {
    "team": "WILB",
-   "player": "Michael Soroka",
-   "positions": "SP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ARI",
-   "pid": "p0334",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "WILB",
-   "player": "Reynaldo Lopez",
-   "positions": "SP/RP",
-   "salary": 3,
-   "year": 1,
-   "acquired": "FA",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "SP",
-   "rank": 10,
-   "group": "P",
-   "mlb": "ATL",
-   "pid": "p0337",
-   "tags": [
-    "FA"
-   ]
-  },
-  {
-   "team": "WILB",
    "player": "Ty Johnson",
    "positions": "SP",
    "salary": 3,
@@ -6758,41 +6719,41 @@
   },
   {
    "team": "WILB",
-   "player": "David Bednar",
-   "positions": "RP",
-   "salary": 3,
-   "year": 1,
+   "player": "Wilyer Abreu",
+   "positions": "OF",
+   "salary": 9,
+   "year": 3,
    "acquired": "Keep",
-   "nextYear": 2,
-   "nextSalary": 4,
-   "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "NYY",
-   "pid": "p0321",
+   "nextYear": 4,
+   "nextSalary": 14,
+   "escalator": 5,
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "BOS",
+   "pid": "p0343",
    "tags": [
-    "WM TRADE",
+    "FA",
     "KEEP"
    ]
   },
   {
    "team": "WILB",
-   "player": "Grant Taylor",
-   "positions": "RP/SP",
-   "salary": 1,
+   "player": "Zyhir Hope",
+   "positions": "OF",
+   "salary": 4,
    "year": 1,
-   "acquired": "Draft",
+   "acquired": "FA",
    "nextYear": 2,
-   "nextSalary": 2,
+   "nextSalary": 5,
    "escalator": 1,
-   "primary": "RP",
-   "rank": 11,
-   "group": "P",
-   "mlb": "CHW",
-   "pid": "p0324",
+   "primary": "OF",
+   "rank": 5,
+   "group": "B",
+   "mlb": "DET",
+   "pid": "p0344",
    "tags": [
-    "DRAFT"
+    "FA"
    ]
   }
  ],
@@ -15548,6 +15509,222 @@
    "player": "Roch Cholowsky",
    "positions": "SS",
    "salary": 4,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-17",
+   "type": "drop",
+   "team": "CHAZ",
+   "player": "Willi Castro",
+   "positions": "OF/1B/2B/3B/SS",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "add",
+   "team": "FREE",
+   "player": "Chad Patrick",
+   "positions": "SP/RP",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "add",
+   "team": "FREE",
+   "player": "Connor Prielipp",
+   "positions": "SP",
+   "salary": 4,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "add",
+   "team": "GORD",
+   "player": "Drew Anderson",
+   "positions": "SP/RP",
+   "salary": 9,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "add",
+   "team": "WILB",
+   "player": "Hagen Smith",
+   "positions": "SP/RP",
+   "salary": 5,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "add",
+   "team": "FREE",
+   "player": "Jakob Marsee",
+   "positions": "OF",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "add",
+   "team": "WILB",
+   "player": "Robert Gasser",
+   "positions": "SP",
+   "salary": 5,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "add",
+   "team": "KELL",
+   "player": "Thomas White",
+   "positions": "SP",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "drop",
+   "team": "KELL",
+   "player": "Anthony Kay",
+   "positions": "SP",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "drop",
+   "team": "FREE",
+   "player": "Brandon Young",
+   "positions": "SP",
+   "salary": 4,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "drop",
+   "team": "FREE",
+   "player": "Jazz Chisholm Jr.",
+   "positions": "2B/3B",
+   "salary": 6,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "drop",
+   "team": "GORD",
+   "player": "Mickey Moniak",
+   "positions": "OF",
+   "salary": 4,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "drop",
+   "team": "WILB",
+   "player": "Randy Vasquez",
+   "positions": "SP/RP",
+   "salary": 5,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "drop",
+   "team": "WILB",
+   "player": "Reynaldo Lopez",
+   "positions": "SP/RP",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "drop",
+   "team": "GORD",
+   "player": "Riley O'Brien",
+   "positions": "RP",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "drop",
+   "team": "FREE",
+   "player": "Tyler Wells",
+   "positions": "SP/RP",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-20",
+   "type": "drop",
+   "team": "NISH",
+   "player": "Walker Buehler",
+   "positions": "SP",
+   "salary": 5,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-21",
+   "type": "add",
+   "team": "NORT",
+   "player": "Brayan Bello",
+   "positions": "SP/RP",
+   "salary": 4,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-21",
+   "type": "add",
+   "team": "NORT",
+   "player": "Jazz Chisholm Jr.",
+   "positions": "2B/3B",
+   "salary": 4,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-21",
+   "type": "add",
+   "team": "NISH",
+   "player": "Justin Martinez",
+   "positions": "RP",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-21",
+   "type": "add",
+   "team": "JAKE",
+   "player": "Nolan Arenado",
+   "positions": "3B",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-21",
+   "type": "drop",
+   "team": "NORT",
+   "player": "Daniel Palencia",
+   "positions": "RP",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-21",
+   "type": "drop",
+   "team": "NISH",
+   "player": "Ezequiel Duran",
+   "positions": "SS/1B/2B/3B/OF",
+   "salary": 3,
+   "counterparty": ""
+  },
+  {
+   "date": "2026-09-21",
+   "type": "drop",
+   "team": "NORT",
+   "player": "Francisco Alvarez",
+   "positions": "C",
+   "salary": 3,
    "counterparty": ""
   }
  ],

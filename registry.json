@@ -13084,6 +13084,18 @@
    "team": "",
    "trello": "",
    "review": "minted 2026-09-14 - appeared in 2026 ESPN transactions, absent from registry"
+  },
+  {
+   "pid": "p1091",
+   "name": "Drew Anderson",
+   "key": "drew anderson",
+   "aliases": [],
+   "mlb": "DET",
+   "positions": "SP/RP",
+   "status": "rostered",
+   "team": "",
+   "trello": "",
+   "review": ""
   }
  ]
 }

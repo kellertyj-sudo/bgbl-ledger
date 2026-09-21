@@ -1,0 +1,38 @@
+[
+  {"date":"2026-09-17","type":"drop","team":"CHAZ","player":"Willi Castro","mlb":"COL","positions":"2B/3B/SS/OF","salary":0,"counterparty":"","wm":false},
+
+  {"date":"2026-09-20","type":"drop","team":"GORD","player":"Riley O'Brien","mlb":"STL","positions":"RP","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-20","type":"drop","team":"NISH","player":"Walker Buehler","mlb":"SD","positions":"SP","salary":0,"counterparty":"","wm":false},
+
+  {"date":"2026-09-20","type":"drop","team":"FREE","player":"Brandon Young","mlb":"BAL","positions":"SP","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-20","type":"add","team":"FREE","player":"Connor Prielipp","mlb":"MIN","positions":"SP","salary":4,"counterparty":"","wm":false},
+
+  {"date":"2026-09-20","type":"drop","team":"FREE","player":"Tyler Wells","mlb":"TB","positions":"SP/RP","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-20","type":"add","team":"FREE","player":"Chad Patrick","mlb":"MIL","positions":"SP/RP","salary":3,"counterparty":"","wm":false},
+
+  {"date":"2026-09-20","type":"drop","team":"FREE","player":"Jazz Chisholm Jr.","mlb":"NYY","positions":"2B/3B","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-20","type":"add","team":"FREE","player":"Jakob Marsee","mlb":"MIA","positions":"OF","salary":3,"counterparty":"","wm":false},
+
+  {"date":"2026-09-20","type":"drop","team":"GORD","player":"Mickey Moniak","mlb":"COL","positions":"OF","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-20","type":"add","team":"GORD","player":"Drew Anderson","mlb":"DET","positions":"SP/RP","salary":9,"counterparty":"","wm":false},
+
+  {"date":"2026-09-20","type":"drop","team":"WILB","player":"Reynaldo Lopez","mlb":"ATL","positions":"SP/RP","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-20","type":"add","team":"WILB","player":"Hagen Smith","mlb":"CHW","positions":"SP/RP","salary":5,"counterparty":"","wm":false},
+
+  {"date":"2026-09-20","type":"drop","team":"WILB","player":"Randy Vasquez","mlb":"SD","positions":"SP/RP","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-20","type":"add","team":"WILB","player":"Robert Gasser","mlb":"MIL","positions":"SP","salary":5,"counterparty":"","wm":false},
+
+  {"date":"2026-09-20","type":"drop","team":"KELL","player":"Anthony Kay","mlb":"CHW","positions":"SP","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-20","type":"add","team":"KELL","player":"Thomas White","mlb":"MIA","positions":"SP","salary":3,"counterparty":"","wm":false},
+
+  {"date":"2026-09-21","type":"drop","team":"NORT","player":"Daniel Palencia","mlb":"CHC","positions":"RP","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-21","type":"add","team":"NORT","player":"Brayan Bello","mlb":"BOS","positions":"SP/RP","salary":4,"counterparty":"","wm":false},
+
+  {"date":"2026-09-21","type":"drop","team":"NORT","player":"Francisco Alvarez","mlb":"NYM","positions":"C","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-21","type":"add","team":"NORT","player":"Jazz Chisholm Jr.","mlb":"NYY","positions":"2B/3B","salary":4,"counterparty":"","wm":false},
+
+  {"date":"2026-09-21","type":"drop","team":"NISH","player":"Ezequiel Duran","mlb":"TEX","positions":"1B/2B/3B/SS/OF","salary":0,"counterparty":"","wm":false},
+  {"date":"2026-09-21","type":"add","team":"NISH","player":"Justin Martinez","mlb":"ARI","positions":"RP","salary":3,"counterparty":"","wm":false},
+
+  {"date":"2026-09-21","type":"add","team":"JAKE","player":"Nolan Arenado","mlb":"ARI","positions":"3B","salary":3,"counterparty":"","wm":false}
+]
