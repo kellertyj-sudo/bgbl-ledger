@@ -51,6 +51,12 @@ Ask before acting on any of these:
 This is not the same as second-guessing league strategy — see "Things that are NOT problems" below.
 Odd *data* gets a question. Odd-looking *moves* get logged without comment.
 
+## What actually matters (Ty, 2026-09-21)
+
+**Rosters being correct, and staying correct, is the job.** Dates are of mild importance.
+Historical transactions are settled — don't re-litigate them; correct an obvious error if one
+surfaces and move on. 2026-09-21 set the baseline; everything after it is a delta.
+
 ## The loop
 
 1. **Get the moves.** Either Ty pastes them, or pull them from the ESPN API (see
