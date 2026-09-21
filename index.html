@@ -264,7 +264,7 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
     <h1>BGBL Ledger</h1>
     <div class="sub">
       <p>12 teams &middot; <span id="pcount"></span> players under contract</p>
-      <p class="asof">Current through Sep 13, 2026</p>
+      <p class="asof" id="asof"></p>
     </div>
   </div>
 </header>
@@ -420,9 +420,12 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
 <script>
 let DATA=null, HIST={};
 const $=s=>document.querySelector(s), money=n=>"$"+n;
+/* long date, with year - used for "current through" and the log span. Derived, never typed. */
+const fmtLong=d=>d?new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}):"";
 const LIMIT=29;            /* 26 active + 3 IL */
 function boot(){
 document.getElementById("pcount").textContent=DATA.players.length;
+document.getElementById("asof").textContent="Current through "+fmtLong(DATA.asOf);
 
 function budgetLabel(t){
   const d=t.nextPayroll-t.budget;
@@ -619,6 +622,8 @@ const LOGLBL={add:["IN","in","IN"],drop:["OUT","out","OUT"],
   trade_in:["TRADE IN","in","TR IN"],trade_out:["TRADE OUT","out","TR OUT"]};
 const WMLBL={trade_in:["WM TRADE IN","wm","WM IN"],trade_out:["WM TRADE OUT","wm","WM OUT"]};
 const ALLLOG=[...DATA.log].reverse();
+const LOGDATES=DATA.log.map(e=>e.date).filter(Boolean).sort();
+const LOGFIRST=LOGDATES[0], LOGLAST=LOGDATES[LOGDATES.length-1];
 let logCap=100;
 function renderLog(){
   const q=$("#logq").value.trim().toLowerCase();
@@ -637,7 +642,7 @@ function renderLog(){
       <td class="num">${e.salary?money(e.salary):"&mdash;"}</td></tr>`;
   }).join("");
   $("#lognote").textContent = rows.length===ALLLOG.length
-    ? `${ALLLOG.length} moves from Feb 1 to Sep 13, 2026. Winter Meetings trades are tagged separately: they waive the escalator, which is why those salaries look low.`
+    ? `${ALLLOG.length} moves from ${fmt(LOGFIRST)} to ${fmtLong(LOGLAST)}. Winter Meetings trades are tagged separately: they waive the escalator, which is why those salaries look low.`
     : `${rows.length} of ${ALLLOG.length} moves match.`;
   const btn=$("#logmore");
   btn.hidden = rows.length<=100;
