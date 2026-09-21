@@ -206,8 +206,14 @@ tbody tr.band:hover td{background:var(--accent-soft)}
 .io{font-family:var(--mono);font-size:11.8px;letter-spacing:.08em;font-weight:600}
 .io.in{color:var(--under)} .io.out{color:var(--over)}
 .io b{font-weight:inherit} .io .sm{display:none}
-.io.wm{color:var(--acq-trade-fg);background:var(--acq-trade-bg);border:1px solid var(--acq-trade-bd);
-  padding:1px 5px;border-radius:2px}
+.io.keep{color:var(--acq-keep-fg)} .io.draft{color:var(--acq-draft-fg)}
+.io.faab{color:var(--acq-trade-fg)}
+/* Only the "WM" marker gets a box - boxing the whole label made WM TRADE IN and
+   WM TRADE OUT visually indistinguishable from each other. */
+.wmchip{display:inline-block;margin-right:.35em;padding:0 4px;border-radius:2px;
+  font-size:.92em;font-weight:700;letter-spacing:.04em;
+  background:var(--acq-wm-bg);color:var(--acq-wm-fg);border:1px solid var(--acq-wm-bd)}
+#log td.txnote{font-size:12.5px;color:var(--ink);max-width:34em}
 /* ---------- rules ---------- */
 details{border:1px solid var(--rule);border-radius:3px;background:var(--panel);margin-bottom:8px}
 summary{padding:11px 16px;cursor:pointer;font-weight:600;font-size:15.7px}
@@ -405,7 +411,7 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
   </div>
   <div class="scroll"><table class="log" id="log">
     <thead><tr><th class="l">Date</th><th class="l">Team</th><th class="l"></th>
-      <th class="l">Player</th><th class="l">Pos</th><th class="l">With</th><th>Salary</th></tr></thead>
+      <th class="l">Player</th><th class="l">Transaction</th><th class="l">Pos</th><th class="l">With</th><th>Salary</th></tr></thead>
     <tbody></tbody>
   </table></div>
 </section>
@@ -433,6 +439,14 @@ footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--accent);
 <script>
 let DATA=null, HIST={}, TXN={};
 const $=s=>document.querySelector(s), money=n=>"$"+n;
+/* Verbs are colour-coded to the acquisition labels: dropped/added -> FA,
+   traded -> TRADE (WM TRADE on a Winter Meetings deal), kept -> KEEP, drafted -> DRAFT. */
+const paintVerbs=(s,wm)=>(s||"")
+  .replace(/\b(dropped|added)\b/g, '<span class="v v-fa">$1</span>')
+  .replace(/\b(traded)\b/g, '<span class="v '+(wm?"v-wm":"v-trade")+'">$1</span>')
+  .replace(/Retained as Keeper/g, '<span class="v v-keep">Retained as Keeper</span>')
+  .replace(/\bDrafted\b/g, '<span class="v v-draft">Drafted</span>')
+  .replace(/\$(\d+)/g, "<b>$$$1</b>");
 /* long date, with year - used for "current through" and the log span. Derived, never typed. */
 const fmtLong=d=>d?new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}):"";
 const LIMIT=29;            /* 26 active + 3 IL */
@@ -525,12 +539,7 @@ function openSheet(pid){
 
   const mid=r=>r.note.replace(new RegExp("^"+r.from+" traded "),"")
                      .replace(new RegExp(" to "+r.to+"$"),"");
-  const paint=(s,wm)=>s
-    .replace(/\b(dropped|added)\b/g, '<span class="v v-fa">$1</span>')
-    .replace(/\b(traded)\b/g, '<span class="v '+(wm?"v-wm":"v-trade")+'">$1</span>')
-    .replace(/Retained as Keeper/g, '<span class="v v-keep">Retained as Keeper</span>')
-    .replace(/\bDrafted\b/g, '<span class="v v-draft">Drafted</span>')
-    .replace(/\$(\d+)/g, "<b>$$$1</b>");
+  const paint=paintVerbs;
 
   function lines(g){
     const out=[], rows=g.rows;
@@ -665,11 +674,10 @@ render();
 /* ---- transaction log ---- */
 const ltb=$("#log tbody");
 const fmt=d=>new Date(d+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric"});
-const LOGLBL={add:["IN","in","IN"],drop:["OUT","out","OUT"],
-  trade_in:["TRADE IN","in","TR IN"],trade_out:["TRADE OUT","out","TR OUT"],
-  keep:["KEEPER","keep","KEEP"],draft:["DRAFTED","draft","DRAFT"],
-  faab:["FAAB","in","FAAB"]};
-const WMLBL={trade_in:["WM TRADE IN","wm","WM IN"],trade_out:["WM TRADE OUT","wm","WM OUT"]};
+const LOGLBL={add:["Signed","in","SIGN"],drop:["Released","out","REL"],
+  trade_in:["Trade For","in","TR FOR"],trade_out:["Trade Away","out","TR AWAY"],
+  keep:["Keeper","keep","KEEP"],draft:["Drafted","draft","DRAFT"],
+  faab:["FAAB","faab","FAAB"]};
 const ALLLOG=[...DATA.log].reverse();
 const LOGDATES=DATA.log.map(e=>e.date).filter(Boolean).sort();
 const LOGFIRST=LOGDATES[0], LOGLAST=LOGDATES[LOGDATES.length-1];
@@ -680,12 +688,14 @@ function renderLog(){
       .toLowerCase().includes(q)):ALLLOG;
   const show=rows.slice(0,logCap);
   ltb.innerHTML=show.map(e=>{
-    const [lbl,cls,sm]=(e.wm&&WMLBL[e.type])||LOGLBL[e.type]||["OUT","out","OUT"];
+    const [lbl,cls,sm]=LOGLBL[e.type]||["Released","out","REL"];
+    const chip=e.wm?'<span class="wmchip">WM</span> ':"";
     return `<tr><td class="l">${fmt(e.date)}</td>
       <td class="l"><span class="team-tag">${e.team}</span></td>
-      <td class="l"><span class="io ${cls}"><b class="lg">${lbl}</b><b class="sm">${sm}</b></span></td>
+      <td class="l"><span class="io ${cls}">${chip}<b class="lg">${lbl}</b><b class="sm">${sm}</b></span></td>
       <td class="l">${e.player}
         <span class="mini">${e.positions||""}${e.counterparty?" &middot; with "+e.counterparty:""}</span></td>
+      <td class="l txnote">${paintVerbs(e.note,e.wm)}</td>
       <td class="l pos">${e.positions||""}</td>
       <td class="l"><span class="team-tag" style="color:var(--muted)">${e.counterparty||""}</span></td>
       <td class="num">${e.salary?money(e.salary):"&mdash;"}</td></tr>`;

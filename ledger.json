@@ -7000,7 +7000,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "GORD",
    "player": "Will Warren",
    "positions": "SP",
    "salary": 0,
@@ -7012,7 +7012,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "NORT",
    "player": "Mark Vientos",
    "positions": "3B",
    "salary": 0,
@@ -7024,7 +7024,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JST",
+   "team": "JAKE",
    "player": "Jonah Tong",
    "positions": "SP",
    "salary": 0,
@@ -7036,7 +7036,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JST",
+   "team": "JAKE",
    "player": "Riley Greene",
    "positions": "OF",
    "salary": 0,
@@ -7048,7 +7048,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "JST",
    "player": "Ranger Suarez",
    "positions": "SP",
    "salary": 0,
@@ -7060,7 +7060,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "JST",
    "player": "Shane Baz",
    "positions": "SP",
    "salary": 0,
@@ -7072,7 +7072,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "KELL",
    "player": "Austin Riley",
    "positions": "3B",
    "salary": 0,
@@ -7084,7 +7084,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "NORT",
    "player": "Gleyber Torres",
    "positions": "2B",
    "salary": 0,
@@ -7096,7 +7096,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "NORT",
    "player": "Tyler Glasnow",
    "positions": "SP",
    "salary": 0,
@@ -7108,7 +7108,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "WILB",
+   "team": "KELL",
    "player": "Ryan Helsley",
    "positions": "RP",
    "salary": 0,
@@ -7120,7 +7120,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "WILB",
    "player": "Yandy Diaz",
    "positions": "1B",
    "salary": 0,
@@ -7132,7 +7132,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "HAWN",
    "player": "Bryan Woo",
    "positions": "SP",
    "salary": 0,
@@ -7144,7 +7144,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "NORT",
    "player": "Rafael Devers",
    "positions": "1B",
    "salary": 0,
@@ -7156,7 +7156,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "NORT",
    "player": "Trevor Rogers",
    "positions": "SP",
    "salary": 0,
@@ -7168,7 +7168,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "BORG",
    "player": "Bryan Abreu",
    "positions": "RP",
    "salary": 0,
@@ -7180,7 +7180,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "BORG",
    "player": "Jacob Lopez",
    "positions": "SP",
    "salary": 0,
@@ -7192,7 +7192,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "BORG",
    "player": "Sandy Alcantara",
    "positions": "SP",
    "salary": 0,
@@ -7204,7 +7204,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "HAWN",
    "player": "Byron Buxton",
    "positions": "OF",
    "salary": 0,
@@ -7216,7 +7216,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "HAWN",
    "player": "Cody Bellinger",
    "positions": "OF",
    "salary": 0,
@@ -7228,7 +7228,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "GORD",
    "player": "Aaron Judge",
    "positions": "OF",
    "salary": 0,
@@ -7240,7 +7240,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "GORD",
    "player": "Manny Machado",
    "positions": "3B",
    "salary": 0,
@@ -7252,7 +7252,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "GORD",
    "player": "Tarik Skubal",
    "positions": "SP",
    "salary": 0,
@@ -7264,7 +7264,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "JAKE",
    "player": "Cam Schlittler",
    "positions": "SP",
    "salary": 0,
@@ -7276,7 +7276,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "JAKE",
    "player": "Gerrit Cole",
    "positions": "SP",
    "salary": 0,
@@ -7288,7 +7288,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "JAKE",
    "player": "Jakob Marsee",
    "positions": "OF",
    "salary": 0,
@@ -7300,7 +7300,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "JAKE",
    "player": "James Wood",
    "positions": "OF",
    "salary": 0,
@@ -7312,7 +7312,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "JAKE",
    "player": "Michael King",
    "positions": "SP",
    "salary": 0,
@@ -7324,7 +7324,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "BORG",
    "player": "Royce Lewis",
    "positions": "3B/1B/2B",
    "salary": 0,
@@ -7336,7 +7336,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "KELL",
    "player": "Andrew Painter",
    "positions": "SP",
    "salary": 0,
@@ -7348,7 +7348,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "WILB",
+   "team": "GORD",
    "player": "Matt McLain",
    "positions": "2B",
    "salary": 0,
@@ -7360,7 +7360,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "WILB",
    "player": "Zebby Matthews",
    "positions": "SP",
    "salary": 0,
@@ -7372,7 +7372,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "WILB",
+   "team": "CHAZ",
    "player": "Freddy Peralta",
    "positions": "SP",
    "salary": 0,
@@ -7384,7 +7384,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "CHAZ",
+   "team": "WILB",
    "player": "Jarren Duran",
    "positions": "OF",
    "salary": 0,
@@ -7396,7 +7396,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "GORD",
    "player": "Seth Lugo",
    "positions": "SP",
    "salary": 0,
@@ -7408,7 +7408,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "GORD",
    "player": "Yordan Alvarez",
    "positions": "OF",
    "salary": 0,
@@ -7420,7 +7420,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "HAWN",
    "player": "George Kirby",
    "positions": "SP",
    "salary": 0,
@@ -7432,7 +7432,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "SPER",
+   "team": "BORG",
    "player": "Christian Walker",
    "positions": "1B",
    "salary": 0,
@@ -7444,7 +7444,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "SPER",
+   "team": "BORG",
    "player": "Nick Lodolo",
    "positions": "SP",
    "salary": 0,
@@ -7456,7 +7456,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "SPER",
    "player": "David Peterson",
    "positions": "SP/RP",
    "salary": 0,
@@ -7468,7 +7468,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "SPER",
    "player": "Francisco Lindor",
    "positions": "SS",
    "salary": 0,
@@ -7480,7 +7480,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JST",
+   "team": "JAKE",
    "player": "Bailey Ober",
    "positions": "SP",
    "salary": 0,
@@ -7492,7 +7492,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JST",
+   "team": "JAKE",
    "player": "Dylan Beavers",
    "positions": "OF",
    "salary": 0,
@@ -7504,7 +7504,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JST",
+   "team": "JAKE",
    "player": "Payton Tolle",
    "positions": "SP",
    "salary": 0,
@@ -7516,7 +7516,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "JST",
    "player": "Shane McClanahan",
    "positions": "SP",
    "salary": 0,
@@ -7528,7 +7528,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JST",
+   "team": "GORD",
    "player": "Cole Ragans",
    "positions": "SP",
    "salary": 0,
@@ -7540,7 +7540,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JST",
+   "team": "GORD",
    "player": "Colson Montgomery",
    "positions": "SS/3B",
    "salary": 0,
@@ -7552,7 +7552,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JST",
+   "team": "GORD",
    "player": "Kevin Gausman",
    "positions": "SP",
    "salary": 0,
@@ -7564,7 +7564,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "JST",
    "player": "Corbin Carroll",
    "positions": "OF",
    "salary": 0,
@@ -7576,7 +7576,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "JST",
    "player": "Salvador Perez",
    "positions": "C/1B",
    "salary": 0,
@@ -7588,7 +7588,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "JST",
    "player": "Yordan Alvarez",
    "positions": "OF",
    "salary": 0,
@@ -7600,7 +7600,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "FREE",
    "player": "Bryce Miller",
    "positions": "SP",
    "salary": 0,
@@ -7612,7 +7612,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "FREE",
+   "team": "KELL",
    "player": "Lawrence Butler",
    "positions": "OF",
    "salary": 0,
@@ -7624,7 +7624,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "NISH",
+   "team": "BORG",
    "player": "Fernando Tatis Jr.",
    "positions": "OF/2B",
    "salary": 0,
@@ -7636,7 +7636,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "NISH",
+   "team": "BORG",
    "player": "Pete Alonso",
    "positions": "1B",
    "salary": 0,
@@ -7648,7 +7648,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "NISH",
    "player": "Logan Gilbert",
    "positions": "SP",
    "salary": 0,
@@ -7660,7 +7660,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "NISH",
    "player": "Pablo Lopez",
    "positions": "SP",
    "salary": 0,
@@ -7672,7 +7672,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "NISH",
    "player": "Wyatt Langford",
    "positions": "OF",
    "salary": 0,
@@ -7684,7 +7684,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "BORG",
    "player": "Jesus Luzardo",
    "positions": "SP",
    "salary": 0,
@@ -7696,7 +7696,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "BORG",
    "player": "Jose Soriano",
    "positions": "SP",
    "salary": 0,
@@ -7708,7 +7708,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "BORG",
    "player": "Julio Rodriguez",
    "positions": "OF",
    "salary": 0,
@@ -7720,7 +7720,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "BORG",
    "player": "Otto Lopez",
    "positions": "SS/2B",
    "salary": 0,
@@ -7732,7 +7732,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "KELL",
    "player": "Bo Bichette",
    "positions": "SS/3B",
    "salary": 0,
@@ -7744,7 +7744,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "KELL",
    "player": "Brandon Woodruff",
    "positions": "SP",
    "salary": 0,
@@ -7756,7 +7756,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "KELL",
    "player": "Tyler Soderstrom",
    "positions": "OF/1B",
    "salary": 0,
@@ -7768,7 +7768,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "JST",
+   "team": "CHAZ",
    "player": "Ketel Marte",
    "positions": "2B",
    "salary": 0,
@@ -7780,7 +7780,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "CHAZ",
+   "team": "JST",
    "player": "Brent Rooker",
    "positions": "OF",
    "salary": 0,
@@ -7792,7 +7792,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "CHAZ",
+   "team": "JST",
    "player": "Robby Snelling",
    "positions": "SP",
    "salary": 0,
@@ -7804,7 +7804,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "WILB",
+   "team": "NORT",
    "player": "David Bednar",
    "positions": "RP",
    "salary": 0,
@@ -7816,7 +7816,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "WILB",
+   "team": "NORT",
    "player": "Jonathan Aranda",
    "positions": "1B",
    "salary": 0,
@@ -7828,7 +7828,7 @@
   {
    "date": "2026-02-01",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "WILB",
    "player": "Brice Turang",
    "positions": "2B",
    "salary": 0,
@@ -8730,7 +8730,7 @@
   {
    "date": "2026-03-10",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "BORG",
    "player": "Mason Miller",
    "positions": "RP",
    "salary": 0,
@@ -8741,7 +8741,7 @@
   {
    "date": "2026-03-10",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "JAKE",
    "player": "Shane McClanahan",
    "positions": "SP",
    "salary": 0,
@@ -8752,7 +8752,7 @@
   {
    "date": "2026-03-10",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "JAKE",
    "player": "Spencer Torkelson",
    "positions": "1B",
    "salary": 0,
@@ -8837,7 +8837,7 @@
   {
    "date": "2026-03-20",
    "type": "trade_out",
-   "team": "WILB",
+   "team": "GORD",
    "player": "Cristian Javier",
    "positions": "SP/RP",
    "salary": 0,
@@ -8848,7 +8848,7 @@
   {
    "date": "2026-03-20",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "WILB",
    "player": "Noelvi Marte",
    "positions": "3B",
    "salary": 0,
@@ -8859,7 +8859,7 @@
   {
    "date": "2026-03-20",
    "type": "trade_out",
-   "team": "JST",
+   "team": "FREE",
    "player": "Robert Suarez",
    "positions": "RP",
    "salary": 0,
@@ -12964,7 +12964,7 @@
   {
    "date": "2026-04-13",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "CHAZ",
    "player": "Christian Yelich",
    "positions": "OF",
    "salary": 0,
@@ -12975,7 +12975,7 @@
   {
    "date": "2026-04-13",
    "type": "trade_out",
-   "team": "CHAZ",
+   "team": "GORD",
    "player": "Kris Bubic",
    "positions": "SP",
    "salary": 0,
@@ -14099,7 +14099,7 @@
   {
    "date": "2026-05-05",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "HAWN",
    "player": "Edward Cabrera",
    "positions": "SP",
    "salary": 0,
@@ -14110,7 +14110,7 @@
   {
    "date": "2026-05-05",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "HAWN",
    "player": "Nick Kurtz",
    "positions": "1B",
    "salary": 0,
@@ -14121,7 +14121,7 @@
   {
    "date": "2026-05-05",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "JAKE",
    "player": "Nathaniel Lowe",
    "positions": "1B",
    "salary": 0,
@@ -14132,7 +14132,7 @@
   {
    "date": "2026-05-05",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "JAKE",
    "player": "Shane Bieber",
    "positions": "SP",
    "salary": 0,
@@ -14143,7 +14143,7 @@
   {
    "date": "2026-05-05",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "JAKE",
    "player": "Tarik Skubal",
    "positions": "SP",
    "salary": 0,
@@ -14229,7 +14229,7 @@
   {
    "date": "2026-05-06",
    "type": "trade_out",
-   "team": "WILB",
+   "team": "NORT",
    "player": "Lucas Erceg",
    "positions": "RP",
    "salary": 0,
@@ -14240,7 +14240,7 @@
   {
    "date": "2026-05-06",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "WILB",
    "player": "Luis Castillo",
    "positions": "SP",
    "salary": 0,
@@ -14251,7 +14251,7 @@
   {
    "date": "2026-05-06",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "GORD",
    "player": "Jackson Jobe",
    "positions": "SP",
    "salary": 0,
@@ -14262,7 +14262,7 @@
   {
    "date": "2026-05-06",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "GORD",
    "player": "Justin Wrobleski",
    "positions": "RP/SP",
    "salary": 0,
@@ -14273,7 +14273,7 @@
   {
    "date": "2026-05-06",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "HAWN",
    "player": "Aaron Ashby",
    "positions": "SP",
    "salary": 0,
@@ -14284,7 +14284,7 @@
   {
    "date": "2026-05-06",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "HAWN",
    "player": "Rafael Devers",
    "positions": "1B",
    "salary": 0,
@@ -14963,7 +14963,7 @@
   {
    "date": "2026-05-18",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "BORG",
    "player": "Wyatt Langford",
    "positions": "OF",
    "salary": 0,
@@ -14974,7 +14974,7 @@
   {
    "date": "2026-05-18",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "KELL",
    "player": "Addison Barger",
    "positions": "3B",
    "salary": 0,
@@ -14985,7 +14985,7 @@
   {
    "date": "2026-05-18",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "KELL",
    "player": "Liam Hicks",
    "positions": "C/1B",
    "salary": 0,
@@ -15099,7 +15099,7 @@
   {
    "date": "2026-05-20",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "CHAZ",
    "player": "Emmet Sheehan",
    "positions": "SP",
    "salary": 0,
@@ -15110,7 +15110,7 @@
   {
    "date": "2026-05-20",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "CHAZ",
    "player": "Hunter Goodman",
    "positions": "C",
    "salary": 0,
@@ -15121,7 +15121,7 @@
   {
    "date": "2026-05-20",
    "type": "trade_out",
-   "team": "CHAZ",
+   "team": "KELL",
    "player": "Joey Cantillo",
    "positions": "RP/SP",
    "salary": 0,
@@ -15132,7 +15132,7 @@
   {
    "date": "2026-05-20",
    "type": "trade_out",
-   "team": "CHAZ",
+   "team": "KELL",
    "player": "Will Smith",
    "positions": "C",
    "salary": 0,
@@ -15460,7 +15460,7 @@
   {
    "date": "2026-05-26",
    "type": "trade_out",
-   "team": "NISH",
+   "team": "HAWN",
    "player": "Geraldo Perdomo",
    "positions": "SS",
    "salary": 0,
@@ -15471,7 +15471,7 @@
   {
    "date": "2026-05-26",
    "type": "trade_out",
-   "team": "NISH",
+   "team": "HAWN",
    "player": "Spencer Schwellenbach",
    "positions": "SP",
    "salary": 0,
@@ -15482,7 +15482,7 @@
   {
    "date": "2026-05-26",
    "type": "trade_out",
-   "team": "NISH",
+   "team": "HAWN",
    "player": "Yordan Alvarez",
    "positions": "OF",
    "salary": 0,
@@ -15493,7 +15493,7 @@
   {
    "date": "2026-05-26",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "NISH",
    "player": "Bryce Eldridge",
    "positions": "1B",
    "salary": 0,
@@ -15504,7 +15504,7 @@
   {
    "date": "2026-05-26",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "NISH",
    "player": "Gunnar Henderson",
    "positions": "SS",
    "salary": 0,
@@ -15515,7 +15515,7 @@
   {
    "date": "2026-05-26",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "NISH",
    "player": "Ryan Pepiot",
    "positions": "SP",
    "salary": 0,
@@ -15526,7 +15526,7 @@
   {
    "date": "2026-05-26",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "NISH",
    "player": "Taj Bradley",
    "positions": "SP",
    "salary": 0,
@@ -15537,7 +15537,7 @@
   {
    "date": "2026-05-26",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "NISH",
    "player": "Taylor Ward",
    "positions": "OF",
    "salary": 0,
@@ -16146,7 +16146,7 @@
   {
    "date": "2026-06-08",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "BORG",
    "player": "Cade Cavalli",
    "positions": "SP",
    "salary": 0,
@@ -16157,7 +16157,7 @@
   {
    "date": "2026-06-08",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "BORG",
    "player": "Logan Gilbert",
    "positions": "SP",
    "salary": 0,
@@ -16168,7 +16168,7 @@
   {
    "date": "2026-06-08",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "NORT",
    "player": "Casey Mize",
    "positions": "SP",
    "salary": 0,
@@ -16179,7 +16179,7 @@
   {
    "date": "2026-06-08",
    "type": "trade_out",
-   "team": "BORG",
+   "team": "NORT",
    "player": "Michael Harris II",
    "positions": "OF",
    "salary": 0,
@@ -16254,7 +16254,7 @@
   {
    "date": "2026-06-12",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "CHAZ",
    "player": "Jeffrey Springs",
    "positions": "SP",
    "salary": 0,
@@ -16265,7 +16265,7 @@
   {
    "date": "2026-06-12",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "CHAZ",
    "player": "Sal Stewart",
    "positions": "1B/3B",
    "salary": 0,
@@ -16276,7 +16276,7 @@
   {
    "date": "2026-06-12",
    "type": "trade_out",
-   "team": "KELL",
+   "team": "CHAZ",
    "player": "Will Smith",
    "positions": "C",
    "salary": 0,
@@ -16287,7 +16287,7 @@
   {
    "date": "2026-06-12",
    "type": "trade_out",
-   "team": "CHAZ",
+   "team": "KELL",
    "player": "Hunter Goodman",
    "positions": "C",
    "salary": 0,
@@ -16298,7 +16298,7 @@
   {
    "date": "2026-06-12",
    "type": "trade_out",
-   "team": "CHAZ",
+   "team": "KELL",
    "player": "Jesus Luzardo",
    "positions": "SP",
    "salary": 0,
@@ -16309,7 +16309,7 @@
   {
    "date": "2026-06-12",
    "type": "trade_out",
-   "team": "CHAZ",
+   "team": "KELL",
    "player": "Jo Adell",
    "positions": "OF",
    "salary": 0,
@@ -17446,7 +17446,7 @@
   {
    "date": "2026-07-11",
    "type": "trade_out",
-   "team": "SPER",
+   "team": "JAKE",
    "player": "JJ Bleday",
    "positions": "OF",
    "salary": 0,
@@ -17457,7 +17457,7 @@
   {
    "date": "2026-07-11",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "SPER",
    "player": "Christian Walker",
    "positions": "1B",
    "salary": 0,
@@ -18241,7 +18241,7 @@
   {
    "date": "2026-07-30",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "GORD",
    "player": "James Wood",
    "positions": "OF",
    "salary": 0,
@@ -18252,7 +18252,7 @@
   {
    "date": "2026-07-30",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "GORD",
    "player": "Kazuma Okamoto",
    "positions": "3B/1B",
    "salary": 0,
@@ -18263,7 +18263,7 @@
   {
    "date": "2026-07-30",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "GORD",
    "player": "Leo De Vries",
    "positions": "SS",
    "salary": 0,
@@ -18274,7 +18274,7 @@
   {
    "date": "2026-07-30",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "NORT",
    "player": "Logan Gilbert",
    "positions": "SP",
    "salary": 0,
@@ -18285,7 +18285,7 @@
   {
    "date": "2026-07-30",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "NORT",
    "player": "Mike Trout",
    "positions": "OF",
    "salary": 0,
@@ -18296,7 +18296,7 @@
   {
    "date": "2026-07-30",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "NORT",
    "player": "Ronald Acuna Jr.",
    "positions": "OF",
    "salary": 0,
@@ -18307,7 +18307,7 @@
   {
    "date": "2026-07-30",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "NORT",
    "player": "Troy Melton",
    "positions": "RP/SP",
    "salary": 0,
@@ -18406,7 +18406,7 @@
   {
    "date": "2026-07-31",
    "type": "trade_out",
-   "team": "NORT",
+   "team": "HAWN",
    "player": "Ryan Pepiot",
    "positions": "SP",
    "salary": 0,
@@ -18417,7 +18417,7 @@
   {
    "date": "2026-07-31",
    "type": "trade_out",
-   "team": "HAWN",
+   "team": "NORT",
    "player": "Franklin Arias",
    "positions": "SS",
    "salary": 0,
@@ -19080,7 +19080,7 @@
   {
    "date": "2026-08-22",
    "type": "trade_out",
-   "team": "JST",
+   "team": "JAKE",
    "player": "Jackson Holliday",
    "positions": "2B",
    "salary": 0,
@@ -19091,7 +19091,7 @@
   {
    "date": "2026-08-22",
    "type": "trade_out",
-   "team": "JST",
+   "team": "JAKE",
    "player": "Jesus Made",
    "positions": "SS",
    "salary": 0,
@@ -19102,7 +19102,7 @@
   {
    "date": "2026-08-22",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "JST",
    "player": "Bailey Ober",
    "positions": "SP",
    "salary": 0,
@@ -19113,7 +19113,7 @@
   {
    "date": "2026-08-22",
    "type": "trade_out",
-   "team": "JAKE",
+   "team": "JST",
    "player": "Blake Snell",
    "positions": "SP",
    "salary": 0,
@@ -19298,7 +19298,7 @@
   {
    "date": "2026-08-23",
    "type": "trade_out",
-   "team": "NISH",
+   "team": "FREE",
    "player": "Jose Ramirez",
    "positions": "3B",
    "salary": 0,
@@ -19309,7 +19309,7 @@
   {
    "date": "2026-08-23",
    "type": "trade_out",
-   "team": "FREE",
+   "team": "NISH",
    "player": "Michael Busch",
    "positions": "1B",
    "salary": 0,
@@ -19320,7 +19320,7 @@
   {
    "date": "2026-08-23",
    "type": "trade_out",
-   "team": "FREE",
+   "team": "NISH",
    "player": "Spencer Schwellenbach",
    "positions": "SP",
    "salary": 0,
@@ -19331,7 +19331,7 @@
   {
    "date": "2026-08-23",
    "type": "trade_out",
-   "team": "GORD",
+   "team": "FREE",
    "player": "Matt Olson",
    "positions": "1B",
    "salary": 0,
@@ -19342,7 +19342,7 @@
   {
    "date": "2026-08-23",
    "type": "trade_out",
-   "team": "FREE",
+   "team": "GORD",
    "player": "George Kirby",
    "positions": "SP",
    "salary": 0,
@@ -19353,7 +19353,7 @@
   {
    "date": "2026-08-23",
    "type": "trade_out",
-   "team": "FREE",
+   "team": "GORD",
    "player": "Rafael Devers",
    "positions": "1B",
    "salary": 0,
