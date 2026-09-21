@@ -520,11 +520,25 @@ const ICON='<span class="hicon"><svg width="11" height="12" viewBox="0 0 11 12" 
   +'<path d="M5.9 1v3.4h3.5M3.4 6.6h4.2M3.4 8.6h4.2"/></svg></span>';
 const VERB={fa_add:"Added from waivers", release:"Released to free agency",
             draft:"Drafted", keep:"Kept", trade_in:"Acquired by trade", trade_out:"Traded away"};
+/* A player who has been released is not in DATA.players, but his history still
+   matters - rebuild just enough identity from his own transaction notes. */
+function idFromHistory(pid){
+  const evs=HIST[pid]||[]; if(!evs.length) return null;
+  const nm=(evs.find(e=>e.player)||{}).player||"";
+  const esc=nm.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+  let mlb="", pos="";
+  for(const e of evs){
+    const m=(e.note||"").match(new RegExp(esc+", ([A-Z]{2,3}) ([A-Z0-9]{1,3})"));
+    if(m){ mlb=m[1]; pos=m[2]; break; }
+  }
+  return {pid, player:nm, mlb, positions:pos, team:"", salary:0, year:0, gone:true};
+}
 function openSheet(pid){
-  const p=DATA.players.find(x=>x.pid===pid); if(!p) return;
+  const p=DATA.players.find(x=>x.pid===pid) || idFromHistory(pid); if(!p) return;
   $("#sheet-name").textContent=p.player;
-  $("#sheet-meta").textContent=
-    `${p.pid} \u00b7 ${p.mlb} ${p.positions} \u00b7 ${p.team} \u00b7 $${p.salary}, year ${p.year}`;
+  $("#sheet-meta").textContent = p.gone
+    ? `${p.pid} \u00b7 ${p.mlb} ${p.positions} \u00b7 free agent`
+    : `${p.pid} \u00b7 ${p.mlb} ${p.positions} \u00b7 ${p.team} \u00b7 $${p.salary}, year ${p.year}`;
 
   /* A transaction is a GROUP of events sharing a `txn` id - the trade's player legs
      plus any roster-clearing drops and traded FAAB. Every player in the deal shows
@@ -693,7 +707,9 @@ function renderLog(){
     return `<tr><td class="l">${fmt(e.date)}</td>
       <td class="l"><span class="team-tag">${e.team}</span></td>
       <td class="l"><span class="io ${cls}">${chip}<b class="lg">${lbl}</b><b class="sm">${sm}</b></span></td>
-      <td class="l">${e.player}
+      <td class="l">${e.pid && HIST[e.pid] && HIST[e.pid].length
+          ? `<button type="button" class="pname" data-pid="${e.pid}">${e.player}${ICON}</button>`
+          : e.player}
         <span class="mini">${e.positions||""}${e.counterparty?" &middot; with "+e.counterparty:""}</span></td>
       <td class="l txnote">${paintVerbs(e.note,e.wm)}</td>
       <td class="l pos">${e.positions||""}</td>
