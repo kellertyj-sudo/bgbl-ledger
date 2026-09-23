@@ -364,6 +364,7 @@ def run(src=None, apply=False, year=None, wm_date=None, keeper_roll=None):
         r = kmap.get(key(s["name"])) or resolve(s["name"], s.get("pos", ""))
         row = {"txid": f"t{tn:05d}", "date": s["date"], "type": s["type"],
                "pid": r["pid"], "player": r["name"],
+               "positions": r.get("positions", ""),
                "to": s.get("to"), "from": s.get("from"),
                "salary": s["salary"], "source": "espn"}
         if s.get("wm"):
@@ -371,7 +372,7 @@ def run(src=None, apply=False, year=None, wm_date=None, keeper_roll=None):
         txf["transactions"].append(row); tn += 1
 
     led["players"] = sorted(roster.values(), key=lambda p: (p["team"], p["player"]))
-    led["log"] = led.get("log", []) + logged
+    led.pop("log", None)   # the season log is derived from transactions.json, never stored
     led["asOf"] = max([e["date"] for e in logged] or [led.get("asOf", "")])
     if wm_date:
         led["wmDate"] = wm_date
@@ -424,8 +425,9 @@ def run(src=None, apply=False, year=None, wm_date=None, keeper_roll=None):
     (HERE / "registry.json").write_text(json.dumps(reg, indent=1))
     (HERE / "transactions.json").write_text(json.dumps(txf, indent=1))
     (HERE / "ledger.json").write_text(json.dumps(led, indent=1))
-    print(f"applied: +{len(newcomers)} players, +{len(staged)} transactions, "
-          f"+{len(logged)} log rows; ledger.json rewritten through {led['asOf']}")
+    print(f"applied: +{len(newcomers)} players, +{len(staged)} transactions; "
+          f"ledger.json rewritten through {led['asOf']} "
+          f"(the season log is derived from transactions.json, not stored)")
     return 0
 
 

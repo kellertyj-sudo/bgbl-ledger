@@ -740,6 +740,26 @@ Promise.all([
     HIST={};
     (t.transactions||[]).forEach(x=>{ if(x.pid) (HIST[x.pid] ||= []).push(x);
         if(x.txn) (TXN[x.txn] ||= []).push(x); });
+    /* The season log is DERIVED from transactions.json, not stored. It used to be
+       duplicated into ledger.json - two copies of the same truth, which could
+       disagree, and did. One source, rebuilt here on load. */
+    {
+      const LT={fa_add:"add",release:"drop",trade_in:"trade_in",trade_out:"trade_out",
+                keep:"keep",draft:"draft",faab:"faab"};
+      d.log=(t.transactions||[]).map(r=>{
+        let team,cp="";
+        if(r.type==="trade_in"){ team=r.to; cp=r.from; }
+        else if(r.type==="trade_out"){ team=r.from; cp=r.to; }
+        else if(r.type==="faab"){ team=r.to; cp=r.from; }
+        else team=r.to||r.from;
+        const e={date:r.date,type:LT[r.type]||r.type,team:team,player:r.player||"",
+                 positions:r.positions||"",salary:r.salary,counterparty:cp||"",
+                 note:r.note,pid:r.pid};
+        if(r.wm) e.wm=true;
+        if(r.txn) e.txn=r.txn;
+        return e;
+      });
+    }
       /* a FAAB leg has no pid, so attach it to every player in its transaction */
       Object.values(TXN).forEach(rows=>rows.forEach(r=>{ if(r.type==="faab") return;
         }));
